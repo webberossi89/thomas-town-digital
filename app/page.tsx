@@ -12,13 +12,13 @@ const services = [
     icon: "⚡",
     title: "Google Ads",
     body: "Capture high-intent leads the moment homeowners search. We build and manage campaigns that bring real calls, not just clicks.",
-    color: "#FFD100",
+    color: "#2D8A45",
   },
   {
     icon: "📣",
     title: "Meta Ads",
     body: "Reach homeowners before they search. Facebook and Instagram campaigns that build awareness and drive inbound inquiries.",
-    color: "#FFD100",
+    color: "#2D8A45",
   },
   {
     icon: "📍",
@@ -82,7 +82,7 @@ export default function HomePage() {
             right: 0,
             width: "42%",
             height: "100%",
-            background: "#FFD100",
+            background: "#2D8A45",
             clipPath: "polygon(12% 0%, 100% 0%, 100% 100%, 0% 100%)",
             pointerEvents: "none",
           }}
@@ -171,7 +171,7 @@ export default function HomePage() {
                     fontWeight: 900,
                     fontSize: "clamp(28px, 4vw, 48px)",
                     letterSpacing: "-0.03em",
-                    color: "#FFD100",
+                    color: "#2D8A45",
                     lineHeight: 1,
                     marginBottom: "6px",
                   }}
@@ -338,7 +338,7 @@ export default function HomePage() {
           <div
             style={{
               marginTop: "64px",
-              background: "#FFD100",
+              background: "#2D8A45",
               borderRadius: "8px",
               padding: "48px",
               display: "grid",
@@ -356,7 +356,7 @@ export default function HomePage() {
                   fontSize: "clamp(20px, 3vw, 32px)",
                   textTransform: "uppercase",
                   letterSpacing: "-0.02em",
-                  color: "#000",
+                  color: "#fff",
                   lineHeight: 1.1,
                   marginBottom: "8px",
                 }}
@@ -364,7 +364,7 @@ export default function HomePage() {
                 IF YOU TURN LEADS INTO JOBS,<br />
                 WE CAN GET YOU MORE LEADS.
               </p>
-              <p style={{ fontSize: "15px", color: "rgba(0,0,0,0.6)" }}>
+              <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.7)" }}>
                 Book a free 30-minute strategy call — no pitch, just a real look at your pipeline.
               </p>
             </div>
@@ -377,8 +377,8 @@ export default function HomePage() {
                 textTransform: "uppercase",
                 letterSpacing: "0.06em",
                 padding: "16px 32px",
-                background: "#000",
-                color: "#FFD100",
+                background: "#fff",
+                color: "#2D8A45",
                 borderRadius: "6px",
                 whiteSpace: "nowrap",
                 flexShrink: 0,
@@ -440,7 +440,7 @@ export default function HomePage() {
                   style={{
                     background: "#f2f2f2",
                     padding: "28px 32px",
-                    borderLeft: "3px solid #FFD100",
+                    borderLeft: "3px solid #2D8A45",
                   }}
                 >
                   <div
@@ -498,7 +498,7 @@ export default function HomePage() {
               fontWeight: 700,
               letterSpacing: "0.16em",
               textTransform: "uppercase",
-              color: "#FFD100",
+              color: "#2D8A45",
               marginBottom: "20px",
             }}
           >

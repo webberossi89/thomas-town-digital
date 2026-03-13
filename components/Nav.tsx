@@ -93,7 +93,7 @@ export default function Nav() {
                 letterSpacing: "0.06em",
                 textTransform: "uppercase",
                 color: pathname === l.href ? "#000" : "rgba(0,0,0,0.5)",
-                borderBottom: pathname === l.href ? "2px solid #FFD100" : "2px solid transparent",
+                borderBottom: pathname === l.href ? "2px solid #2D8A45" : "2px solid transparent",
                 paddingBottom: "2px",
                 transition: "color 0.15s",
               }}

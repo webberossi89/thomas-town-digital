@@ -112,7 +112,7 @@ export default function ContactPage() {
                     key={item.title}
                     style={{ display: "flex", gap: "14px", alignItems: "flex-start" }}
                   >
-                    <span style={{ color: "#0a0a0a", flexShrink: 0, marginTop: "2px", fontWeight: 800, fontSize: "14px", background: "#FFD100", width: "20px", height: "20px", display: "flex", alignItems: "center", justifyContent: "center", borderRadius: "3px" }}>→</span>
+                    <span style={{ color: "#fff", flexShrink: 0, marginTop: "2px", fontWeight: 800, fontSize: "14px", background: "#2D8A45", width: "20px", height: "20px", display: "flex", alignItems: "center", justifyContent: "center", borderRadius: "3px" }}>→</span>
                     <div>
                       <p style={{ fontSize: "14px", fontWeight: 700, color: "#0a0a0a", marginBottom: "4px" }}>
                         {item.title}
@@ -169,7 +169,7 @@ export default function ContactPage() {
                     style={{
                       width: "56px",
                       height: "56px",
-                      background: "#FFD100",
+                      background: "#2D8A45",
                       borderRadius: "50%",
                       display: "flex",
                       alignItems: "center",
@@ -177,7 +177,7 @@ export default function ContactPage() {
                       margin: "0 auto 20px",
                       fontSize: "22px",
                       fontWeight: 800,
-                      color: "#000",
+                      color: "#fff",
                     }}
                   >
                     ✓
@@ -248,7 +248,7 @@ export default function ContactPage() {
           .form-row { grid-template-columns: 1fr !important; }
         }
         input::placeholder, textarea::placeholder { color: rgba(0,0,0,0.25); }
-        input:focus, textarea:focus { border-color: rgba(255,209,0,0.6) !important; box-shadow: 0 0 0 3px rgba(255,209,0,0.1); }
+        input:focus, textarea:focus { border-color: rgba(45,138,69,0.6) !important; box-shadow: 0 0 0 3px rgba(45,138,69,0.1); }
       `}</style>
     </>
   );

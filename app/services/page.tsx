@@ -6,7 +6,7 @@ const services = [
     icon: "⚡",
     title: "Google Ads",
     tagline: "Be there when homeowners are ready to buy",
-    color: "#FFD100",
+    color: "#2D8A45",
     body: "Google Ads is the highest-intent channel in home services. When a homeowner searches \"AC repair near me\" at 7pm in July, they need someone now — and that someone should be you. We build, manage, and optimize Google Search and Local Services Ad campaigns specifically for home service businesses.",
     bullets: [
       "Search campaigns targeting high-intent buyer keywords",
@@ -23,7 +23,7 @@ const services = [
     icon: "📣",
     title: "Meta Ads",
     tagline: "Reach homeowners before your competitors do",
-    color: "#FFD100",
+    color: "#2D8A45",
     body: "Facebook and Instagram let you get in front of homeowners in your service area before they even start searching. Great for building brand awareness, promoting seasonal offers, and retargeting website visitors who didn't convert. We create ad creative, manage campaigns, and optimize for booked jobs — not vanity metrics.",
     bullets: [
       "Audience targeting by location, homeownership, and income",
@@ -182,7 +182,7 @@ export default function ServicesPage() {
                 <div
                   style={{
                     marginTop: "32px",
-                    background: s.color === "#FFD100" ? "rgba(255,209,0,0.12)" : "rgba(45,138,69,0.1)",
+                    background: s.color === "#2D8A45" ? "rgba(45,138,69,0.12)" : "rgba(45,138,69,0.1)",
                     borderLeft: `3px solid ${s.color}`,
                     borderRadius: "0 6px 6px 0",
                     padding: "20px 24px",
@@ -234,7 +234,7 @@ export default function ServicesPage() {
                     >
                       <span
                         style={{
-                          color: s.color === "#FFD100" ? "#0a0a0a" : s.color,
+                          color: s.color === "#2D8A45" ? "#0a0a0a" : s.color,
                           fontSize: "14px",
                           flexShrink: 0,
                           marginTop: "1px",
@@ -271,7 +271,7 @@ export default function ServicesPage() {
             }}
           >
             NOT SURE WHAT<br />
-            <span style={{ color: "#FFD100" }}>YOU NEED?</span>
+            <span style={{ color: "#2D8A45" }}>YOU NEED?</span>
           </h2>
           <p style={{ fontSize: "17px", color: "rgba(255,255,255,0.5)", marginBottom: "40px", lineHeight: 1.7 }}>
             Book a free call. We&apos;ll look at your current setup and tell you exactly what would move the needle — no upsell, no obligation.

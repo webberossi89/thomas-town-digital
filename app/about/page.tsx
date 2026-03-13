@@ -113,7 +113,7 @@ export default function AboutPage() {
             {/* Stats block */}
             <div
               style={{
-                background: "#FFD100",
+                background: "#2D8A45",
                 borderRadius: "8px",
                 padding: "48px",
                 display: "grid",
@@ -134,7 +134,7 @@ export default function AboutPage() {
                       fontWeight: 900,
                       fontSize: "clamp(32px, 4vw, 48px)",
                       letterSpacing: "-0.03em",
-                      color: "#000",
+                      color: "#fff",
                       lineHeight: 1,
                       marginBottom: "6px",
                     }}
@@ -145,7 +145,7 @@ export default function AboutPage() {
                     style={{
                       fontSize: "12px",
                       fontWeight: 600,
-                      color: "rgba(0,0,0,0.55)",
+                      color: "rgba(255,255,255,0.65)",
                       lineHeight: 1.4,
                     }}
                   >
@@ -197,7 +197,7 @@ export default function AboutPage() {
                 style={{
                   background: "#f2f2f2",
                   padding: "36px",
-                  borderTop: "3px solid #FFD100",
+                  borderTop: "3px solid #2D8A45",
                 }}
               >
                 <div
@@ -280,7 +280,7 @@ export default function AboutPage() {
               <div style={{ padding: "16px 24px", fontSize: "11px", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", color: "rgba(0,0,0,0.35)" }}>
                 What matters
               </div>
-              <div style={{ padding: "16px 24px", fontSize: "12px", fontWeight: 800, letterSpacing: "0.08em", textTransform: "uppercase", color: "#0a0a0a", background: "#FFD100" }}>
+              <div style={{ padding: "16px 24px", fontSize: "12px", fontWeight: 800, letterSpacing: "0.08em", textTransform: "uppercase", color: "#fff", background: "#2D8A45" }}>
                 Thomas Town
               </div>
               <div style={{ padding: "16px 24px", fontSize: "11px", fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase", color: "rgba(0,0,0,0.35)" }}>
@@ -300,7 +300,7 @@ export default function AboutPage() {
                 <div style={{ padding: "18px 24px", fontSize: "14px", fontWeight: 600, color: "rgba(0,0,0,0.5)" }}>
                   {r.metric}
                 </div>
-                <div style={{ padding: "18px 24px", fontSize: "14px", fontWeight: 700, color: "#0a0a0a", background: "rgba(255,209,0,0.08)", display: "flex", alignItems: "center", gap: "8px" }}>
+                <div style={{ padding: "18px 24px", fontSize: "14px", fontWeight: 700, color: "#0a0a0a", background: "rgba(45,138,69,0.08)", display: "flex", alignItems: "center", gap: "8px" }}>
                   <span style={{ color: "#2D8A45", fontSize: "12px", fontWeight: 800 }}>✓</span> {r.tt}
                 </div>
                 <div style={{ padding: "18px 24px", fontSize: "14px", color: "rgba(0,0,0,0.4)" }}>
@@ -328,7 +328,7 @@ export default function AboutPage() {
             }}
           >
             SOUND LIKE THE<br />
-            <span style={{ color: "#FFD100" }}>RIGHT FIT?</span>
+            <span style={{ color: "#2D8A45" }}>RIGHT FIT?</span>
           </h2>
           <p style={{ fontSize: "17px", color: "rgba(255,255,255,0.5)", marginBottom: "40px" }}>
             Let&apos;s talk. Book a free 30-minute strategy call.

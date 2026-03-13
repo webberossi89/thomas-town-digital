@@ -4,10 +4,8 @@
   --bg: #ffffff;
   --bg-card: #f2f2f2;
   --bg-alt: #f7f7f7;
-  --yellow: #FFD100;
-  --yellow-dim: rgba(255, 209, 0, 0.15);
   --green: #2D8A45;
-  --green-dim: rgba(45, 138, 69, 0.1);
+  --green-dim: rgba(45, 138, 69, 0.12);
   --slate: #6878A0;
   --border: rgba(0, 0, 0, 0.08);
   --muted: rgba(0, 0, 0, 0.45);
@@ -45,12 +43,36 @@ a {
 }
 
 /* Buttons */
+.btn-green {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--green);
+  color: #fff;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 14px 28px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s, transform 0.15s;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.btn-green:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+/* keep alias so existing JSX btn-yellow class still works */
 .btn-yellow {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: var(--yellow);
-  color: #000;
+  background: var(--green);
+  color: #fff;
   font-family: 'Barlow', sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -101,15 +123,13 @@ a {
   margin-bottom: 16px;
 }
 
-/* Divider line */
 .divider {
   width: 40px;
   height: 3px;
-  background: var(--yellow);
+  background: var(--green);
   margin-bottom: 24px;
 }
 
-.yellow { color: var(--yellow); }
 .green { color: var(--green); }
 
 @media (max-width: 768px) {
