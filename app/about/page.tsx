@@ -34,22 +34,10 @@ export default function AboutPage() {
       <section
         style={{
           padding: "160px 0 100px",
-          background: "#0f0f0f",
-          position: "relative",
-          overflow: "hidden",
+          background: "#fff",
+          borderBottom: "1px solid rgba(0,0,0,0.07)",
         }}
       >
-        <div
-          style={{
-            position: "absolute",
-            bottom: 0,
-            left: "30%",
-            width: "600px",
-            height: "400px",
-            background: "radial-gradient(ellipse, rgba(255,209,0,0.05) 0%, transparent 70%)",
-            pointerEvents: "none",
-          }}
-        />
         <div className="container">
           <p className="section-label">About us</p>
           <h1
@@ -60,17 +48,17 @@ export default function AboutPage() {
               textTransform: "uppercase",
               letterSpacing: "-0.03em",
               lineHeight: 0.92,
-              color: "#fff",
+              color: "#0a0a0a",
               marginBottom: "32px",
             }}
           >
             WE EXIST TO HELP<br />
-            <span style={{ color: "#FFD100" }}>LOCAL BUSINESSES WIN</span>
+            LOCAL BUSINESSES WIN
           </h1>
           <p
             style={{
               fontSize: "18px",
-              color: "rgba(255,255,255,0.55)",
+              color: "rgba(0,0,0,0.5)",
               maxWidth: "600px",
               lineHeight: 1.8,
             }}
@@ -81,7 +69,7 @@ export default function AboutPage() {
       </section>
 
       {/* Story */}
-      <section style={{ padding: "100px 0", background: "#0a0a0a" }}>
+      <section style={{ padding: "100px 0", background: "#f7f7f7" }}>
         <div className="container">
           <div
             style={{
@@ -102,21 +90,21 @@ export default function AboutPage() {
                   textTransform: "uppercase",
                   letterSpacing: "-0.025em",
                   lineHeight: 0.95,
-                  color: "#fff",
+                  color: "#0a0a0a",
                   marginBottom: "24px",
                 }}
               >
                 BUILT BY PEOPLE WHO&apos;VE<br />
-                <span style={{ color: "#FFD100" }}>BEEN IN THE TRENCHES</span>
+                BEEN IN THE TRENCHES
               </h2>
               <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
-                <p style={{ fontSize: "16px", color: "rgba(255,255,255,0.6)", lineHeight: 1.8 }}>
+                <p style={{ fontSize: "16px", color: "rgba(0,0,0,0.6)", lineHeight: 1.8 }}>
                   We&apos;ve worked inside home service businesses — seen the frustration of paying agencies that don&apos;t understand the difference between a $400 HVAC tune-up lead and a $12,000 system replacement. That experience shaped everything about how Thomas Town operates.
                 </p>
-                <p style={{ fontSize: "16px", color: "rgba(255,255,255,0.6)", lineHeight: 1.8 }}>
+                <p style={{ fontSize: "16px", color: "rgba(0,0,0,0.6)", lineHeight: 1.8 }}>
                   We started with one goal: be the agency we wish existed when we were managing digital for home service brands. Focused, direct, and relentlessly focused on revenue.
                 </p>
-                <p style={{ fontSize: "16px", color: "rgba(255,255,255,0.6)", lineHeight: 1.8 }}>
+                <p style={{ fontSize: "16px", color: "rgba(0,0,0,0.6)", lineHeight: 1.8 }}>
                   Based in Charlotte, NC. Working with home service businesses across the US.
                 </p>
               </div>
@@ -135,7 +123,7 @@ export default function AboutPage() {
             >
               {[
                 { value: "200+", label: "Clients served" },
-                { value: "5+", label: "Years focused on home services" },
+                { value: "5+", label: "Years in home services" },
                 { value: "$12M+", label: "Pipeline generated" },
                 { value: "4", label: "Core services" },
               ].map((s) => (
@@ -176,7 +164,7 @@ export default function AboutPage() {
       </section>
 
       {/* Values */}
-      <section style={{ padding: "100px 0", background: "#0f0f0f" }}>
+      <section style={{ padding: "100px 0", background: "#fff" }}>
         <div className="container">
           <p className="section-label">How we operate</p>
           <h2
@@ -187,12 +175,12 @@ export default function AboutPage() {
               textTransform: "uppercase",
               letterSpacing: "-0.025em",
               lineHeight: 0.95,
-              color: "#fff",
+              color: "#0a0a0a",
               marginBottom: "56px",
             }}
           >
             WHAT WE BELIEVE<br />
-            <span style={{ color: "#FFD100" }}>IN PRACTICE</span>
+            IN PRACTICE
           </h2>
 
           <div
@@ -207,8 +195,9 @@ export default function AboutPage() {
               <div
                 key={v.title}
                 style={{
-                  background: "#161616",
+                  background: "#f2f2f2",
                   padding: "36px",
+                  borderTop: "3px solid #FFD100",
                 }}
               >
                 <div
@@ -217,7 +206,7 @@ export default function AboutPage() {
                     fontWeight: 800,
                     fontSize: "11px",
                     letterSpacing: "0.1em",
-                    color: "#FFD100",
+                    color: "rgba(0,0,0,0.35)",
                     textTransform: "uppercase",
                     marginBottom: "12px",
                   }}
@@ -231,13 +220,13 @@ export default function AboutPage() {
                     fontSize: "18px",
                     textTransform: "uppercase",
                     letterSpacing: "-0.01em",
-                    color: "#fff",
+                    color: "#0a0a0a",
                     marginBottom: "12px",
                   }}
                 >
                   {v.title}
                 </h3>
-                <p style={{ fontSize: "14px", color: "rgba(255,255,255,0.55)", lineHeight: 1.75 }}>
+                <p style={{ fontSize: "14px", color: "rgba(0,0,0,0.55)", lineHeight: 1.75 }}>
                   {v.body}
                 </p>
               </div>
@@ -252,7 +241,7 @@ export default function AboutPage() {
       </section>
 
       {/* Comparison table */}
-      <section style={{ padding: "100px 0", background: "#0a0a0a" }}>
+      <section style={{ padding: "100px 0", background: "#f7f7f7" }}>
         <div className="container">
           <p className="section-label">The difference</p>
           <h2
@@ -263,19 +252,20 @@ export default function AboutPage() {
               textTransform: "uppercase",
               letterSpacing: "-0.025em",
               lineHeight: 0.95,
-              color: "#fff",
+              color: "#0a0a0a",
               marginBottom: "48px",
             }}
           >
             THOMAS TOWN VS<br />
-            <span style={{ color: "#FFD100" }}>TYPICAL AGENCIES</span>
+            TYPICAL AGENCIES
           </h2>
 
           <div
             style={{
-              border: "1px solid rgba(255,255,255,0.07)",
+              border: "1px solid rgba(0,0,0,0.09)",
               borderRadius: "8px",
               overflow: "hidden",
+              background: "#fff",
             }}
           >
             {/* Header */}
@@ -283,17 +273,17 @@ export default function AboutPage() {
               style={{
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr 1fr",
-                background: "#161616",
-                borderBottom: "1px solid rgba(255,255,255,0.07)",
+                background: "#f2f2f2",
+                borderBottom: "1px solid rgba(0,0,0,0.08)",
               }}
             >
-              <div style={{ padding: "16px 24px", fontSize: "11px", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", color: "rgba(255,255,255,0.3)" }}>
+              <div style={{ padding: "16px 24px", fontSize: "11px", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", color: "rgba(0,0,0,0.35)" }}>
                 What matters
               </div>
-              <div style={{ padding: "16px 24px", fontSize: "12px", fontWeight: 800, letterSpacing: "0.08em", textTransform: "uppercase", color: "#FFD100", background: "rgba(255,209,0,0.05)" }}>
+              <div style={{ padding: "16px 24px", fontSize: "12px", fontWeight: 800, letterSpacing: "0.08em", textTransform: "uppercase", color: "#0a0a0a", background: "#FFD100" }}>
                 Thomas Town
               </div>
-              <div style={{ padding: "16px 24px", fontSize: "11px", fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase", color: "rgba(255,255,255,0.3)" }}>
+              <div style={{ padding: "16px 24px", fontSize: "11px", fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase", color: "rgba(0,0,0,0.35)" }}>
                 Typical agency
               </div>
             </div>
@@ -304,16 +294,16 @@ export default function AboutPage() {
                 style={{
                   display: "grid",
                   gridTemplateColumns: "1fr 1fr 1fr",
-                  borderBottom: i < vsRows.length - 1 ? "1px solid rgba(255,255,255,0.05)" : "none",
+                  borderBottom: i < vsRows.length - 1 ? "1px solid rgba(0,0,0,0.06)" : "none",
                 }}
               >
-                <div style={{ padding: "18px 24px", fontSize: "14px", fontWeight: 600, color: "rgba(255,255,255,0.5)" }}>
+                <div style={{ padding: "18px 24px", fontSize: "14px", fontWeight: 600, color: "rgba(0,0,0,0.5)" }}>
                   {r.metric}
                 </div>
-                <div style={{ padding: "18px 24px", fontSize: "14px", fontWeight: 700, color: "#fff", background: "rgba(255,209,0,0.03)", display: "flex", alignItems: "center", gap: "8px" }}>
-                  <span style={{ color: "#FFD100", fontSize: "12px" }}>✓</span> {r.tt}
+                <div style={{ padding: "18px 24px", fontSize: "14px", fontWeight: 700, color: "#0a0a0a", background: "rgba(255,209,0,0.08)", display: "flex", alignItems: "center", gap: "8px" }}>
+                  <span style={{ color: "#2D8A45", fontSize: "12px", fontWeight: 800 }}>✓</span> {r.tt}
                 </div>
-                <div style={{ padding: "18px 24px", fontSize: "14px", color: "rgba(255,255,255,0.4)" }}>
+                <div style={{ padding: "18px 24px", fontSize: "14px", color: "rgba(0,0,0,0.4)" }}>
                   {r.agency}
                 </div>
               </div>
@@ -323,7 +313,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section style={{ padding: "100px 0", background: "#000", textAlign: "center" }}>
+      <section style={{ padding: "100px 0", background: "#0a0a0a", textAlign: "center" }}>
         <div className="container">
           <h2
             style={{

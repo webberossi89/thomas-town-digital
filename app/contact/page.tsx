@@ -44,12 +44,12 @@ export default function ContactPage() {
 
   const inputStyle: React.CSSProperties = {
     width: "100%",
-    background: "#161616",
-    border: "1px solid rgba(255,255,255,0.08)",
+    background: "#fff",
+    border: "1px solid rgba(0,0,0,0.12)",
     borderRadius: "6px",
     padding: "14px 16px",
     fontSize: "15px",
-    color: "#fff",
+    color: "#0a0a0a",
     outline: "none",
     fontFamily: "'Barlow', sans-serif",
     transition: "border-color 0.15s",
@@ -61,14 +61,14 @@ export default function ContactPage() {
     fontWeight: 700,
     letterSpacing: "0.1em",
     textTransform: "uppercase",
-    color: "rgba(255,255,255,0.4)",
+    color: "rgba(0,0,0,0.4)",
     marginBottom: "8px",
   };
 
   return (
     <>
       {/* Hero */}
-      <section style={{ padding: "160px 0 80px", background: "#0f0f0f" }}>
+      <section style={{ padding: "160px 0 80px", background: "#fff", borderBottom: "1px solid rgba(0,0,0,0.07)" }}>
         <div className="container">
           <p className="section-label">Get in touch</p>
           <h1
@@ -79,21 +79,21 @@ export default function ContactPage() {
               textTransform: "uppercase",
               letterSpacing: "-0.03em",
               lineHeight: 0.92,
-              color: "#fff",
+              color: "#0a0a0a",
               marginBottom: "20px",
             }}
           >
             LET&apos;S TALK<br />
-            <span style={{ color: "#FFD100" }}>YOUR PIPELINE</span>
+            YOUR PIPELINE
           </h1>
-          <p style={{ fontSize: "17px", color: "rgba(255,255,255,0.55)", maxWidth: "500px", lineHeight: 1.7 }}>
+          <p style={{ fontSize: "17px", color: "rgba(0,0,0,0.5)", maxWidth: "500px", lineHeight: 1.7 }}>
             Book a free 30-minute strategy call. No pitch, no pressure — just a straight conversation about your business and where we can help.
           </p>
         </div>
       </section>
 
       {/* Main content */}
-      <section style={{ padding: "60px 0 120px", background: "#0f0f0f" }}>
+      <section style={{ padding: "72px 0 120px", background: "#f7f7f7" }}>
         <div className="container">
           <div
             style={{
@@ -110,18 +110,14 @@ export default function ContactPage() {
                 {expectItems.map((item) => (
                   <div
                     key={item.title}
-                    style={{
-                      display: "flex",
-                      gap: "14px",
-                      alignItems: "flex-start",
-                    }}
+                    style={{ display: "flex", gap: "14px", alignItems: "flex-start" }}
                   >
-                    <span style={{ color: "#FFD100", flexShrink: 0, marginTop: "2px", fontWeight: 700, fontSize: "14px" }}>→</span>
+                    <span style={{ color: "#0a0a0a", flexShrink: 0, marginTop: "2px", fontWeight: 800, fontSize: "14px", background: "#FFD100", width: "20px", height: "20px", display: "flex", alignItems: "center", justifyContent: "center", borderRadius: "3px" }}>→</span>
                     <div>
-                      <p style={{ fontSize: "14px", fontWeight: 700, color: "#fff", marginBottom: "4px" }}>
+                      <p style={{ fontSize: "14px", fontWeight: 700, color: "#0a0a0a", marginBottom: "4px" }}>
                         {item.title}
                       </p>
-                      <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.5)", lineHeight: 1.65 }}>
+                      <p style={{ fontSize: "13px", color: "rgba(0,0,0,0.5)", lineHeight: 1.65 }}>
                         {item.body}
                       </p>
                     </div>
@@ -132,55 +128,28 @@ export default function ContactPage() {
               {/* Contact details */}
               <div
                 style={{
-                  background: "#161616",
-                  border: "1px solid rgba(255,255,255,0.07)",
+                  background: "#fff",
+                  border: "1px solid rgba(0,0,0,0.08)",
                   borderRadius: "8px",
                   padding: "28px",
                 }}
               >
-                <p
-                  style={{
-                    fontSize: "11px",
-                    fontWeight: 700,
-                    letterSpacing: "0.1em",
-                    textTransform: "uppercase",
-                    color: "rgba(255,255,255,0.3)",
-                    marginBottom: "16px",
-                  }}
-                >
+                <p style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", color: "rgba(0,0,0,0.35)", marginBottom: "16px" }}>
                   Prefer email?
                 </p>
                 <a
                   href="mailto:hello@thomastowndigital.com"
-                  style={{
-                    fontFamily: "'Barlow', sans-serif",
-                    fontWeight: 700,
-                    fontSize: "16px",
-                    color: "#FFD100",
-                    display: "block",
-                    marginBottom: "4px",
-                  }}
+                  style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 700, fontSize: "16px", color: "#0a0a0a", display: "block", marginBottom: "4px" }}
                 >
                   hello@thomastowndigital.com
                 </a>
-                <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.4)" }}>
-                  We reply within one business day.
-                </p>
+                <p style={{ fontSize: "13px", color: "rgba(0,0,0,0.4)" }}>We reply within one business day.</p>
 
-                <div style={{ borderTop: "1px solid rgba(255,255,255,0.06)", marginTop: "20px", paddingTop: "20px" }}>
-                  <p
-                    style={{
-                      fontSize: "11px",
-                      fontWeight: 700,
-                      letterSpacing: "0.1em",
-                      textTransform: "uppercase",
-                      color: "rgba(255,255,255,0.3)",
-                      marginBottom: "8px",
-                    }}
-                  >
+                <div style={{ borderTop: "1px solid rgba(0,0,0,0.07)", marginTop: "20px", paddingTop: "20px" }}>
+                  <p style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", color: "rgba(0,0,0,0.35)", marginBottom: "8px" }}>
                     Based in
                   </p>
-                  <p style={{ fontSize: "14px", color: "rgba(255,255,255,0.6)" }}>Charlotte, NC</p>
+                  <p style={{ fontSize: "14px", color: "rgba(0,0,0,0.6)" }}>Charlotte, NC</p>
                 </div>
               </div>
             </div>
@@ -188,8 +157,8 @@ export default function ContactPage() {
             {/* Form */}
             <div
               style={{
-                background: "#161616",
-                border: "1px solid rgba(255,255,255,0.07)",
+                background: "#fff",
+                border: "1px solid rgba(0,0,0,0.08)",
                 borderRadius: "8px",
                 padding: "40px",
               }}
@@ -207,39 +176,22 @@ export default function ContactPage() {
                       justifyContent: "center",
                       margin: "0 auto 20px",
                       fontSize: "22px",
+                      fontWeight: 800,
+                      color: "#000",
                     }}
                   >
                     ✓
                   </div>
-                  <h3
-                    style={{
-                      fontFamily: "'Barlow', sans-serif",
-                      fontWeight: 800,
-                      fontSize: "22px",
-                      textTransform: "uppercase",
-                      color: "#fff",
-                      marginBottom: "12px",
-                    }}
-                  >
+                  <h3 style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 800, fontSize: "22px", textTransform: "uppercase", color: "#0a0a0a", marginBottom: "12px" }}>
                     Got it — talk soon
                   </h3>
-                  <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.5)", lineHeight: 1.65 }}>
+                  <p style={{ fontSize: "15px", color: "rgba(0,0,0,0.5)", lineHeight: 1.65 }}>
                     We&apos;ll reach out within one business day to schedule your strategy call.
                   </p>
                 </div>
               ) : (
                 <>
-                  <h2
-                    style={{
-                      fontFamily: "'Barlow', sans-serif",
-                      fontWeight: 800,
-                      fontSize: "20px",
-                      textTransform: "uppercase",
-                      letterSpacing: "-0.01em",
-                      color: "#fff",
-                      marginBottom: "28px",
-                    }}
-                  >
+                  <h2 style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 800, fontSize: "20px", textTransform: "uppercase", letterSpacing: "-0.01em", color: "#0a0a0a", marginBottom: "28px" }}>
                     Book a Free Strategy Call
                   </h2>
 
@@ -247,78 +199,36 @@ export default function ContactPage() {
                     <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }} className="form-row">
                       <div>
                         <label style={labelStyle}>Your name</label>
-                        <input
-                          type="text"
-                          required
-                          placeholder="First & last"
-                          value={form.name}
-                          onChange={(e) => setForm({ ...form, name: e.target.value })}
-                          style={inputStyle}
-                        />
+                        <input type="text" required placeholder="First & last" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} style={inputStyle} />
                       </div>
                       <div>
                         <label style={labelStyle}>Phone</label>
-                        <input
-                          type="tel"
-                          placeholder="(704) 555-0100"
-                          value={form.phone}
-                          onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                          style={inputStyle}
-                        />
+                        <input type="tel" placeholder="(704) 555-0100" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} style={inputStyle} />
                       </div>
                     </div>
 
                     <div>
                       <label style={labelStyle}>Work email</label>
-                      <input
-                        type="email"
-                        required
-                        placeholder="you@company.com"
-                        value={form.email}
-                        onChange={(e) => setForm({ ...form, email: e.target.value })}
-                        style={inputStyle}
-                      />
+                      <input type="email" required placeholder="you@company.com" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} style={inputStyle} />
                     </div>
 
                     <div>
                       <label style={labelStyle}>Business name & type</label>
-                      <input
-                        type="text"
-                        required
-                        placeholder="e.g. ABC HVAC — Heating & Cooling"
-                        value={form.business}
-                        onChange={(e) => setForm({ ...form, business: e.target.value })}
-                        style={inputStyle}
-                      />
+                      <input type="text" required placeholder="e.g. ABC HVAC — Heating & Cooling" value={form.business} onChange={(e) => setForm({ ...form, business: e.target.value })} style={inputStyle} />
                     </div>
 
                     <div>
                       <label style={labelStyle}>Anything else we should know?</label>
-                      <textarea
-                        rows={4}
-                        placeholder="Current monthly ad spend, what's not working, goals..."
-                        value={form.message}
-                        onChange={(e) => setForm({ ...form, message: e.target.value })}
-                        style={{ ...inputStyle, resize: "vertical", minHeight: "100px" }}
-                      />
+                      <textarea rows={4} placeholder="Current monthly ad spend, what's not working, goals..." value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} style={{ ...inputStyle, resize: "vertical", minHeight: "100px" }} />
                     </div>
 
-                    {error && (
-                      <p style={{ fontSize: "13px", color: "#ff6b6b" }}>{error}</p>
-                    )}
+                    {error && <p style={{ fontSize: "13px", color: "#cc0000" }}>{error}</p>}
 
                     <button
                       type="submit"
                       disabled={loading}
                       className="btn-yellow"
-                      style={{
-                        width: "100%",
-                        justifyContent: "center",
-                        fontSize: "14px",
-                        padding: "16px",
-                        opacity: loading ? 0.7 : 1,
-                        cursor: loading ? "not-allowed" : "pointer",
-                      }}
+                      style={{ width: "100%", justifyContent: "center", fontSize: "14px", padding: "16px", opacity: loading ? 0.7 : 1, cursor: loading ? "not-allowed" : "pointer" }}
                     >
                       {loading ? "Sending…" : "Book Your Free Call →"}
                     </button>
@@ -337,8 +247,8 @@ export default function ContactPage() {
         @media (max-width: 480px) {
           .form-row { grid-template-columns: 1fr !important; }
         }
-        input::placeholder, textarea::placeholder { color: rgba(255,255,255,0.2); }
-        input:focus, textarea:focus { border-color: rgba(255,209,0,0.4) !important; }
+        input::placeholder, textarea::placeholder { color: rgba(0,0,0,0.25); }
+        input:focus, textarea:focus { border-color: rgba(255,209,0,0.6) !important; box-shadow: 0 0 0 3px rgba(255,209,0,0.1); }
       `}</style>
     </>
   );

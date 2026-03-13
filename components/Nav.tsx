@@ -33,9 +33,9 @@ export default function Nav() {
         left: 0,
         right: 0,
         zIndex: 100,
-        background: scrolled ? "rgba(15,15,15,0.95)" : "transparent",
+        background: scrolled ? "rgba(255,255,255,0.97)" : "#fff",
         backdropFilter: scrolled ? "blur(12px)" : "none",
-        borderBottom: scrolled ? "1px solid rgba(255,255,255,0.06)" : "none",
+        borderBottom: "1px solid rgba(0,0,0,0.07)",
         transition: "all 0.25s ease",
       }}
     >
@@ -57,7 +57,7 @@ export default function Nav() {
               fontSize: "20px",
               letterSpacing: "-0.01em",
               textTransform: "uppercase",
-              color: "#fff",
+              color: "#0a0a0a",
               lineHeight: 1.05,
             }}
           >
@@ -70,7 +70,7 @@ export default function Nav() {
               fontSize: "10px",
               letterSpacing: "0.14em",
               textTransform: "uppercase",
-              color: "rgba(255,255,255,0.45)",
+              color: "rgba(0,0,0,0.4)",
             }}
           >
             Digital
@@ -92,7 +92,9 @@ export default function Nav() {
                 fontSize: "13px",
                 letterSpacing: "0.06em",
                 textTransform: "uppercase",
-                color: pathname === l.href ? "#FFD100" : "rgba(255,255,255,0.65)",
+                color: pathname === l.href ? "#000" : "rgba(0,0,0,0.5)",
+                borderBottom: pathname === l.href ? "2px solid #FFD100" : "2px solid transparent",
+                paddingBottom: "2px",
                 transition: "color 0.15s",
               }}
             >
@@ -118,9 +120,9 @@ export default function Nav() {
             padding: "4px",
           }}
         >
-          <span style={{ display: "block", width: "22px", height: "2px", background: "#fff", transition: "all 0.2s", transform: menuOpen ? "rotate(45deg) translateY(7px)" : "none" }} />
-          <span style={{ display: "block", width: "22px", height: "2px", background: "#fff", transition: "all 0.2s", opacity: menuOpen ? 0 : 1 }} />
-          <span style={{ display: "block", width: "22px", height: "2px", background: "#fff", transition: "all 0.2s", transform: menuOpen ? "rotate(-45deg) translateY(-7px)" : "none" }} />
+          <span style={{ display: "block", width: "22px", height: "2px", background: "#0a0a0a", transition: "all 0.2s", transform: menuOpen ? "rotate(45deg) translateY(7px)" : "none" }} />
+          <span style={{ display: "block", width: "22px", height: "2px", background: "#0a0a0a", transition: "all 0.2s", opacity: menuOpen ? 0 : 1 }} />
+          <span style={{ display: "block", width: "22px", height: "2px", background: "#0a0a0a", transition: "all 0.2s", transform: menuOpen ? "rotate(-45deg) translateY(-7px)" : "none" }} />
         </button>
       </div>
 
@@ -128,11 +130,10 @@ export default function Nav() {
       {menuOpen && (
         <div
           style={{
-            background: "#0f0f0f",
-            borderTop: "1px solid rgba(255,255,255,0.07)",
+            background: "#fff",
+            borderTop: "1px solid rgba(0,0,0,0.07)",
             padding: "20px 24px 28px",
           }}
-          className="mobile-menu"
         >
           {links.map((l) => (
             <Link
@@ -145,9 +146,9 @@ export default function Nav() {
                 fontSize: "20px",
                 textTransform: "uppercase",
                 letterSpacing: "0.04em",
-                color: pathname === l.href ? "#FFD100" : "#fff",
+                color: pathname === l.href ? "#000" : "rgba(0,0,0,0.7)",
                 padding: "10px 0",
-                borderBottom: "1px solid rgba(255,255,255,0.06)",
+                borderBottom: "1px solid rgba(0,0,0,0.06)",
               }}
             >
               {l.label}

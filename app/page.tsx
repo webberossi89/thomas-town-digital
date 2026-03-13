@@ -68,32 +68,35 @@ export default function HomePage() {
           minHeight: "100vh",
           display: "flex",
           alignItems: "center",
-          background: "#0f0f0f",
+          background: "#fff",
           paddingTop: "68px",
           position: "relative",
           overflow: "hidden",
         }}
       >
+        {/* Yellow accent shape */}
         <div
           style={{
             position: "absolute",
-            top: "-10%",
-            right: "-5%",
-            width: "600px",
-            height: "600px",
-            background: "radial-gradient(circle, rgba(255,209,0,0.07) 0%, transparent 70%)",
+            top: 0,
+            right: 0,
+            width: "42%",
+            height: "100%",
+            background: "#FFD100",
+            clipPath: "polygon(12% 0%, 100% 0%, 100% 100%, 0% 100%)",
             pointerEvents: "none",
           }}
         />
-        <div className="container" style={{ paddingTop: "80px", paddingBottom: "100px" }}>
-          <div style={{ maxWidth: "900px" }}>
+
+        <div className="container" style={{ paddingTop: "80px", paddingBottom: "100px", position: "relative" }}>
+          <div style={{ maxWidth: "680px" }}>
             <p
               style={{
                 fontSize: "11px",
                 fontWeight: 700,
                 letterSpacing: "0.16em",
                 textTransform: "uppercase",
-                color: "#FFD100",
+                color: "rgba(0,0,0,0.45)",
                 marginBottom: "24px",
               }}
             >
@@ -104,25 +107,25 @@ export default function HomePage() {
               style={{
                 fontFamily: "'Barlow', sans-serif",
                 fontWeight: 900,
-                fontSize: "clamp(52px, 9vw, 112px)",
+                fontSize: "clamp(52px, 9vw, 108px)",
                 lineHeight: 0.92,
                 letterSpacing: "-0.03em",
                 textTransform: "uppercase",
-                color: "#fff",
+                color: "#0a0a0a",
                 marginBottom: "32px",
               }}
             >
               MORE LEADS.<br />
               MORE JOBS.<br />
-              <span style={{ color: "#FFD100" }}>MORE REVENUE.</span>
+              MORE REVENUE.
             </h1>
 
             <p
               style={{
                 fontSize: "18px",
-                color: "rgba(255,255,255,0.6)",
+                color: "rgba(0,0,0,0.55)",
                 lineHeight: 1.7,
-                maxWidth: "520px",
+                maxWidth: "500px",
                 marginBottom: "44px",
                 fontWeight: 400,
               }}
@@ -143,13 +146,12 @@ export default function HomePage() {
       </section>
 
       {/* ── Stats bar ── */}
-      <section style={{ background: "#FFD100", padding: "44px 0" }}>
+      <section style={{ background: "#0a0a0a", padding: "44px 0" }}>
         <div className="container">
           <div
             style={{
               display: "grid",
               gridTemplateColumns: "repeat(4, 1fr)",
-              gap: "0",
               textAlign: "center",
             }}
             className="stats-grid"
@@ -159,7 +161,7 @@ export default function HomePage() {
                 key={s.label}
                 style={{
                   padding: "0 24px",
-                  borderRight: i < stats.length - 1 ? "1px solid rgba(0,0,0,0.12)" : "none",
+                  borderRight: i < stats.length - 1 ? "1px solid rgba(255,255,255,0.1)" : "none",
                 }}
                 className="stat-item"
               >
@@ -169,7 +171,7 @@ export default function HomePage() {
                     fontWeight: 900,
                     fontSize: "clamp(28px, 4vw, 48px)",
                     letterSpacing: "-0.03em",
-                    color: "#000",
+                    color: "#FFD100",
                     lineHeight: 1,
                     marginBottom: "6px",
                   }}
@@ -182,7 +184,7 @@ export default function HomePage() {
                     fontWeight: 700,
                     letterSpacing: "0.08em",
                     textTransform: "uppercase",
-                    color: "rgba(0,0,0,0.6)",
+                    color: "rgba(255,255,255,0.45)",
                   }}
                 >
                   {s.label}
@@ -194,13 +196,13 @@ export default function HomePage() {
         <style>{`
           @media (max-width: 640px) {
             .stats-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 24px !important; }
-            .stat-item { border-right: none !important; padding-bottom: 20px; border-bottom: 1px solid rgba(0,0,0,0.1); }
+            .stat-item { border-right: none !important; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.08); }
           }
         `}</style>
       </section>
 
       {/* ── Services ── */}
-      <section style={{ padding: "120px 0", background: "#0f0f0f" }}>
+      <section style={{ padding: "120px 0", background: "#fff" }}>
         <div className="container">
           <p className="section-label">What we do</p>
           <div
@@ -221,11 +223,11 @@ export default function HomePage() {
                 textTransform: "uppercase",
                 letterSpacing: "-0.025em",
                 lineHeight: 0.95,
-                color: "#fff",
+                color: "#0a0a0a",
               }}
             >
               EVERYTHING YOU NEED<br />
-              <span style={{ color: "#FFD100" }}>TO FILL YOUR PIPELINE</span>
+              TO FILL YOUR PIPELINE
             </h2>
             <Link href="/services" className="btn-outline" style={{ flexShrink: 0 }}>
               All Services →
@@ -244,11 +246,11 @@ export default function HomePage() {
               <div
                 key={s.title}
                 style={{
-                  background: "#161616",
+                  background: "#f2f2f2",
                   padding: "40px",
                   position: "relative",
-                  overflow: "hidden",
                   cursor: "default",
+                  transition: "background 0.15s",
                 }}
                 className="service-card"
               >
@@ -270,13 +272,13 @@ export default function HomePage() {
                     fontSize: "22px",
                     textTransform: "uppercase",
                     letterSpacing: "-0.01em",
-                    color: "#fff",
+                    color: "#0a0a0a",
                     marginBottom: "12px",
                   }}
                 >
                   {s.title}
                 </h3>
-                <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.55)", lineHeight: 1.7 }}>
+                <p style={{ fontSize: "15px", color: "rgba(0,0,0,0.55)", lineHeight: 1.7 }}>
                   {s.body}
                 </p>
               </div>
@@ -284,7 +286,7 @@ export default function HomePage() {
           </div>
         </div>
         <style>{`
-          .service-card:hover { background: #1b1b1b !important; }
+          .service-card:hover { background: #ebebeb !important; }
           @media (max-width: 640px) {
             .services-grid { grid-template-columns: 1fr !important; }
           }
@@ -292,7 +294,7 @@ export default function HomePage() {
       </section>
 
       {/* ── Who we help ── */}
-      <section style={{ padding: "100px 0", background: "#0a0a0a" }}>
+      <section style={{ padding: "100px 0", background: "#f7f7f7" }}>
         <div className="container">
           <p className="section-label">Who we serve</p>
           <h2
@@ -303,12 +305,12 @@ export default function HomePage() {
               textTransform: "uppercase",
               letterSpacing: "-0.025em",
               lineHeight: 0.95,
-              color: "#fff",
+              color: "#0a0a0a",
               marginBottom: "48px",
             }}
           >
             BUILT FOR HOME<br />
-            <span style={{ color: "#FFD100" }}>SERVICE BUSINESSES</span>
+            SERVICE BUSINESSES
           </h2>
 
           <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
@@ -323,9 +325,9 @@ export default function HomePage() {
                   textTransform: "uppercase",
                   padding: "10px 20px",
                   borderRadius: "4px",
-                  background: "#161616",
-                  border: "1px solid rgba(255,255,255,0.07)",
-                  color: "rgba(255,255,255,0.7)",
+                  background: "#fff",
+                  border: "1px solid rgba(0,0,0,0.1)",
+                  color: "rgba(0,0,0,0.7)",
                 }}
               >
                 {v}
@@ -395,7 +397,7 @@ export default function HomePage() {
       </section>
 
       {/* ── Why Thomas Town ── */}
-      <section style={{ padding: "120px 0", background: "#0f0f0f" }}>
+      <section style={{ padding: "120px 0", background: "#fff" }}>
         <div className="container">
           <div
             style={{
@@ -416,14 +418,14 @@ export default function HomePage() {
                   textTransform: "uppercase",
                   letterSpacing: "-0.025em",
                   lineHeight: 0.95,
-                  color: "#fff",
+                  color: "#0a0a0a",
                   marginBottom: "28px",
                 }}
               >
                 NOT ANOTHER<br />
-                <span style={{ color: "#FFD100" }}>GENERALIST AGENCY</span>
+                GENERALIST AGENCY
               </h2>
-              <p style={{ fontSize: "16px", color: "rgba(255,255,255,0.55)", lineHeight: 1.8 }}>
+              <p style={{ fontSize: "16px", color: "rgba(0,0,0,0.55)", lineHeight: 1.8 }}>
                 Most agencies spread themselves thin across every industry. We go deep on one: home services. That means faster results, fewer wasted dollars, and a team that speaks your language.
               </p>
               <Link href="/about" className="btn-outline" style={{ marginTop: "32px", display: "inline-flex" }}>
@@ -436,9 +438,9 @@ export default function HomePage() {
                 <div
                   key={r.title}
                   style={{
-                    background: "#161616",
+                    background: "#f2f2f2",
                     padding: "28px 32px",
-                    borderLeft: "3px solid rgba(255,209,0,0.35)",
+                    borderLeft: "3px solid #FFD100",
                   }}
                 >
                   <div
@@ -448,7 +450,8 @@ export default function HomePage() {
                       fontSize: "11px",
                       letterSpacing: "0.1em",
                       textTransform: "uppercase",
-                      color: "#FFD100",
+                      color: "#0a0a0a",
+                      opacity: 0.35,
                       marginBottom: "8px",
                     }}
                   >
@@ -459,13 +462,13 @@ export default function HomePage() {
                       fontFamily: "'Barlow', sans-serif",
                       fontWeight: 700,
                       fontSize: "15px",
-                      color: "#fff",
+                      color: "#0a0a0a",
                       marginBottom: "8px",
                     }}
                   >
                     {r.title}
                   </p>
-                  <p style={{ fontSize: "14px", color: "rgba(255,255,255,0.5)", lineHeight: 1.65 }}>
+                  <p style={{ fontSize: "14px", color: "rgba(0,0,0,0.5)", lineHeight: 1.65 }}>
                     {r.body}
                   </p>
                 </div>
@@ -484,25 +487,11 @@ export default function HomePage() {
       <section
         style={{
           padding: "120px 0",
-          background: "#000",
+          background: "#0a0a0a",
           textAlign: "center",
-          position: "relative",
-          overflow: "hidden",
         }}
       >
-        <div
-          style={{
-            position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
-            width: "800px",
-            height: "400px",
-            background: "radial-gradient(ellipse, rgba(255,209,0,0.07) 0%, transparent 70%)",
-            pointerEvents: "none",
-          }}
-        />
-        <div className="container" style={{ position: "relative" }}>
+        <div className="container">
           <p
             style={{
               fontSize: "11px",

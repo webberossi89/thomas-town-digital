@@ -78,22 +78,10 @@ export default function ServicesPage() {
       <section
         style={{
           padding: "160px 0 100px",
-          background: "#0f0f0f",
-          position: "relative",
-          overflow: "hidden",
+          background: "#fff",
+          borderBottom: "1px solid rgba(0,0,0,0.07)",
         }}
       >
-        <div
-          style={{
-            position: "absolute",
-            top: 0,
-            right: 0,
-            width: "500px",
-            height: "500px",
-            background: "radial-gradient(circle, rgba(255,209,0,0.06) 0%, transparent 70%)",
-            pointerEvents: "none",
-          }}
-        />
         <div className="container">
           <p className="section-label">What we do</p>
           <h1
@@ -104,17 +92,17 @@ export default function ServicesPage() {
               textTransform: "uppercase",
               letterSpacing: "-0.03em",
               lineHeight: 0.92,
-              color: "#fff",
+              color: "#0a0a0a",
               marginBottom: "24px",
             }}
           >
             SERVICES BUILT<br />
-            FOR <span style={{ color: "#FFD100" }}>HOME SERVICES</span>
+            FOR HOME SERVICES
           </h1>
           <p
             style={{
               fontSize: "18px",
-              color: "rgba(255,255,255,0.55)",
+              color: "rgba(0,0,0,0.5)",
               maxWidth: "560px",
               lineHeight: 1.7,
             }}
@@ -131,8 +119,8 @@ export default function ServicesPage() {
           id={s.id}
           style={{
             padding: "100px 0",
-            background: i % 2 === 0 ? "#0a0a0a" : "#0f0f0f",
-            borderTop: "1px solid rgba(255,255,255,0.04)",
+            background: i % 2 === 0 ? "#fff" : "#f7f7f7",
+            borderBottom: "1px solid rgba(0,0,0,0.06)",
           }}
         >
           <div className="container">
@@ -151,8 +139,8 @@ export default function ServicesPage() {
                     display: "inline-flex",
                     alignItems: "center",
                     gap: "10px",
-                    background: "#161616",
-                    border: "1px solid rgba(255,255,255,0.07)",
+                    background: "#f2f2f2",
+                    border: "1px solid rgba(0,0,0,0.08)",
                     borderRadius: "6px",
                     padding: "8px 16px",
                     marginBottom: "24px",
@@ -166,7 +154,7 @@ export default function ServicesPage() {
                       fontSize: "11px",
                       letterSpacing: "0.1em",
                       textTransform: "uppercase",
-                      color: s.color,
+                      color: "#0a0a0a",
                     }}
                   >
                     {s.title}
@@ -181,20 +169,20 @@ export default function ServicesPage() {
                     textTransform: "uppercase",
                     letterSpacing: "-0.025em",
                     lineHeight: 0.95,
-                    color: "#fff",
+                    color: "#0a0a0a",
                     marginBottom: "20px",
                   }}
                 >
                   {s.tagline.toUpperCase()}
                 </h2>
-                <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.55)", lineHeight: 1.8 }}>
+                <p style={{ fontSize: "15px", color: "rgba(0,0,0,0.55)", lineHeight: 1.8 }}>
                   {s.body}
                 </p>
 
                 <div
                   style={{
                     marginTop: "32px",
-                    background: "#161616",
+                    background: s.color === "#FFD100" ? "rgba(255,209,0,0.12)" : "rgba(45,138,69,0.1)",
                     borderLeft: `3px solid ${s.color}`,
                     borderRadius: "0 6px 6px 0",
                     padding: "20px 24px",
@@ -202,17 +190,18 @@ export default function ServicesPage() {
                 >
                   <p
                     style={{
-                      fontSize: "13px",
+                      fontSize: "11px",
                       fontWeight: 700,
-                      color: s.color,
-                      letterSpacing: "0.06em",
+                      color: "#0a0a0a",
+                      letterSpacing: "0.08em",
                       textTransform: "uppercase",
+                      opacity: 0.5,
                       marginBottom: "6px",
                     }}
                   >
                     Typical result
                   </p>
-                  <p style={{ fontSize: "14px", color: "rgba(255,255,255,0.7)", lineHeight: 1.6 }}>
+                  <p style={{ fontSize: "14px", color: "#0a0a0a", lineHeight: 1.6, fontWeight: 600 }}>
                     {s.result}
                   </p>
                 </div>
@@ -225,7 +214,7 @@ export default function ServicesPage() {
                     fontWeight: 700,
                     letterSpacing: "0.1em",
                     textTransform: "uppercase",
-                    color: "rgba(255,255,255,0.3)",
+                    color: "rgba(0,0,0,0.35)",
                     marginBottom: "20px",
                   }}
                 >
@@ -240,12 +229,12 @@ export default function ServicesPage() {
                         alignItems: "flex-start",
                         gap: "14px",
                         padding: "16px 20px",
-                        background: "#161616",
+                        background: "#f2f2f2",
                       }}
                     >
                       <span
                         style={{
-                          color: s.color,
+                          color: s.color === "#FFD100" ? "#0a0a0a" : s.color,
                           fontSize: "14px",
                           flexShrink: 0,
                           marginTop: "1px",
@@ -254,7 +243,7 @@ export default function ServicesPage() {
                       >
                         ✓
                       </span>
-                      <span style={{ fontSize: "15px", color: "rgba(255,255,255,0.7)", lineHeight: 1.5 }}>
+                      <span style={{ fontSize: "15px", color: "rgba(0,0,0,0.7)", lineHeight: 1.5 }}>
                         {b}
                       </span>
                     </div>
@@ -267,7 +256,7 @@ export default function ServicesPage() {
       ))}
 
       {/* Bottom CTA */}
-      <section style={{ padding: "100px 0", background: "#000", textAlign: "center" }}>
+      <section style={{ padding: "100px 0", background: "#0a0a0a", textAlign: "center" }}>
         <div className="container">
           <h2
             style={{

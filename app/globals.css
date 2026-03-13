@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #0f0f0f;
-  --bg-card: #161616;
-  --bg-alt: #131313;
+  --bg: #ffffff;
+  --bg-card: #f2f2f2;
+  --bg-alt: #f7f7f7;
   --yellow: #FFD100;
-  --yellow-dim: rgba(255, 209, 0, 0.12);
+  --yellow-dim: rgba(255, 209, 0, 0.15);
   --green: #2D8A45;
-  --green-dim: rgba(45, 138, 69, 0.12);
+  --green-dim: rgba(45, 138, 69, 0.1);
   --slate: #6878A0;
-  --border: rgba(255, 255, 255, 0.07);
-  --muted: rgba(255, 255, 255, 0.5);
-  --text: #F0F0F0;
+  --border: rgba(0, 0, 0, 0.08);
+  --muted: rgba(0, 0, 0, 0.45);
+  --text: #0a0a0a;
 }
 
 * {
@@ -64,7 +64,7 @@ a {
 }
 
 .btn-yellow:hover {
-  opacity: 0.9;
+  opacity: 0.88;
   transform: translateY(-1px);
 }
 
@@ -79,16 +79,16 @@ a {
   font-size: 14px;
   padding: 13px 28px;
   border-radius: 6px;
-  border: 1px solid var(--border);
+  border: 1px solid rgba(0,0,0,0.18);
   cursor: pointer;
-  transition: border-color 0.15s, color 0.15s;
+  transition: border-color 0.15s, background 0.15s;
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
 
 .btn-outline:hover {
-  border-color: rgba(255,255,255,0.3);
-  color: #fff;
+  border-color: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.03);
 }
 
 /* Section label */
@@ -109,7 +109,6 @@ a {
   margin-bottom: 24px;
 }
 
-/* Yellow highlight in headings */
 .yellow { color: var(--yellow); }
 .green { color: var(--green); }
 
