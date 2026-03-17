@@ -7,12 +7,19 @@ export const metadata: Metadata = {
   title: "Thomas Town Digital — Digital Lead Gen & SMB Marketing",
   description: "We help home service businesses grow with paid search, paid social, and local SEO. More leads. More jobs. More revenue.",
   metadataBase: new URL("https://thomastowndigital.com"),
+  icons: {
+    icon: [
+      { url: "/logos/TT-Logo_MonoGram-Black-Sqaure.png", media: "(prefers-color-scheme: light)" },
+      { url: "/logos/TT-Logo_MonoGram-White-Square.png", media: "(prefers-color-scheme: dark)" },
+    ],
+  },
   openGraph: {
     title: "Thomas Town Digital",
     description: "Digital lead generation and SMB marketing for home service businesses.",
     url: "https://thomastowndigital.com",
     siteName: "Thomas Town Digital",
     type: "website",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
 

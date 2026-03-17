@@ -1,43 +1,62 @@
 import Link from "next/link";
+import TestimonialCarousel from "@/components/TestimonialCarousel";
 
 const stats = [
-  { value: "3.2×", label: "Average ROAS" },
-  { value: "47%", label: "Lower cost per lead" },
-  { value: "200+", label: "Home service clients" },
-  { value: "$12M+", label: "Pipeline generated" },
+  { value: "10 DAY", label: "LAUNCH" },
+  { value: "MORE", label: "READY TO BUY LEADS" },
+  { value: "GROW", label: "REVENUE" },
+  { value: "LIVE", label: "REPORTING" },
 ];
 
 const services = [
   {
-    icon: "⚡",
-    title: "Google Ads",
-    body: "Capture high-intent leads the moment homeowners search. We build and manage campaigns that bring real calls, not just clicks.",
-    color: "#2D8A45",
-  },
-  {
-    icon: "📣",
-    title: "Meta Ads",
-    body: "Reach homeowners before they search. Facebook and Instagram campaigns that build awareness and drive inbound inquiries.",
-    color: "#2D8A45",
-  },
-  {
+    num: "01",
     icon: "📍",
-    title: "Local SEO",
-    body: "Dominate your local market on Google Maps and organic search. We get you found when it matters most.",
-    color: "#2D8A45",
+    title: "SEO",
+    body: "Dominate Google Maps and organic search in your local market. We get you found by the right homeowners at the right moment — before your competitors.",
+    bullets: ["Map Pack top-3 placement", "GBP optimization & review strategy", "Local citation building"],
+    href: "/services#seo",
   },
   {
+    num: "02",
+    icon: "⚡",
+    title: "PPC",
+    body: "High-intent leads the moment homeowners search. We build and manage Google Ads and LSA campaigns that drive real calls, not just clicks.",
+    bullets: ["Google Search & LSA campaigns", "Call tracking & attribution", "LSA dispute management"],
+    href: "/services#ppc",
+  },
+  {
+    num: "03",
     icon: "🖥️",
-    title: "Web Design",
-    body: "High-converting websites built to turn visitors into leads. Fast, mobile-first, and optimized for calls.",
-    color: "#2D8A45",
+    title: "Websites",
+    body: "High-converting websites built to turn visitors into booked jobs. Fast, mobile-first, and engineered to generate calls from day one.",
+    bullets: ["Mobile-first, built to convert", "Click-to-call above the fold", "Speed & conversion optimized"],
+    href: "/services#websites",
+  },
+  {
+    num: "04",
+    icon: "🤖",
+    title: "AI Automations",
+    body: "Automate your follow-up, lead response, and review generation so nothing falls through the cracks — and you close more jobs without more effort.",
+    bullets: ["< 5 min lead response, 24/7", "Review generation after every job", "Re-engagement sequences"],
+    href: "/services#ai-automations",
   },
 ];
 
-const verticals = [
-  "HVAC", "Plumbing", "Roofing", "Electrical",
-  "Landscaping", "Pest Control", "Painting", "Cleaning",
-  "Gutters", "Windows", "Concrete", "Fencing",
+const verticalsRow1 = [
+  "HVAC", "Plumbing", "Roofing", "Electrical", "Landscaping",
+  "Pest Control", "Painting", "Cleaning", "Gutters", "Solar",
+  "Garage Door", "Appliance Repair", "Generator Installation", "EV Charger Installation", "Air Duct Cleaning",
+  "Septic Services", "Siding", "Foundation Repair", "Waterproofing", "Stucco",
+];
+
+const verticalsRow2 = [
+  "Windows", "Concrete", "Fencing", "Interior Demolition", "Pool Demolition",
+  "Pool Repair", "Custom Pools", "Deck Builders", "Moving Companies",
+  "Land Clearing", "Dumpster Rental",
+  "Masonry", "Pressure Washing", "Bathroom Remodeling", "Kitchen Remodeling",
+  "Flooring", "Cabinet Refacing", "Countertop Installation", "Epoxy Flooring",
+  "Junk Removal", "Tree Service", "Irrigation", "Mold Remediation", "Fire & Water Restoration", "Snow Removal",
 ];
 
 const reasons = [
@@ -100,7 +119,7 @@ export default function HomePage() {
                 marginBottom: "24px",
               }}
             >
-              Digital Lead Gen & SMB Marketing
+              For Home Service Businesses
             </p>
 
             <h1
@@ -130,12 +149,12 @@ export default function HomePage() {
                 fontWeight: 400,
               }}
             >
-              We help home service businesses build a steady pipeline of high-quality leads through paid search, paid social, and local SEO — so you&apos;re always booked, never chasing.
+              We help home service businesses build a steady pipeline of high-quality leads through paid and organic channels, so you&apos;re never chasing leads, you&apos;re choosing the best ones. More control. More growth. More freedom.
             </p>
 
             <div style={{ display: "flex", gap: "14px", flexWrap: "wrap" }}>
               <Link href="/contact" className="btn-yellow" style={{ fontSize: "14px", padding: "16px 32px" }}>
-                Book a Free Strategy Call →
+                Book a Strategy Call →
               </Link>
               <Link href="/services" className="btn-outline" style={{ fontSize: "14px", padding: "15px 32px" }}>
                 See How We Do It
@@ -202,93 +221,104 @@ export default function HomePage() {
       </section>
 
       {/* ── Services ── */}
-      <section style={{ padding: "120px 0", background: "#fff" }}>
+      <section style={{ padding: "120px 0", background: "#0a0a0a" }}>
         <div className="container">
-          <p className="section-label">What we do</p>
           <div
             style={{
               display: "flex",
               justifyContent: "space-between",
               alignItems: "flex-end",
-              marginBottom: "56px",
+              marginBottom: "64px",
               gap: "24px",
               flexWrap: "wrap",
             }}
           >
-            <h2
-              style={{
-                fontFamily: "'Barlow', sans-serif",
-                fontWeight: 900,
-                fontSize: "clamp(32px, 5vw, 56px)",
-                textTransform: "uppercase",
-                letterSpacing: "-0.025em",
-                lineHeight: 0.95,
-                color: "#0a0a0a",
-              }}
-            >
-              EVERYTHING YOU NEED<br />
-              TO FILL YOUR PIPELINE
-            </h2>
-            <Link href="/services" className="btn-outline" style={{ flexShrink: 0 }}>
+            <div>
+              <p style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.16em", textTransform: "uppercase", color: "#2D8A45", marginBottom: "16px" }}>
+                What we do
+              </p>
+              <h2
+                style={{
+                  fontFamily: "'Barlow', sans-serif",
+                  fontWeight: 900,
+                  fontSize: "clamp(32px, 5vw, 56px)",
+                  textTransform: "uppercase",
+                  letterSpacing: "-0.025em",
+                  lineHeight: 0.95,
+                  color: "#fff",
+                }}
+              >
+                EVERYTHING YOU NEED<br />
+                TO STAY FULLY BOOKED
+              </h2>
+            </div>
+            <Link href="/services" style={{ flexShrink: 0, fontFamily: "'Barlow', sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.06em", textTransform: "uppercase", color: "rgba(255,255,255,0.4)", textDecoration: "none", border: "1px solid rgba(255,255,255,0.15)", padding: "12px 24px", borderRadius: "6px", transition: "color 0.15s, border-color 0.15s" }} className="services-all-link">
               All Services →
             </Link>
           </div>
 
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(2, 1fr)",
-              gap: "2px",
-            }}
-            className="services-grid"
-          >
-            {services.map((s) => (
-              <div
+          <div className="service-rows">
+            {services.map((s, i) => (
+              <Link
                 key={s.title}
+                href={s.href}
+                className="service-row"
                 style={{
-                  background: "#f2f2f2",
-                  padding: "40px",
+                  display: "flex",
+                  alignItems: "stretch",
+                  textDecoration: "none",
+                  borderTop: i === 0 ? "1px solid rgba(255,255,255,0.08)" : "none",
+                  borderBottom: "1px solid rgba(255,255,255,0.08)",
+                  transition: "background 0.2s",
                   position: "relative",
-                  cursor: "default",
-                  transition: "background 0.15s",
                 }}
-                className="service-card"
               >
-                <div
-                  style={{
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                    width: "3px",
-                    height: "100%",
-                    background: s.color,
-                  }}
-                />
-                <div style={{ fontSize: "28px", marginBottom: "16px" }}>{s.icon}</div>
-                <h3
-                  style={{
-                    fontFamily: "'Barlow', sans-serif",
-                    fontWeight: 800,
-                    fontSize: "22px",
-                    textTransform: "uppercase",
-                    letterSpacing: "-0.01em",
-                    color: "#0a0a0a",
-                    marginBottom: "12px",
-                  }}
-                >
-                  {s.title}
-                </h3>
-                <p style={{ fontSize: "15px", color: "rgba(0,0,0,0.55)", lineHeight: 1.7 }}>
-                  {s.body}
-                </p>
-              </div>
+                {/* Left — number + separator + icon/title */}
+                <div className="service-row-left" style={{ display: "flex", alignItems: "center", gap: "28px", padding: "52px 48px 52px 0", flexShrink: 0, width: "38%" }}>
+                  {/* Ghost number */}
+                  <div style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 900, fontSize: "clamp(72px, 8vw, 108px)", color: "rgba(255,255,255,0.04)", lineHeight: 1, letterSpacing: "-0.05em", userSelect: "none", flexShrink: 0 }}>
+                    {s.num}
+                  </div>
+                  {/* Green vertical line */}
+                  <div style={{ width: "2px", alignSelf: "stretch", background: "#2D8A45", flexShrink: 0, margin: "16px 0" }} />
+                  {/* Icon + Title */}
+                  <div>
+                    <div style={{ fontSize: "28px", marginBottom: "10px" }}>{s.icon}</div>
+                    <h3 className="service-row-title" style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 900, fontSize: "clamp(22px, 3vw, 34px)", textTransform: "uppercase", letterSpacing: "-0.02em", color: "#fff", lineHeight: 1, transition: "color 0.2s" }}>
+                      {s.title}
+                    </h3>
+                  </div>
+                </div>
+
+                {/* Right — description + bullets + CTA */}
+                <div style={{ flex: 1, padding: "52px 0 52px 48px", borderLeft: "1px solid rgba(255,255,255,0.06)", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+                  <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.5)", lineHeight: 1.75, marginBottom: "24px", maxWidth: "520px" }}>
+                    {s.body}
+                  </p>
+                  <ul style={{ listStyle: "none", padding: 0, margin: "0 0 28px", display: "flex", flexDirection: "column", gap: "8px" }}>
+                    {s.bullets.map((b) => (
+                      <li key={b} style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "13px", color: "rgba(255,255,255,0.65)", fontFamily: "'Barlow', sans-serif", fontWeight: 600, letterSpacing: "0.02em" }}>
+                        <span style={{ width: "6px", height: "6px", borderRadius: "50%", background: "#2D8A45", flexShrink: 0 }} />
+                        {b}
+                      </li>
+                    ))}
+                  </ul>
+                  <span style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 700, fontSize: "12px", letterSpacing: "0.1em", textTransform: "uppercase", color: "#2D8A45" }}>
+                    Learn more →
+                  </span>
+                </div>
+              </Link>
             ))}
           </div>
         </div>
         <style>{`
-          .service-card:hover { background: #ebebeb !important; }
-          @media (max-width: 640px) {
-            .services-grid { grid-template-columns: 1fr !important; }
+          .service-row:hover { background: #0f0f0f !important; }
+          .service-row:hover .service-row-title { color: #2D8A45 !important; }
+          .services-all-link:hover { color: #fff !important; border-color: rgba(255,255,255,0.35) !important; }
+          @media (max-width: 700px) {
+            .service-row { flex-direction: column !important; }
+            .service-row-left { width: 100% !important; padding: 36px 0 20px !important; border-right: none !important; }
+            .service-row > div:last-child { padding: 0 0 36px !important; border-left: none !important; border-top: 1px solid rgba(255,255,255,0.06) !important; }
           }
         `}</style>
       </section>
@@ -313,26 +343,60 @@ export default function HomePage() {
             SERVICE BUSINESSES
           </h2>
 
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
-            {verticals.map((v) => (
-              <span
-                key={v}
-                style={{
-                  fontFamily: "'Barlow', sans-serif",
-                  fontWeight: 700,
-                  fontSize: "13px",
-                  letterSpacing: "0.06em",
-                  textTransform: "uppercase",
-                  padding: "10px 20px",
-                  borderRadius: "4px",
-                  background: "#fff",
-                  border: "1px solid rgba(0,0,0,0.1)",
-                  color: "rgba(0,0,0,0.7)",
-                }}
-              >
-                {v}
-              </span>
-            ))}
+          {/* Animated ticker — row 1 scrolls right, row 2 scrolls left */}
+          <div style={{ overflow: "hidden", marginLeft: "-40px", marginRight: "-40px" }}>
+            {/* Row 1 — scrolls right */}
+            <div style={{ display: "flex", marginBottom: "10px" }}>
+              <div className="ticker-right" style={{ display: "flex", gap: "10px", flexShrink: 0 }}>
+                {[...verticalsRow1, ...verticalsRow1].map((v, i) => (
+                  <span
+                    key={i}
+                    style={{
+                      fontFamily: "'Barlow', sans-serif",
+                      fontWeight: 700,
+                      fontSize: "13px",
+                      letterSpacing: "0.06em",
+                      textTransform: "uppercase",
+                      padding: "10px 20px",
+                      borderRadius: "4px",
+                      background: "#fff",
+                      border: "1px solid rgba(0,0,0,0.1)",
+                      color: "rgba(0,0,0,0.7)",
+                      whiteSpace: "nowrap",
+                      flexShrink: 0,
+                    }}
+                  >
+                    {v}
+                  </span>
+                ))}
+              </div>
+            </div>
+            {/* Row 2 — scrolls left */}
+            <div style={{ display: "flex" }}>
+              <div className="ticker-left" style={{ display: "flex", gap: "10px", flexShrink: 0 }}>
+                {[...verticalsRow2, ...verticalsRow2].map((v, i) => (
+                  <span
+                    key={i}
+                    style={{
+                      fontFamily: "'Barlow', sans-serif",
+                      fontWeight: 700,
+                      fontSize: "13px",
+                      letterSpacing: "0.06em",
+                      textTransform: "uppercase",
+                      padding: "10px 20px",
+                      borderRadius: "4px",
+                      background: "#fff",
+                      border: "1px solid rgba(0,0,0,0.1)",
+                      color: "rgba(0,0,0,0.7)",
+                      whiteSpace: "nowrap",
+                      flexShrink: 0,
+                    }}
+                  >
+                    {v}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
 
           <div
@@ -361,11 +425,11 @@ export default function HomePage() {
                   marginBottom: "8px",
                 }}
               >
-                IF YOU TURN LEADS INTO JOBS,<br />
-                WE CAN GET YOU MORE LEADS.
+                IF YOUR PHONE ISN&apos;T RINGING,<br />
+                WE CAN FIX THAT.
               </p>
               <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.7)" }}>
-                Book a free 30-minute strategy call — no pitch, just a real look at your pipeline.
+                30 minutes. No pitch. Just a straight look at what&apos;s holding your growth back.
               </p>
             </div>
             <Link
@@ -483,6 +547,14 @@ export default function HomePage() {
         `}</style>
       </section>
 
+      {/* ── Testimonial ── */}
+      <section style={{ padding: "100px 0", background: "#f7f7f7" }}>
+        <div className="container" style={{ maxWidth: "800px" }}>
+          <p className="section-label">What clients say</p>
+          <TestimonialCarousel />
+        </div>
+      </section>
+
       {/* ── Bottom CTA ── */}
       <section
         style={{
@@ -528,13 +600,34 @@ export default function HomePage() {
               lineHeight: 1.7,
             }}
           >
-            Book a free strategy call. 30 minutes, no pressure — just a straight conversation about your pipeline.
+            Book a strategy call. 30 minutes, no pressure — just a straight conversation about your pipeline.
           </p>
           <Link href="/contact" className="btn-yellow" style={{ fontSize: "15px", padding: "18px 40px" }}>
-            Book Your Free Call →
+            Book Your Strategy Call →
           </Link>
         </div>
       </section>
+
+      <style>{`
+        @keyframes tickerRight {
+          from { transform: translateX(-50%); }
+          to   { transform: translateX(0%); }
+        }
+        @keyframes tickerLeft {
+          from { transform: translateX(0%); }
+          to   { transform: translateX(-50%); }
+        }
+        .ticker-right {
+          animation: tickerRight 45s linear infinite;
+        }
+        .ticker-left {
+          animation: tickerLeft 52s linear infinite;
+        }
+        .ticker-right:hover,
+        .ticker-left:hover {
+          animation-play-state: paused;
+        }
+      `}</style>
     </>
   );
 }

@@ -1,9 +1,17 @@
 import Link from "next/link";
+import Image from "next/image";
 
-const services = ["Google Ads", "Meta Ads", "Local SEO", "Web Design"];
+const services = ["SEO", "PPC", "Websites", "AI Automations"];
+const verticals = [
+  { label: "Roofing Marketing", href: "/roofing" },
+  { label: "HVAC Marketing", href: "/hvac" },
+  { label: "Plumbing Marketing", href: "/plumbing" },
+  { label: "Electrical Marketing", href: "/electrical" },
+  { label: "View All Industries →", href: "/verticals" },
+];
 const company = [
   { label: "About", href: "/about" },
-  { label: "Services", href: "/services" },
+  { label: "Pricing", href: "/pricing" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -21,7 +29,7 @@ export default function Footer() {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "2fr 1fr 1fr 1.5fr",
+            gridTemplateColumns: "2fr 1fr 1fr 1fr 1.5fr",
             gap: "48px",
             marginBottom: "56px",
           }}
@@ -30,31 +38,13 @@ export default function Footer() {
           {/* Brand col */}
           <div>
             <div style={{ marginBottom: "16px" }}>
-              <div
-                style={{
-                  fontFamily: "'Barlow', sans-serif",
-                  fontWeight: 900,
-                  fontSize: "22px",
-                  textTransform: "uppercase",
-                  letterSpacing: "-0.01em",
-                  lineHeight: 1.05,
-                  color: "#fff",
-                }}
-              >
-                THOMAS TOWN
-              </div>
-              <div
-                style={{
-                  fontFamily: "'Barlow', sans-serif",
-                  fontWeight: 500,
-                  fontSize: "10px",
-                  letterSpacing: "0.14em",
-                  textTransform: "uppercase",
-                  color: "rgba(255,255,255,0.4)",
-                }}
-              >
-                Digital
-              </div>
+              <Image
+                src="/logos/TT-Logo_Stacked-White.png"
+                alt="Thomas Town Digital"
+                height={52}
+                width={110}
+                style={{ objectFit: "contain" }}
+              />
             </div>
             <p
               style={{
@@ -64,7 +54,7 @@ export default function Footer() {
                 maxWidth: "280px",
               }}
             >
-              Digital lead generation and SMB marketing for home service businesses. More leads. More jobs. More revenue.
+              SEO, PPC, websites, and AI automations for home service businesses. More leads. More jobs. More revenue.
             </p>
           </div>
 
@@ -94,6 +84,38 @@ export default function Footer() {
                   }}
                 >
                   {s}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* Verticals */}
+          <div>
+            <p
+              style={{
+                fontSize: "11px",
+                fontWeight: 700,
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+                color: "rgba(255,255,255,0.3)",
+                marginBottom: "16px",
+              }}
+            >
+              Verticals
+            </p>
+            <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+              {verticals.map((v) => (
+                <Link
+                  key={v.href}
+                  href={v.href}
+                  style={{
+                    fontSize: v.href === "/verticals" ? "12px" : "14px",
+                    color: v.href === "/verticals" ? "#2D8A45" : "rgba(255,255,255,0.55)",
+                    transition: "color 0.15s",
+                    marginTop: v.href === "/verticals" ? "4px" : "0",
+                  }}
+                >
+                  {v.label}
                 </Link>
               ))}
             </div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const values = [
   {
@@ -159,6 +160,83 @@ export default function AboutPage() {
         <style>{`
           @media (max-width: 768px) {
             .story-grid { grid-template-columns: 1fr !important; gap: 48px !important; }
+          }
+        `}</style>
+      </section>
+
+      {/* Founder */}
+      <section style={{ padding: "100px 0", background: "#fff" }}>
+        <div className="container">
+          <p className="section-label">Who&apos;s behind it</p>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1fr 2fr",
+              gap: "64px",
+              alignItems: "center",
+              maxWidth: "900px",
+            }}
+            className="founder-grid"
+          >
+            <div style={{ position: "relative" }}>
+              <Image
+                src="/jared-webber.jpg"
+                alt="Jared Webber — Founder, Thomas Town Digital"
+                width={320}
+                height={380}
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  objectFit: "cover",
+                  borderRadius: "12px",
+                  display: "block",
+                }}
+              />
+            </div>
+            <div>
+              <h2
+                style={{
+                  fontFamily: "'Barlow', sans-serif",
+                  fontWeight: 900,
+                  fontSize: "clamp(30px, 3.5vw, 44px)",
+                  textTransform: "uppercase",
+                  letterSpacing: "-0.02em",
+                  lineHeight: 1.0,
+                  color: "#0a0a0a",
+                  marginBottom: "8px",
+                }}
+              >
+                Jared Webber
+              </h2>
+              <p
+                style={{
+                  fontSize: "13px",
+                  fontWeight: 700,
+                  letterSpacing: "0.1em",
+                  textTransform: "uppercase",
+                  color: "#2D8A45",
+                  marginBottom: "24px",
+                }}
+              >
+                Founder
+              </p>
+              <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+                <p style={{ fontSize: "15px", color: "rgba(0,0,0,0.6)", lineHeight: 1.8 }}>
+                  Jared has a background in marketing, demand generation, and agency-side work across both B2B and home services. He started Thomas Town Digital to build the kind of focused, accountable agency he kept wishing existed when managing digital for home service brands.
+                </p>
+                <p style={{ fontSize: "15px", color: "rgba(0,0,0,0.6)", lineHeight: 1.8 }}>
+                  The approach is simple: go deep on one industry, stay relentlessly focused on revenue outcomes, and never take money from a client you can&apos;t actually help.
+                </p>
+                <p style={{ fontSize: "15px", color: "rgba(0,0,0,0.6)", lineHeight: 1.8 }}>
+                  Based in Charlotte, NC.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <style>{`
+          @media (max-width: 768px) {
+            .founder-grid { grid-template-columns: 1fr !important; gap: 36px !important; }
           }
         `}</style>
       </section>
@@ -331,10 +409,10 @@ export default function AboutPage() {
             <span style={{ color: "#2D8A45" }}>RIGHT FIT?</span>
           </h2>
           <p style={{ fontSize: "17px", color: "rgba(255,255,255,0.5)", marginBottom: "40px" }}>
-            Let&apos;s talk. Book a free 30-minute strategy call.
+            Let&apos;s talk. Book a strategy call.
           </p>
           <Link href="/contact" className="btn-yellow" style={{ fontSize: "14px", padding: "16px 36px" }}>
-            Book a Free Call →
+            Book a Strategy Call →
           </Link>
         </div>
       </section>

@@ -1,6 +1,11 @@
-"use client";
+import type { Metadata } from "next";
+import Script from "next/script";
 
-import { useState } from "react";
+export const metadata: Metadata = {
+  title: "Book a Strategy Call | Thomas Town Digital",
+  description:
+    "Book a strategy call. No pitch, no pressure — just a straight conversation about your home service business and where we can help.",
+};
 
 const expectItems = [
   {
@@ -18,53 +23,6 @@ const expectItems = [
 ];
 
 export default function ContactPage() {
-  const [form, setForm] = useState({ name: "", email: "", phone: "", business: "", message: "" });
-  const [submitted, setSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
-
-  async function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    setLoading(true);
-    setError("");
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
-      if (!res.ok) throw new Error("Failed");
-      setSubmitted(true);
-    } catch {
-      setError("Something went wrong — please try again or email us directly.");
-    } finally {
-      setLoading(false);
-    }
-  }
-
-  const inputStyle: React.CSSProperties = {
-    width: "100%",
-    background: "#fff",
-    border: "1px solid rgba(0,0,0,0.12)",
-    borderRadius: "6px",
-    padding: "14px 16px",
-    fontSize: "15px",
-    color: "#0a0a0a",
-    outline: "none",
-    fontFamily: "'Barlow', sans-serif",
-    transition: "border-color 0.15s",
-  };
-
-  const labelStyle: React.CSSProperties = {
-    display: "block",
-    fontSize: "11px",
-    fontWeight: 700,
-    letterSpacing: "0.1em",
-    textTransform: "uppercase",
-    color: "rgba(0,0,0,0.4)",
-    marginBottom: "8px",
-  };
-
   return (
     <>
       {/* Hero */}
@@ -83,11 +41,11 @@ export default function ContactPage() {
               marginBottom: "20px",
             }}
           >
-            LET&apos;S TALK<br />
-            YOUR PIPELINE
+            LET&apos;S DOMINATE<br />
+            YOUR LOCAL MARKET
           </h1>
           <p style={{ fontSize: "17px", color: "rgba(0,0,0,0.5)", maxWidth: "500px", lineHeight: 1.7 }}>
-            Book a free 30-minute strategy call. No pitch, no pressure — just a straight conversation about your business and where we can help.
+            Ready to stop guessing and start growing? We&apos;ll show you exactly how to attract better leads, book more jobs, and scale your business — without wasting time or money.
           </p>
         </div>
       </section>
@@ -138,10 +96,10 @@ export default function ContactPage() {
                   Prefer email?
                 </p>
                 <a
-                  href="mailto:hello@thomastowndigital.com"
+                  href="mailto:jared@thomastowndigital.com"
                   style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 700, fontSize: "16px", color: "#0a0a0a", display: "block", marginBottom: "4px" }}
                 >
-                  hello@thomastowndigital.com
+                  jared@thomastowndigital.com
                 </a>
                 <p style={{ fontSize: "13px", color: "rgba(0,0,0,0.4)" }}>We reply within one business day.</p>
 
@@ -154,101 +112,33 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Form */}
+            {/* YouForm embed */}
             <div
               style={{
                 background: "#fff",
                 border: "1px solid rgba(0,0,0,0.08)",
                 borderRadius: "8px",
-                padding: "40px",
+                overflow: "hidden",
               }}
             >
-              {submitted ? (
-                <div style={{ textAlign: "center", padding: "32px 0" }}>
-                  <div
-                    style={{
-                      width: "56px",
-                      height: "56px",
-                      background: "#2D8A45",
-                      borderRadius: "50%",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      margin: "0 auto 20px",
-                      fontSize: "22px",
-                      fontWeight: 800,
-                      color: "#fff",
-                    }}
-                  >
-                    ✓
-                  </div>
-                  <h3 style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 800, fontSize: "22px", textTransform: "uppercase", color: "#0a0a0a", marginBottom: "12px" }}>
-                    Got it — talk soon
-                  </h3>
-                  <p style={{ fontSize: "15px", color: "rgba(0,0,0,0.5)", lineHeight: 1.65 }}>
-                    We&apos;ll reach out within one business day to schedule your strategy call.
-                  </p>
-                </div>
-              ) : (
-                <>
-                  <h2 style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 800, fontSize: "20px", textTransform: "uppercase", letterSpacing: "-0.01em", color: "#0a0a0a", marginBottom: "28px" }}>
-                    Book a Free Strategy Call
-                  </h2>
-
-                  <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-                    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }} className="form-row">
-                      <div>
-                        <label style={labelStyle}>Your name</label>
-                        <input type="text" required placeholder="First & last" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} style={inputStyle} />
-                      </div>
-                      <div>
-                        <label style={labelStyle}>Phone</label>
-                        <input type="tel" placeholder="(704) 555-0100" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} style={inputStyle} />
-                      </div>
-                    </div>
-
-                    <div>
-                      <label style={labelStyle}>Work email</label>
-                      <input type="email" required placeholder="you@company.com" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} style={inputStyle} />
-                    </div>
-
-                    <div>
-                      <label style={labelStyle}>Business name & type</label>
-                      <input type="text" required placeholder="e.g. ABC HVAC — Heating & Cooling" value={form.business} onChange={(e) => setForm({ ...form, business: e.target.value })} style={inputStyle} />
-                    </div>
-
-                    <div>
-                      <label style={labelStyle}>Anything else we should know?</label>
-                      <textarea rows={4} placeholder="Current monthly ad spend, what's not working, goals..." value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} style={{ ...inputStyle, resize: "vertical", minHeight: "100px" }} />
-                    </div>
-
-                    {error && <p style={{ fontSize: "13px", color: "#cc0000" }}>{error}</p>}
-
-                    <button
-                      type="submit"
-                      disabled={loading}
-                      className="btn-yellow"
-                      style={{ width: "100%", justifyContent: "center", fontSize: "14px", padding: "16px", opacity: loading ? 0.7 : 1, cursor: loading ? "not-allowed" : "pointer" }}
-                    >
-                      {loading ? "Sending…" : "Book Your Free Call →"}
-                    </button>
-                  </form>
-                </>
-              )}
+              <div
+                data-youform-embed
+                data-form="8rgcffje"
+                data-base-url="https://app.youform.com"
+                data-width="100%"
+                data-height="700"
+              />
             </div>
           </div>
         </div>
       </section>
 
+      <Script src="https://app.youform.com/embed.js" strategy="afterInteractive" />
+
       <style>{`
         @media (max-width: 768px) {
           .contact-grid { grid-template-columns: 1fr !important; gap: 48px !important; }
         }
-        @media (max-width: 480px) {
-          .form-row { grid-template-columns: 1fr !important; }
-        }
-        input::placeholder, textarea::placeholder { color: rgba(0,0,0,0.25); }
-        input:focus, textarea:focus { border-color: rgba(45,138,69,0.6) !important; box-shadow: 0 0 0 3px rgba(45,138,69,0.1); }
       `}</style>
     </>
   );
