@@ -4,7 +4,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Thomas Town Digital — Digital Lead Gen & SMB Marketing",
+  title: "Thomas Town Digital — Home Services Marketing & Lead Generation",
   description: "We help home service businesses grow with paid search, paid social, and local SEO. More leads. More jobs. More revenue.",
   metadataBase: new URL("https://thomastowndigital.com"),
   icons: {
