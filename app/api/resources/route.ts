@@ -1,14 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
 import { renderToBuffer } from "@react-pdf/renderer";
 import { createElement } from "react";
+import path from "path";
 import {
   Document,
   Page,
   Text,
   View,
+  Image,
   StyleSheet,
   Font,
 } from "@react-pdf/renderer";
+
+const LOGO_PATH = path.join(process.cwd(), "public/logos/TT-Logo_Stacked-Black.png");
 
 // ─── Styles ───────────────────────────────────────────────────────────────────
 
@@ -33,6 +37,10 @@ const styles = StyleSheet.create({
     borderBottomWidth: 2,
     borderBottomColor: GREEN,
     borderBottomStyle: "solid",
+  },
+  logo: {
+    width: 140,
+    marginBottom: 16,
   },
   brandName: {
     fontSize: 9,
@@ -302,7 +310,7 @@ function GrowthPlaybookPdf() {
       createElement(
         View,
         { style: styles.header },
-        createElement(Text, { style: styles.brandName }, "Thomas Town Digital"),
+        createElement(Image, { style: styles.logo, src: LOGO_PATH }),
         createElement(Text, { style: styles.docTitle }, "Home Services Growth Playbook"),
         createElement(
           Text,
@@ -383,7 +391,7 @@ function LocalSeoPdf() {
       createElement(
         View,
         { style: styles.header },
-        createElement(Text, { style: styles.brandName }, "Thomas Town Digital"),
+        createElement(Image, { style: styles.logo, src: LOGO_PATH }),
         createElement(Text, { style: styles.docTitle }, "Ultimate Local SEO Cheat Sheet 2025"),
         createElement(
           Text,
@@ -477,7 +485,7 @@ function LsaGuidePdf() {
       createElement(
         View,
         { style: styles.header },
-        createElement(Text, { style: styles.brandName }, "Thomas Town Digital"),
+        createElement(Image, { style: styles.logo, src: LOGO_PATH }),
         createElement(Text, { style: styles.docTitle }, "Complete Guide to Dominating Google Local Service Ads"),
         createElement(
           Text,
@@ -589,7 +597,7 @@ function LeadManagementPdf() {
       createElement(
         View,
         { style: styles.header },
-        createElement(Text, { style: styles.brandName }, "Thomas Town Digital"),
+        createElement(Image, { style: styles.logo, src: LOGO_PATH }),
         createElement(Text, { style: styles.docTitle }, "Complete Lead Management System"),
         createElement(
           Text,
