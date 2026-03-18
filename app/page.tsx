@@ -95,7 +95,7 @@ export default function HomePage() {
       >
         {/* Yellow accent shape */}
         <div
-          className="w-[20%] md:w-[42%]"
+          className="hidden md:block md:w-[42%]"
           style={{
             position: "absolute",
             top: 0,
