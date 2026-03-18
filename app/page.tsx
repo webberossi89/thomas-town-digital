@@ -95,11 +95,11 @@ export default function HomePage() {
       >
         {/* Yellow accent shape */}
         <div
+          className="w-[20%] md:w-[42%]"
           style={{
             position: "absolute",
             top: 0,
             right: 0,
-            width: "42%",
             height: "100%",
             background: "#2D8A45",
             clipPath: "polygon(12% 0%, 100% 0%, 100% 100%, 0% 100%)",

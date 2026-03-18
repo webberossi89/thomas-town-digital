@@ -114,6 +114,7 @@ export default function ContactPage() {
 
             {/* YouForm embed */}
             <div
+              className="contact-form-col"
               style={{
                 background: "#fff",
                 border: "1px solid rgba(0,0,0,0.08)",
@@ -138,6 +139,7 @@ export default function ContactPage() {
       <style>{`
         @media (max-width: 768px) {
           .contact-grid { grid-template-columns: 1fr !important; gap: 48px !important; }
+          .contact-form-col { order: -1; }
         }
       `}</style>
     </>

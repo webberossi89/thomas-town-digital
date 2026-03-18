@@ -25,10 +25,20 @@ const BORDER = "#e5e5e5";
 const styles = StyleSheet.create({
   page: {
     backgroundColor: "#ffffff",
-    paddingTop: 56,
+    paddingTop: 80,
     paddingBottom: 72,
     paddingHorizontal: 52,
     fontFamily: "Helvetica",
+  },
+  // Fixed per-page logo header
+  pageHeader: {
+    position: "absolute",
+    top: 20,
+    left: 52,
+    right: 52,
+  },
+  pageHeaderLogo: {
+    width: 80,
   },
   // Header
   header: {
@@ -217,6 +227,14 @@ function Bullet({ text }: { text: string }) {
   );
 }
 
+function PageHeader() {
+  return createElement(
+    View,
+    { style: styles.pageHeader, fixed: true },
+    createElement(Image, { style: styles.pageHeaderLogo, src: LOGO_PATH })
+  );
+}
+
 function PageFooter({ title }: { title: string }) {
   return createElement(
     View,
@@ -307,10 +325,10 @@ function GrowthPlaybookPdf() {
     createElement(
       Page,
       { size: "A4", style: styles.page },
+      createElement(PageHeader, null),
       createElement(
         View,
         { style: styles.header },
-        createElement(Image, { style: styles.logo, src: LOGO_PATH }),
         createElement(Text, { style: styles.docTitle }, "Home Services Growth Playbook"),
         createElement(
           Text,
@@ -388,10 +406,10 @@ function LocalSeoPdf() {
     createElement(
       Page,
       { size: "A4", style: styles.page },
+      createElement(PageHeader, null),
       createElement(
         View,
         { style: styles.header },
-        createElement(Image, { style: styles.logo, src: LOGO_PATH }),
         createElement(Text, { style: styles.docTitle }, "Ultimate Local SEO Cheat Sheet 2025"),
         createElement(
           Text,
@@ -482,10 +500,10 @@ function LsaGuidePdf() {
     createElement(
       Page,
       { size: "A4", style: styles.page },
+      createElement(PageHeader, null),
       createElement(
         View,
         { style: styles.header },
-        createElement(Image, { style: styles.logo, src: LOGO_PATH }),
         createElement(Text, { style: styles.docTitle }, "Complete Guide to Dominating Google Local Service Ads"),
         createElement(
           Text,
@@ -594,10 +612,10 @@ function LeadManagementPdf() {
     createElement(
       Page,
       { size: "A4", style: styles.page },
+      createElement(PageHeader, null),
       createElement(
         View,
         { style: styles.header },
-        createElement(Image, { style: styles.logo, src: LOGO_PATH }),
         createElement(Text, { style: styles.docTitle }, "Complete Lead Management System"),
         createElement(
           Text,
