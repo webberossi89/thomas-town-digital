@@ -19,7 +19,6 @@ const resources = [
 const links = [
   { href: "/about", label: "About" },
   { href: "/pricing", label: "Pricing" },
-  { href: "/contact", label: "Contact" },
 ];
 
 export default function Nav() {
@@ -270,17 +269,6 @@ export default function Nav() {
               </div>
             )}
           </div>
-
-          {/* Contact link */}
-          {links.filter(l => l.href === "/contact").map((l) => (
-            <Link
-              key={l.href}
-              href={l.href}
-              style={navLinkStyle(pathname === l.href)}
-            >
-              {l.label}
-            </Link>
-          ))}
 
           <Link href="/contact" className="btn-yellow" style={{ padding: "10px 22px", fontSize: "12px" }}>
             Get Started
