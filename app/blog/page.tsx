@@ -8,6 +8,15 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    category: "Marketing",
+    title: "How Does Home Service Lead Generation Actually Work in 2026?",
+    summary: "Learn how lead generation for contractors really works in 2026 — from search intent to booked jobs. Straight talk from a home service lead generation agency.",
+    date: "March 19, 2026",
+    dateISO: "2026-03-19",
+    readTime: "10 min read",
+    slug: "home-service-lead-generation-agency",
+  },
+  {
     category: "Services",
     title: "Local Services Ads Management for Home Service Businesses",
     summary: "Poor LSA management wastes budget on bad leads. Thomas Town Digital runs Google Guaranteed campaigns built to generate booked jobs. Get a free audit today.",
