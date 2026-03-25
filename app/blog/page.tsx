@@ -8,6 +8,15 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    category: "Services",
+    title: "HVAC Marketing Agency Services: What We Do for Heating & Cooling Companies",
+    summary: "Thomas Town Digital helps HVAC companies generate better leads, fill their schedule, and cut wasted ad spend. See what a real HVAC marketing partner does.",
+    date: "March 26, 2026",
+    dateISO: "2026-03-26",
+    readTime: "9 min read",
+    slug: "hvac-marketing-agency-services",
+  },
+  {
     category: "SEO",
     title: "Frequently Asked Questions About SEO for Contractors in 2026",
     summary: "Get straight answers on SEO for contractors — how it works, what it costs, and what actually drives leads. Book a free audit with Thomas Town Digital.",
