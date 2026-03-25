@@ -8,6 +8,15 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    category: "Services",
+    title: "Local Services Ads Management for Home Service Businesses",
+    summary: "Poor LSA management wastes budget on bad leads. Thomas Town Digital runs Google Guaranteed campaigns built to generate booked jobs. Get a free audit today.",
+    date: "March 12, 2026",
+    dateISO: "2026-03-12",
+    readTime: "9 min read",
+    slug: "local-services-ads-management",
+  },
+  {
     category: "Google Ads",
     title: "How Much Do Google Ads Cost for Roofers in 2026? (CPC, CPL & Budget Breakdown)",
     summary: "What does it actually cost to run Google Ads for roofers? Real CPC, CPL, and budget data — plus how to tell if your spend is working. Get the full breakdown.",
