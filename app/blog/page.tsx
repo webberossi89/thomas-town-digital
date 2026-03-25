@@ -8,6 +8,15 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    category: "Marketing",
+    title: "What Is a Home Services Marketing Agency? (And What Do They Actually Do in 2026)",
+    summary: "A home services marketing agency helps contractors get more qualified leads through SEO, Google Ads, and LSAs. Learn what they actually do and if you need one.",
+    date: "March 5, 2026",
+    dateISO: "2026-03-05",
+    readTime: "8 min read",
+    slug: "home-services-marketing-agency",
+  },
+  {
     category: "Services",
     title: "Local Services Ads Management That Fills Your Calendar, Not Just Your Dashboard",
     summary: "Poor LSA management wastes budget on bad leads. See how Thomas Town Digital tightens targeting, improves lead quality, and builds a predictable pipeline.",
