@@ -8,6 +8,15 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    category: "Services",
+    title: "Charlotte Google Ads Agency for Contractors: Why Location Matters in 2026",
+    summary: "Most Charlotte Google Ads agencies waste contractor budgets on broad targeting. Here's why working with a local partner who understands home service search intent matters.",
+    date: "March 25, 2026",
+    dateISO: "2026-03-25",
+    readTime: "8 min read",
+    slug: "charlotte-google-ads-agency-contractors",
+  },
+  {
     category: "LSA",
     title: "What Are Google Local Services Ads and How Do They Work in 2026?",
     summary: "Local Services Ads put your home service business at the very top of Google with a green checkmark. Learn how LSAs work, what they cost, and if they're worth it.",
