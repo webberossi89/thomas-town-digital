@@ -8,6 +8,15 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    category: "Marketing",
+    title: "How to Choose a Home Service Lead Generation Agency in 2026",
+    summary: "Most agencies talk a good game but deliver junk leads. Here's how to pick a home service lead generation agency that actually understands your business.",
+    date: "March 25, 2026",
+    dateISO: "2026-03-25",
+    readTime: "8 min read",
+    slug: "choose-home-service-lead-generation-agency",
+  },
+  {
     category: "Services",
     title: "Charlotte Google Ads Agency for Contractors: Why Location Matters in 2026",
     summary: "Most Charlotte Google Ads agencies waste contractor budgets on broad targeting. Here's why working with a local partner who understands home service search intent matters.",
