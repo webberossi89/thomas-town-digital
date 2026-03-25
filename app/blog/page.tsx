@@ -8,6 +8,15 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    category: "Marketing",
+    title: "Google Guaranteed vs LSA Ads: What's the Difference in 2026?",
+    summary: "Google Guaranteed and LSA ads aren't the same thing. Learn how each works, what they cost, and which one actually drives quality leads for contractors.",
+    date: "March 26, 2026",
+    dateISO: "2026-03-26",
+    readTime: "10 min read",
+    slug: "google-guaranteed-vs-lsa-ads",
+  },
+  {
     category: "Services",
     title: "HVAC Marketing Agency Services: What We Do for Heating & Cooling Companies",
     summary: "Thomas Town Digital helps HVAC companies generate better leads, fill their schedule, and cut wasted ad spend. See what a real HVAC marketing partner does.",
