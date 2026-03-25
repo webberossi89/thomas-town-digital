@@ -8,6 +8,15 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    category: "Google Ads",
+    title: "How Much Do Google Ads Cost for Roofers in 2026? (CPC, CPL & Budget Breakdown)",
+    summary: "Find out what Google Ads actually costs for roofers in 2026 — real CPC, CPL, and budget numbers, plus how to avoid wasting spend. Get a free audit.",
+    date: "March 12, 2026",
+    dateISO: "2026-03-12",
+    readTime: "11 min read",
+    slug: "google-ads-cost-roofers",
+  },
+  {
     category: "Marketing",
     title: "What Is a Home Services Marketing Agency? (And What Do They Actually Do in 2026)",
     summary: "Find out what a home services marketing agency actually does, what to expect, and how to tell if one is worth hiring. Real answers, no agency fluff.",
