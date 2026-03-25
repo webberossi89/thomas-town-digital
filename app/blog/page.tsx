@@ -8,6 +8,15 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    category: "Services",
+    title: "Google Ads Management for Contractors: How to Turn Ad Spend Into Booked Jobs",
+    summary: "Stop wasting budget on clicks that don't convert. Thomastown Digital builds Google Ads systems for contractors that drive real calls and booked jobs. Free audit.",
+    date: "March 5, 2026",
+    dateISO: "2026-03-05",
+    readTime: "10 min read",
+    slug: "google-ads-management-for-contractors",
+  },
+  {
     category: "Marketing",
     title: "What Is a Home Services Marketing Agency? (And What Do They Actually Do in 2026)",
     summary: "A home services marketing agency helps contractors get more qualified leads through SEO, Google Ads, and LSAs. Learn what they actually do and if you need one.",
