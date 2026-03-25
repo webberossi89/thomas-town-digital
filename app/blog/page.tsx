@@ -8,6 +8,15 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    category: "Services",
+    title: "Local Services Ads Management That Fills Your Calendar, Not Just Your Dashboard",
+    summary: "Poor LSA management wastes budget on bad leads. See how Thomas Town Digital tightens targeting, improves lead quality, and builds a predictable pipeline.",
+    date: "March 12, 2026",
+    dateISO: "2026-03-12",
+    readTime: "8 min read",
+    slug: "local-services-ads-management-home-services",
+  },
+  {
     category: "Marketing",
     title: "How to Choose a Home Service Lead Generation Agency in 2026",
     summary: "Most agencies talk a good game but deliver junk leads. Here's how to pick a home service lead generation agency that actually understands your business.",
