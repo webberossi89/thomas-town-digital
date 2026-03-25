@@ -8,6 +8,15 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    category: "Marketing",
+    title: "How Does Home Service Lead Generation Actually Work in 2026?",
+    summary: "Learn how home service lead generation really works in 2026 — from search intent to booked jobs. Real steps, no fluff. See how a specialist agency builds it.",
+    date: "March 19, 2026",
+    dateISO: "2026-03-19",
+    readTime: "10 min read",
+    slug: "home-service-lead-generation-agency-guide",
+  },
+  {
     category: "Google Ads",
     title: "How Much Do Google Ads Cost for Roofers in 2026? (CPC, CPL & Budget Breakdown)",
     summary: "Find out what Google Ads actually costs for roofers in 2026 — real CPC, CPL, and budget numbers, plus how to avoid wasting spend. Get a free audit.",
