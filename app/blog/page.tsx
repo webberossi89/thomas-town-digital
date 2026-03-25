@@ -9,6 +9,15 @@ export const metadata: Metadata = {
 const posts = [
   {
     category: "Marketing",
+    title: "What Is a Home Services Marketing Agency? (And What Do They Actually Do in 2026)",
+    summary: "Find out what a home services marketing agency actually does, what to expect, and how to tell if one is worth hiring. Real answers, no agency fluff.",
+    date: "March 5, 2026",
+    dateISO: "2026-03-05",
+    readTime: "8 min read",
+    slug: "what-is-home-services-marketing-agency",
+  },
+  {
+    category: "Marketing",
     title: "Google Guaranteed vs LSA Ads: What's the Difference in 2026?",
     summary: "Google Guaranteed and LSA ads aren't the same thing. Learn how each works, what they cost, and which one actually drives quality leads for contractors.",
     date: "March 26, 2026",
