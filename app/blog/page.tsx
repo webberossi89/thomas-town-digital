@@ -8,6 +8,15 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    category: "Google Ads",
+    title: "How Much Do Google Ads Cost for Roofers in 2026? (CPC, CPL & Budget Breakdown)",
+    summary: "What does it actually cost to run Google Ads for roofers? Real CPC, CPL, and budget data — plus how to tell if your spend is working. Get the full breakdown.",
+    date: "March 12, 2026",
+    dateISO: "2026-03-12",
+    readTime: "10 min read",
+    slug: "google-ads-for-roofers-cost",
+  },
+  {
     category: "Services",
     title: "Google Ads Management for Contractors: How to Turn Ad Spend Into Booked Jobs",
     summary: "Stop wasting budget on clicks that don't convert. Thomastown Digital builds Google Ads systems for contractors that drive real calls and booked jobs. Free audit.",
