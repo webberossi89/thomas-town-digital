@@ -152,10 +152,71 @@ const content = `<p>If you're a roofing contractor trying to figure out what Goo
 
 <p>If you want a second opinion on your current Google Ads setup, Thomas Town Digital offers free audits for roofing companies. We'll go through what's working, what's wasted, and where the real opportunities are — with no obligation and no vague recommendations. <strong>Book a free 15-minute strategy call at <a href="https://thomastowndigital.com">thomastowndigital.com</a></strong> and get a straight answer on whether your current spend is actually set up to produce booked jobs.</p>`;
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the average cost per click for roofing Google Ads?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The average CPC for roofing Google Ads in 2026 ranges from $15 to $60 per click, depending on market size, competition level, and keyword intent. High-competition metros and storm-surge periods push CPCs toward the higher end of that range."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a good cost per lead for roofing Google Ads?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A well-managed roofing Google Ads campaign should produce leads in the $80–$200 range. Campaigns with weak landing pages or poor targeting often see CPLs of $300–$600 or higher. The target CPL depends on your average job value and close rate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much should a roofing company spend on Google Ads per month?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monthly budgets for roofing Google Ads typically range from $2,000 to $15,000+, depending on market competitiveness and lead volume goals. Underfunding in a competitive market produces poor results — campaigns need enough data and delivery to optimise effectively."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are roofing Google Ads so expensive?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Roofing is expensive in paid search because the jobs are high-value, so companies are willing to pay more per lead — which drives up CPC auction prices. Storm events create sudden demand spikes that push costs even higher. It is a competitive, high-stakes category."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I run Google Ads for my roofing company with a small budget?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can, but results will be limited in competitive markets. In smaller markets with CPCs under $20, a $1,500–$2,000/month budget can still generate meaningful lead volume. In larger metros, that budget will buy minimal visibility and won't generate enough data to optimise properly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between Google Ads and Local Services Ads for roofers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Google Ads (search) charges per click. Local Services Ads (LSAs) charge per lead — typically $25–$90 per lead for roofing, depending on market. LSAs also carry the Google Guaranteed badge, which helps with trust. Both have a place in a roofing marketing strategy, but they serve different functions and require separate management approaches."
+      }
+    }
+  ]
+};
+
 export default function Article() {
   return (
-    <ArticleLayout meta={meta}>
-      <div dangerouslySetInnerHTML={{ __html: content }} />
-    </ArticleLayout>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <ArticleLayout meta={meta}>
+        <div dangerouslySetInnerHTML={{ __html: content }} />
+      </ArticleLayout>
+    </>
   );
 }

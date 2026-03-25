@@ -139,10 +139,71 @@ const content = `<p>Most contractors who've tried Google Ads have the same story
 
 <p>Book a free 15-minute strategy call with Thomas Town Digital at <a href="https://thomastowndigital.com">thomastowndigital.com</a> and let's look at what your current setup is actually delivering.</p>`;
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much should a contractor budget for Google Ads?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most home service businesses need a minimum of $1,500–$2,500/month in ad spend to generate consistent lead volume. Competitive markets like HVAC replacement or roofing in major metros often require $3,000–$8,000/month or more. Management fees are separate. Starting too low in a competitive market means your ads won't show often enough to generate meaningful data or leads."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long before Google Ads starts generating leads for contractors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leads can come in within the first few days of a well-structured campaign going live. But meaningful optimisation data — enough to make confident decisions about bidding, ad copy, and keyword performance — typically takes 4–8 weeks and at least 30–50 conversions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why am I getting clicks but no calls from Google Ads?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually one of three things: your landing page isn't converting (load speed, mobile experience, or missing trust signals), your targeting is pulling in the wrong searches, or your ad copy isn't filtering out unqualified clicks. Call tracking is the first step in diagnosing which problem is driving the gap."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between Google Ads and Local Services Ads for contractors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Google Ads are pay-per-click search ads that appear in standard search results. You control the targeting, bidding, and ad copy. Local Services Ads are pay-per-lead ads that appear above regular search results and carry a Google Guaranteed badge. LSAs have more limited control but can deliver strong results in many trades. Most serious contractors run both."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I run Google Ads myself as a contractor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Technically, yes. Practically, it costs most contractors more to run campaigns themselves than to pay for professional management — because mistakes in targeting, bidding, and structure compound quickly into wasted spend. The time cost of learning the platform is real too. Most owners who try to self-manage end up spending significant hours for mediocre results."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a good cost per lead for contractor Google Ads?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A well-managed contractor Google Ads campaign should deliver leads in the $40–$150 range for most home service verticals, depending on your market, service type, and competition level. Poorly structured campaigns can push that number to $300 or more with nothing to show for it."
+      }
+    }
+  ]
+};
+
 export default function Article() {
   return (
-    <ArticleLayout meta={meta}>
-      <div dangerouslySetInnerHTML={{ __html: content }} />
-    </ArticleLayout>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <ArticleLayout meta={meta}>
+        <div dangerouslySetInnerHTML={{ __html: content }} />
+      </ArticleLayout>
+    </>
   );
 }

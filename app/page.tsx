@@ -1,5 +1,15 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
+
+export const metadata: Metadata = {
+  title: "Home Services Marketing Agency | Thomas Town Digital",
+  description: "Thomas Town Digital is a home services marketing agency helping contractors get more leads with Google Ads, Local Services Ads, and SEO. More calls. More booked jobs.",
+  openGraph: {
+    title: "Home Services Marketing Agency | Thomas Town Digital",
+    description: "We help home service businesses grow with paid search, paid social, and local SEO. More leads. More jobs. More revenue.",
+  },
+};
 
 const stats = [
   { value: "10 DAY", label: "LAUNCH" },
@@ -119,7 +129,7 @@ export default function HomePage() {
                 marginBottom: "24px",
               }}
             >
-              For Home Service Businesses
+              Home Services Marketing Agency
             </p>
 
             <h1
