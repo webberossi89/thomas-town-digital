@@ -29,18 +29,41 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  // Service / location pages
+  const servicePages = [
+    "home-services-marketing-agency",
+    "local-services-ads",
+    "charlotte",
+  ].map((slug) => ({
+    url: `${BASE}/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
   // Blog posts
   const posts = [
-    "google-ads-contractors-two-phase-ai-max",
-    "local-services-ads-home-service-2026",
     "2026-home-services-marketing-stack",
-    "optimize-google-business-profile-lsa",
+    "charlotte-google-ads-agency-contractors",
+    "choose-home-service-lead-generation-agency",
+    "complete-marketing-stack-home-service",
+    "contractors-google-ads-book-more-jobs",
+    "google-ads-contractors-two-phase-ai-max",
+    "google-ads-for-roofers-cost",
+    "google-ads-management-for-contractors",
     "google-ads-roofing-budget-guide",
+    "google-guaranteed-vs-lsa-ads",
     "google-local-services-ads-contractors-long-game",
+    "home-service-lead-generation-agency",
+    "home-services-marketing-agency",
+    "hvac-marketing-agency-services",
+    "local-services-ads-home-service-2026",
+    "local-services-ads-management-home-services",
+    "optimize-google-business-profile-lsa",
+    "seo-for-contractors-faq",
     "stop-chasing-google-recommendations",
     "top-5-marketing-mistakes-contractors",
-    "contractors-google-ads-book-more-jobs",
-    "complete-marketing-stack-home-service",
+    "what-are-local-services-ads",
   ].map((slug) => ({
     url: `${BASE}/blog/${slug}`,
     lastModified: now,
@@ -61,5 +84,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
-  return [...core, ...verticals, ...posts, ...resources];
+  return [...core, ...verticals, ...servicePages, ...posts, ...resources];
 }
