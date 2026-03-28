@@ -15,8 +15,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Server configuration error" }, { status: 500 });
     }
 
-    // Fire and forget — don't make the user wait for Google to respond
-    fetch(webhookUrl, {
+    await fetch(webhookUrl, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -31,7 +30,7 @@ export async function POST(req: NextRequest) {
         timestamp: new Date().toLocaleString("en-US", { timeZone: "America/New_York" }),
       }),
       redirect: "manual",
-    }).catch((err) => console.error("Webhook error:", err));
+    });
 
     return NextResponse.json({ success: true });
   } catch (err) {
