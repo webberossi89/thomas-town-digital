@@ -18,6 +18,22 @@ const SERVICE_OPTIONS = [
   "Just Give Me More Leads",
 ];
 
+declare global {
+  interface Window { dataLayer: Record<string, unknown>[]; }
+}
+
+function getTrackingParams() {
+  if (typeof window === "undefined") return {};
+  const params = new URLSearchParams(window.location.search);
+  const keys = ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "gclid", "fbclid"];
+  const result: Record<string, string> = {};
+  for (const key of keys) {
+    const val = params.get(key);
+    if (val) result[key] = val;
+  }
+  return result;
+}
+
 export default function TypeformContact() {
   const [started, setStarted] = useState(false);
   const [step, setStep] = useState(0);
@@ -25,6 +41,7 @@ export default function TypeformContact() {
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
+  const [tracking, setTracking] = useState<Record<string, string>>({});
 
   // Step 1 fields
   const [name, setName] = useState("");
@@ -47,6 +64,10 @@ export default function TypeformContact() {
   const messageRef = useRef<HTMLTextAreaElement>(null);
 
   const progress = ((step + (submitted ? 1 : 0)) / TOTAL_STEPS) * 100;
+
+  useEffect(() => {
+    setTracking(getTrackingParams());
+  }, []);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -125,10 +146,20 @@ export default function TypeformContact() {
           challenge: challengeValue,
           service,
           message,
+          ...tracking,
         }),
       });
       if (!res.ok) throw new Error("Failed");
       setSubmitted(true);
+
+      // GA4 event via GTM dataLayer
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: "generate_lead",
+        lead_source: "contact_form",
+        lead_service: service,
+        lead_challenge: challengeValue,
+      });
     } catch {
       setError("Something went wrong. Please try again.");
     } finally {
