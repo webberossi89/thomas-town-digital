@@ -643,6 +643,115 @@ function LeadManagementPdf() {
   );
 }
 
+function GoogleAdsAiMaxGuidePdf() {
+  const sections = [
+    {
+      num: "Section 01",
+      title: "Phase 1 — Exact Match Foundation (Weeks 1–6)",
+      bullets: [
+        "Start with exact match keywords only — no broad match, no AI features",
+        "Target three intent types: service + location, emergency, and transactional",
+        "Example roofing keywords: [roofing contractor near me], [roof replacement cost], [storm damage roof repair], [emergency roof leak repair]",
+        "Example HVAC keywords: [AC repair near me], [furnace installation cost], [emergency heating repair], [HVAC tune-up service]",
+        "Example plumbing keywords: [emergency plumber near me], [water heater installation], [drain repair service], [burst pipe repair]",
+        "Example electrical keywords: [electrician near me], [panel upgrade cost], [emergency electrician], [outlet repair service]",
+        "Set up call tracking (CallRail or WhatConverts) with dynamic number insertion on every landing page",
+        "Tag every conversion: which keyword triggered the call, did it become a booked job, service type, and revenue",
+        "Structure campaigns by intent: separate campaigns for emergency vs. replacement vs. maintenance",
+        "Run Phase 1 for 4\u20136 weeks — you need enough conversion volume for AI to learn from",
+      ],
+    },
+    {
+      num: "Section 02",
+      title: "Phase 2 — AI Max at Half Budget (Week 6+)",
+      bullets: [
+        "Launch a secondary AI Max campaign at 50% of your Phase 1 budget",
+        "Keep exact match campaigns running alongside AI Max — don\u2019t replace them",
+        "AI Max uses your conversion data to find adjacent search terms real buyers use",
+        "It discovers phrasing variations that correlate with high-quality leads",
+        "Optimizes bids based on buyer behavioral patterns from Phase 1",
+        "Expands into searches with similar profiles to your best-converting keywords",
+        "Monitor for 2\u20134 weeks before adjusting budget allocation",
+        "Scale AI Max budget only when cost per acquired customer stays flat or decreases",
+        "Red flags to watch: rising CPC without proportional conversion increase, lead quality drop, CPL above your threshold",
+      ],
+    },
+    {
+      num: "Section 03",
+      title: "Budget Benchmarks by Trade",
+      bullets: [
+        "Roofing: $50\u2013$150 CPC, recommend $3,000\u2013$5,000/month starting budget",
+        "HVAC: $20\u2013$40 CPC, recommend $2,000\u2013$4,000/month starting budget",
+        "Plumbing: $20\u2013$40 CPC, recommend $2,000\u2013$3,500/month starting budget",
+        "Electrical: $15\u2013$35 CPC, recommend $1,500\u2013$3,000/month starting budget",
+        "Water Damage Restoration: $30\u2013$80 CPC, recommend $2,500\u2013$5,000/month",
+        "Phase 1 budget: 100% on exact match for 4\u20136 weeks",
+        "Phase 2 budget: split 65% exact match / 35% AI Max, then adjust based on performance",
+        "Calculate true cost per acquired customer: total ad spend \u00F7 booked jobs (not leads)",
+      ],
+    },
+    {
+      num: "Section 04",
+      title: "Campaign Setup Checklist",
+      bullets: [
+        "Google Ads account: one campaign per intent type (emergency, replacement, maintenance)",
+        "Ad groups: tightly themed, 5\u201310 exact match keywords per group",
+        "Conversion actions: phone calls (60s+), form submissions, and booked jobs as separate conversions",
+        "Call tracking: dynamic number insertion on all landing pages and ads",
+        "Landing pages: mobile-first, click-to-call above fold, trust signals, sub-2s load time",
+        "Negative keyword list loaded before launch: DIY, jobs, salary, free, how to, YouTube, reviews",
+        "Ad extensions: call, location, sitelink, callout, structured snippet",
+        "Bid strategy: start with manual CPC or maximize conversions with target CPA after 15+ conversions",
+      ],
+    },
+    {
+      num: "Section 05",
+      title: "Timeline and Milestones",
+      bullets: [
+        "Week 1\u20132: Campaigns calibrate \u2014 costs will be higher than average, this is normal",
+        "Week 3\u20134: Consistent call volume, identify top-performing keywords and pause underperformers",
+        "Week 5\u20136: Enough conversion data (15\u201330 conversions) to launch Phase 2",
+        "Week 7\u20138: AI Max learning period \u2014 monitor but don\u2019t change settings",
+        "Week 9\u201310: Evaluate AI Max performance vs. exact match, adjust budget allocation",
+        "Month 3+: Ongoing optimization \u2014 add new keyword variations, refine negative list, scale winners",
+        "Monthly reporting cadence: review cost per lead, cost per booked job, and ROAS by campaign",
+      ],
+    },
+  ];
+
+  return createElement(
+    Document,
+    { title: "The Two-Phase Google Ads Strategy for Contractors \u2014 Thomas Town Digital" },
+    createElement(
+      Page,
+      { size: "A4", style: styles.page },
+      createElement(PageHeader, null),
+      createElement(
+        View,
+        { style: styles.header },
+        createElement(Text, { style: styles.docTitle }, "The Two-Phase Google Ads Strategy for Contractors"),
+        createElement(
+          Text,
+          { style: styles.docSubtitle },
+          "How to run Google Ads for home service businesses. Start with exact match keywords to build clean conversion data, then layer in AI Max to scale what\u2019s already converting. Includes keyword lists, budget benchmarks, and a complete setup checklist."
+        )
+      ),
+      createElement(View, { style: styles.tag }, createElement(Text, { style: styles.tagText }, "Free Guide")),
+      ...sections.map((s) =>
+        createElement(
+          View,
+          { style: styles.card, key: s.num },
+          createElement(Text, { style: styles.cardNumber }, s.num),
+          createElement(Text, { style: styles.cardTitle }, s.title),
+          ...s.bullets.map((b) => createElement(Bullet, { key: b, text: b }))
+        )
+      ),
+      createElement(CtaBox, null),
+      createElement(PageFooter, { title: "Two-Phase Google Ads Strategy" })
+    )
+  );
+}
+
 // ─── Route handler ────────────────────────────────────────────────────────────
 
 const DOCS: Record<string, { doc: () => React.ReactElement; filename: string }> = {
@@ -661,6 +770,10 @@ const DOCS: Record<string, { doc: () => React.ReactElement; filename: string }> 
   "lead-management-system": {
     doc: LeadManagementPdf,
     filename: "TTD-Lead-Management-System.pdf",
+  },
+  "google-ads-ai-max-guide": {
+    doc: GoogleAdsAiMaxGuidePdf,
+    filename: "TTD-Two-Phase-Google-Ads-Strategy.pdf",
   },
 };
 

@@ -44,6 +44,15 @@ const resources = [
     accent: false,
   },
   {
+    tag: "Guide",
+    title: "The Two-Phase Google Ads Strategy for Contractors",
+    desc: "Start with exact match keywords, build clean conversion data, then layer in AI Max to scale. Includes keyword lists by trade, budget benchmarks, and a step-by-step setup checklist.",
+    detail: "PDF · Free",
+    cta: "Download Free",
+    href: "/free-content/google-ads-ai-max-guide",
+    accent: false,
+  },
+  {
     tag: "Templates",
     title: "Complete Lead Management System",
     desc: "Pre-written email and text message templates to follow up with leads, re-engage past customers, and book more jobs without writing from scratch.",
