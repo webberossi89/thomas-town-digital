@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { name, email, phone, business, message } = body;
+    const { name, email, phone, business, challenge, service, message } = body;
 
     if (!email || typeof email !== "string") {
       return NextResponse.json({ error: "Email is required" }, { status: 400 });
@@ -15,7 +15,8 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Server configuration error" }, { status: 500 });
     }
 
-    const response = await fetch(webhookUrl, {
+    // Fire and forget — don't make the user wait for Google to respond
+    fetch(webhookUrl, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -23,17 +24,14 @@ export async function POST(req: NextRequest) {
         email,
         phone: phone || "",
         business: business || "",
+        challenge: challenge || "",
+        service: service || "",
         message: message || "",
         source: "thomastowndigital.com/contact",
-        timestamp: new Date().toISOString(),
+        timestamp: new Date().toLocaleString("en-US", { timeZone: "America/New_York" }),
       }),
-    });
-
-    if (!response.ok) {
-      const error = await response.text();
-      console.error("Webhook error:", response.status, error);
-      return NextResponse.json({ error: "Failed to save contact" }, { status: 500 });
-    }
+      redirect: "manual",
+    }).catch((err) => console.error("Webhook error:", err));
 
     return NextResponse.json({ success: true });
   } catch (err) {

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Script from "next/script";
+import TypeformContact from "@/components/TypeformContact";
 
 export const metadata: Metadata = {
   title: "Book a Strategy Call | Thomas Town Digital",
@@ -112,7 +112,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* YouForm embed */}
+            {/* Typeform-style contact form */}
             <div
               className="contact-form-col"
               style={{
@@ -120,21 +120,14 @@ export default function ContactPage() {
                 border: "1px solid rgba(0,0,0,0.08)",
                 borderRadius: "8px",
                 overflow: "hidden",
+                minHeight: 500,
               }}
             >
-              <div
-                data-youform-embed
-                data-form="8rgcffje"
-                data-base-url="https://app.youform.com"
-                data-width="100%"
-                data-height="700"
-              />
+              <TypeformContact />
             </div>
           </div>
         </div>
       </section>
-
-      <Script src="https://app.youform.com/embed.js" strategy="afterInteractive" />
 
       <style>{`
         @media (max-width: 768px) {
