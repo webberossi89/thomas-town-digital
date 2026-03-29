@@ -13,6 +13,8 @@ const company = [
   { label: "About", href: "/about" },
   { label: "Pricing", href: "/pricing" },
   { label: "Contact", href: "/contact" },
+  { label: "Blog", href: "/blog" },
+  { label: "RSS Feed", href: "/feed.xml" },
 ];
 
 export default function Footer() {

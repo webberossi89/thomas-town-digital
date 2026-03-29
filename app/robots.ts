@@ -10,5 +10,6 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
     sitemap: "https://thomastowndigital.com/sitemap.xml",
+    host: "https://www.thomastowndigital.com",
   };
 }

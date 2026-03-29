@@ -14,6 +14,11 @@ export const metadata: Metadata = {
       { url: "/logos/TT-Logo_MonoGram-White-Square.png", media: "(prefers-color-scheme: dark)" },
     ],
   },
+  alternates: {
+    types: {
+      "application/rss+xml": "https://www.thomastowndigital.com/feed.xml",
+    },
+  },
   openGraph: {
     title: "Thomas Town Digital",
     description: "Digital lead generation and SMB marketing for home service businesses.",
