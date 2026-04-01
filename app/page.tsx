@@ -1,12 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
-import GoogleAdsIcon from "@/public/icons/google-ads";
-import MicrosoftIcon from "@/public/icons/microsoft";
-import HubSpotIcon from "@/public/icons/hubspot";
-import MetaIcon from "@/public/icons/meta";
-import TikTokIcon from "@/public/icons/tiktok";
-import RedditIcon from "@/public/icons/reddit";
 
 export const metadata: Metadata = {
   title: "Home Services Marketing Agency | Thomas Town Digital",
@@ -233,72 +227,6 @@ export default function HomePage() {
             .stats-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 24px !important; }
             .stat-item { border-right: none !important; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.08); }
           }
-        `}</style>
-      </section>
-
-      {/* ── Partner Badges ── */}
-      <section style={{ background: "#0a0a0a", paddingBottom: "80px" }}>
-        <div className="container">
-          <p
-            style={{
-              fontSize: "11px",
-              fontWeight: 700,
-              letterSpacing: "0.16em",
-              textTransform: "uppercase",
-              color: "rgba(255,255,255,0.3)",
-              textAlign: "center",
-              marginBottom: "28px",
-            }}
-          >
-            Certified Partner
-          </p>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "48px",
-              flexWrap: "wrap",
-            }}
-          >
-            {[
-              { Icon: GoogleAdsIcon, label: "Google Ads" },
-              { Icon: MicrosoftIcon, label: "Microsoft Advertising" },
-              { Icon: MetaIcon, label: "Meta" },
-              { Icon: HubSpotIcon, label: "HubSpot" },
-              { Icon: TikTokIcon, label: "TikTok" },
-              { Icon: RedditIcon, label: "Reddit" },
-            ].map(({ Icon, label }) => (
-              <div
-                key={label}
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "10px",
-                  opacity: 0.45,
-                  transition: "opacity 0.2s",
-                }}
-                className="partner-badge"
-              >
-                <Icon style={{ width: "28px", height: "28px", fill: "#fff" }} />
-                <span
-                  style={{
-                    fontFamily: "'Barlow', sans-serif",
-                    fontWeight: 700,
-                    fontSize: "13px",
-                    letterSpacing: "0.04em",
-                    textTransform: "uppercase",
-                    color: "#fff",
-                  }}
-                >
-                  {label}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-        <style>{`
-          .partner-badge:hover { opacity: 1 !important; }
         `}</style>
       </section>
 

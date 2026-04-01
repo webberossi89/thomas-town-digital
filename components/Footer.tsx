@@ -1,5 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
+import GoogleAdsIcon from "@/public/icons/google-ads";
+import MicrosoftIcon from "@/public/icons/microsoft";
+import MetaIcon from "@/public/icons/meta";
+import HubSpotIcon from "@/public/icons/hubspot";
+import TiktokIcon from "@/public/icons/tiktok";
+import RedditIcon from "@/public/icons/reddit";
 
 const services = ["SEO", "PPC", "Websites", "AI Automations"];
 const verticals = [
@@ -192,6 +198,53 @@ export default function Footer() {
               Book a Call →
             </Link>
           </div>
+        </div>
+
+        {/* Partner badges */}
+        <div
+          style={{
+            borderTop: "1px solid rgba(255,255,255,0.06)",
+            paddingTop: "28px",
+            paddingBottom: "28px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "36px",
+            flexWrap: "wrap",
+          }}
+        >
+          {[
+            { Icon: GoogleAdsIcon, label: "Google Ads" },
+            { Icon: MicrosoftIcon, label: "Microsoft" },
+            { Icon: MetaIcon, label: "Meta" },
+            { Icon: HubSpotIcon, label: "HubSpot" },
+            { Icon: TiktokIcon, label: "TikTok" },
+            { Icon: RedditIcon, label: "Reddit" },
+          ].map(({ Icon, label }) => (
+            <div
+              key={label}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "8px",
+                opacity: 0.35,
+              }}
+            >
+              <Icon style={{ width: "20px", height: "20px", fill: "#fff" }} />
+              <span
+                style={{
+                  fontFamily: "'Barlow', sans-serif",
+                  fontWeight: 700,
+                  fontSize: "11px",
+                  letterSpacing: "0.04em",
+                  textTransform: "uppercase",
+                  color: "#fff",
+                }}
+              >
+                {label}
+              </span>
+            </div>
+          ))}
         </div>
 
         {/* Bottom bar */}
