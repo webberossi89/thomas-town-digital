@@ -1,11 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import GoogleAdsIcon from "@/public/icons/google-ads";
-import MicrosoftIcon from "@/public/icons/microsoft";
-import MetaIcon from "@/public/icons/meta";
-import HubSpotIcon from "@/public/icons/hubspot";
-import TiktokIcon from "@/public/icons/tiktok";
-import RedditIcon from "@/public/icons/reddit";
 
 const services = ["SEO", "PPC", "Websites", "AI Automations"];
 const verticals = [
@@ -198,41 +192,6 @@ export default function Footer() {
               Book a Call →
             </Link>
           </div>
-        </div>
-
-        {/* Partner badges */}
-        <div
-          style={{
-            borderTop: "1px solid rgba(255,255,255,0.06)",
-            paddingTop: "28px",
-            paddingBottom: "28px",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "40px",
-            flexWrap: "wrap",
-          }}
-        >
-          {[
-            { Icon: GoogleAdsIcon, label: "Google Ads" },
-            { Icon: MicrosoftIcon, label: "Microsoft" },
-            { Icon: MetaIcon, label: "Meta" },
-            { Icon: HubSpotIcon, label: "HubSpot" },
-            { Icon: TiktokIcon, label: "TikTok" },
-            { Icon: RedditIcon, label: "Reddit" },
-          ].map(({ Icon, label }) => (
-            <div
-              key={label}
-              style={{
-                width: "24px",
-                height: "24px",
-                opacity: 0.4,
-                filter: "grayscale(1) brightness(2)",
-              }}
-            >
-              <Icon aria-label={label} style={{ width: "100%", height: "100%" }} />
-            </div>
-          ))}
         </div>
 
         {/* Bottom bar */}
