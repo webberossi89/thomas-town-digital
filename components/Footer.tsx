@@ -9,12 +9,12 @@ const verticals = [
   { label: "Electrical Marketing", href: "/electrical" },
   { label: "View All Industries →", href: "/verticals" },
 ];
-const company = [
+const company: { label: string; href: string; hidden?: boolean }[] = [
   { label: "About", href: "/about" },
   { label: "Pricing", href: "/pricing" },
   { label: "Contact", href: "/contact" },
   { label: "Blog", href: "/blog" },
-  { label: "RSS Feed", href: "/feed.xml" },
+  { label: "RSS Feed", href: "/feed.xml", hidden: true },
 ];
 
 export default function Footer() {
@@ -142,7 +142,17 @@ export default function Footer() {
                 <Link
                   key={c.href}
                   href={c.href}
-                  style={{
+                  style={c.hidden ? {
+                    position: "absolute",
+                    width: "1px",
+                    height: "1px",
+                    padding: 0,
+                    margin: "-1px",
+                    overflow: "hidden",
+                    clip: "rect(0,0,0,0)",
+                    whiteSpace: "nowrap",
+                    border: 0,
+                  } : {
                     fontSize: "14px",
                     color: "rgba(255,255,255,0.55)",
                     transition: "color 0.15s",

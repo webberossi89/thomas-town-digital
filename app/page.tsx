@@ -13,9 +13,9 @@ export const metadata: Metadata = {
 
 const stats = [
   { value: "10 DAY", label: "LAUNCH" },
-  { value: "MORE", label: "READY TO BUY LEADS" },
-  { value: "GROW", label: "REVENUE" },
-  { value: "LIVE", label: "REPORTING" },
+  { value: "EXCLUSIVE", label: "LEADS" },
+  { value: "24/7", label: "LEAD FLOW" },
+  { value: "NO", label: "CONTRACT" },
 ];
 
 const services = [
@@ -57,16 +57,16 @@ const verticalsRow1 = [
   "HVAC", "Plumbing", "Roofing", "Electrical", "Landscaping",
   "Pest Control", "Painting", "Cleaning", "Gutters", "Solar",
   "Garage Door", "Appliance Repair", "Generator Installation", "EV Charger Installation", "Air Duct Cleaning",
-  "Septic Services", "Siding", "Foundation Repair", "Waterproofing", "Stucco",
+  "Siding", "Foundation Repair", "Waterproofing", "Stucco",
 ];
 
 const verticalsRow2 = [
-  "Windows", "Concrete", "Fencing", "Interior Demolition", "Pool Demolition",
-  "Pool Repair", "Custom Pools", "Deck Builders", "Moving Companies",
+  "Windows", "Concrete", "Fencing", "Interior Demolition",
+  "Pool Repair", "Pool Builders", "Deck Builders", "Moving Companies",
   "Land Clearing", "Dumpster Rental",
   "Masonry", "Pressure Washing", "Bathroom Remodeling", "Kitchen Remodeling",
-  "Flooring", "Cabinet Refacing", "Countertop Installation", "Epoxy Flooring",
-  "Junk Removal", "Tree Service", "Irrigation", "Mold Remediation", "Fire & Water Restoration", "Snow Removal",
+  "Cabinet Refacing", "Countertop Installation", "Epoxy Flooring",
+  "Junk Removal", "Tree Service", "Irrigation", "Mold Remediation", "Fire & Water Restoration",
 ];
 
 const reasons = [

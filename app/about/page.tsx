@@ -123,7 +123,7 @@ export default function AboutPage() {
               }}
             >
               {[
-                { value: "200+", label: "Clients served" },
+                { value: "75+", label: "Clients served" },
                 { value: "5+", label: "Years in home services" },
                 { value: "$12M+", label: "Pipeline generated" },
                 { value: "4", label: "Core services" },
