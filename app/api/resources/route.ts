@@ -752,6 +752,406 @@ function GoogleAdsAiMaxGuidePdf() {
   );
 }
 
+// ─── LinkedIn Carousel ───────────────────────────────────────────────────────
+
+const SLIDE_SIZE = { width: 1080, height: 1080 };
+
+const cs = StyleSheet.create({
+  slide: {
+    width: 1080,
+    height: 1080,
+    paddingHorizontal: 80,
+    paddingVertical: 80,
+    justifyContent: "center",
+    fontFamily: "Helvetica",
+  },
+  slideDark: {
+    backgroundColor: "#0a0a0a",
+  },
+  slideWhite: {
+    backgroundColor: "#ffffff",
+  },
+  slideGreen: {
+    backgroundColor: "#2D8A45",
+  },
+  topTag: {
+    fontSize: 18,
+    fontFamily: "Helvetica-Bold",
+    color: GREEN,
+    textTransform: "uppercase",
+    letterSpacing: 3,
+    marginBottom: 40,
+  },
+  topTagWhite: {
+    fontSize: 18,
+    fontFamily: "Helvetica-Bold",
+    color: "rgba(255,255,255,0.4)",
+    textTransform: "uppercase",
+    letterSpacing: 3,
+    marginBottom: 40,
+  },
+  bigTitle: {
+    fontSize: 72,
+    fontFamily: "Helvetica-Bold",
+    lineHeight: 1.1,
+    marginBottom: 32,
+  },
+  medTitle: {
+    fontSize: 54,
+    fontFamily: "Helvetica-Bold",
+    lineHeight: 1.15,
+    marginBottom: 28,
+  },
+  smTitle: {
+    fontSize: 40,
+    fontFamily: "Helvetica-Bold",
+    lineHeight: 1.2,
+    marginBottom: 24,
+  },
+  bodyLarge: {
+    fontSize: 28,
+    lineHeight: 1.6,
+    marginBottom: 20,
+  },
+  bodyMed: {
+    fontSize: 24,
+    lineHeight: 1.6,
+    marginBottom: 14,
+  },
+  slideBulletRow: {
+    flexDirection: "row",
+    marginBottom: 18,
+    paddingLeft: 4,
+  },
+  slideBulletArrow: {
+    fontSize: 26,
+    fontFamily: "Helvetica-Bold",
+    marginRight: 16,
+    lineHeight: 1.5,
+    width: 28,
+  },
+  slideBulletText: {
+    fontSize: 26,
+    lineHeight: 1.5,
+    flex: 1,
+  },
+  slideFooter: {
+    position: "absolute",
+    bottom: 50,
+    left: 80,
+    right: 80,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  footerBrand: {
+    fontSize: 18,
+    fontFamily: "Helvetica-Bold",
+    letterSpacing: 1,
+  },
+  slideNumber: {
+    fontSize: 16,
+    fontFamily: "Helvetica-Bold",
+  },
+  greenBar: {
+    width: 60,
+    height: 6,
+    backgroundColor: GREEN,
+    borderRadius: 3,
+    marginBottom: 32,
+  },
+  greenBarWhite: {
+    width: 60,
+    height: 6,
+    backgroundColor: "#ffffff",
+    borderRadius: 3,
+    marginBottom: 32,
+  },
+  benchmarkRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    paddingVertical: 18,
+    borderBottomWidth: 1,
+    borderBottomStyle: "solid",
+  },
+  benchmarkLabel: {
+    fontSize: 28,
+    fontFamily: "Helvetica-Bold",
+  },
+  benchmarkValue: {
+    fontSize: 28,
+  },
+  keywordBox: {
+    backgroundColor: "rgba(45,138,69,0.1)",
+    borderRadius: 8,
+    paddingHorizontal: 20,
+    paddingVertical: 12,
+    marginBottom: 12,
+  },
+  keywordBoxDark: {
+    backgroundColor: "rgba(255,255,255,0.08)",
+    borderRadius: 8,
+    paddingHorizontal: 20,
+    paddingVertical: 12,
+    marginBottom: 12,
+  },
+  keywordText: {
+    fontSize: 24,
+    fontFamily: "Courier",
+  },
+});
+
+function SlideBullet({ text, color = GREEN, textColor = "#444" }: { text: string; color?: string; textColor?: string }) {
+  return createElement(
+    View,
+    { style: cs.slideBulletRow },
+    createElement(Text, { style: { ...cs.slideBulletArrow, color } }, "\u2192"),
+    createElement(Text, { style: { ...cs.slideBulletText, color: textColor } }, text)
+  );
+}
+
+function SlideFooter({ num, total = 8, light = false }: { num: number; total?: number; light?: boolean }) {
+  const color = light ? "rgba(255,255,255,0.35)" : "rgba(0,0,0,0.25)";
+  const brandColor = light ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.4)";
+  return createElement(
+    View,
+    { style: cs.slideFooter },
+    createElement(Text, { style: { ...cs.footerBrand, color: brandColor } }, "THOMAS TOWN DIGITAL"),
+    createElement(Text, { style: { ...cs.slideNumber, color } }, `${num} / ${total}`)
+  );
+}
+
+function AiMaxCarouselPdf() {
+  return createElement(
+    Document,
+    { title: "The Two-Phase Google Ads Strategy — Thomas Town Digital" },
+
+    // Slide 1 — Title
+    createElement(
+      Page,
+      { size: SLIDE_SIZE, style: { ...cs.slide, ...cs.slideDark } },
+      createElement(View, { style: cs.greenBar }),
+      createElement(
+        Text,
+        { style: { ...cs.bigTitle, color: "#ffffff" } },
+        "THE TWO-PHASE\nGOOGLE ADS\nSTRATEGY"
+      ),
+      createElement(
+        Text,
+        { style: { ...cs.bodyLarge, color: "rgba(255,255,255,0.5)" } },
+        "Why AI Max doesn\u2019t work\nwithout this step first."
+      ),
+      createElement(SlideFooter, { num: 1, light: true })
+    ),
+
+    // Slide 2 — The Problem
+    createElement(
+      Page,
+      { size: SLIDE_SIZE, style: { ...cs.slide, ...cs.slideWhite } },
+      createElement(Text, { style: { ...cs.topTag } }, "THE PROBLEM"),
+      createElement(
+        Text,
+        { style: { ...cs.medTitle, color: BLACK } },
+        "Most contractors turn on AI\nfrom day one."
+      ),
+      createElement(
+        Text,
+        { style: { ...cs.bodyLarge, color: MUTED, marginBottom: 36 } },
+        "Here\u2019s what happens:"
+      ),
+      createElement(SlideBullet, { text: "Google\u2019s AI has zero conversion data" }),
+      createElement(SlideBullet, { text: "It optimizes for clicks, not calls" }),
+      createElement(SlideBullet, { text: "Budget burns on non-buyers" }),
+      createElement(SlideBullet, { text: "You blame Google Ads" }),
+      createElement(
+        Text,
+        { style: { ...cs.bodyMed, color: GREEN, fontFamily: "Helvetica-Bold", marginTop: 32 } },
+        "The issue isn\u2019t AI. It\u2019s the order of operations."
+      ),
+      createElement(SlideFooter, { num: 2 })
+    ),
+
+    // Slide 3 — Phase 1
+    createElement(
+      Page,
+      { size: SLIDE_SIZE, style: { ...cs.slide, ...cs.slideGreen } },
+      createElement(Text, { style: { ...cs.topTagWhite } }, "PHASE 1 \u2014 WEEKS 1\u20136"),
+      createElement(
+        Text,
+        { style: { ...cs.medTitle, color: "#ffffff" } },
+        "Exact Match\nKeywords Only"
+      ),
+      createElement(
+        Text,
+        { style: { ...cs.bodyLarge, color: "rgba(255,255,255,0.75)", marginBottom: 36 } },
+        "Target only high-intent searchers:"
+      ),
+      createElement(View, { style: cs.keywordBoxDark },
+        createElement(Text, { style: { ...cs.keywordText, color: "#ffffff" } }, "[roofing contractor near me]")
+      ),
+      createElement(View, { style: cs.keywordBoxDark },
+        createElement(Text, { style: { ...cs.keywordText, color: "#ffffff" } }, "[emergency plumber + city]")
+      ),
+      createElement(View, { style: cs.keywordBoxDark },
+        createElement(Text, { style: { ...cs.keywordText, color: "#ffffff" } }, "[AC repair service]")
+      ),
+      createElement(View, { style: cs.keywordBoxDark },
+        createElement(Text, { style: { ...cs.keywordText, color: "#ffffff" } }, "[roof replacement cost]")
+      ),
+      createElement(
+        Text,
+        { style: { ...cs.bodyMed, color: "rgba(255,255,255,0.7)", marginTop: 28 } },
+        "Every click = a real buyer.\nEvery conversion = data for Phase 2."
+      ),
+      createElement(SlideFooter, { num: 3, light: true })
+    ),
+
+    // Slide 4 — What to Track
+    createElement(
+      Page,
+      { size: SLIDE_SIZE, style: { ...cs.slide, ...cs.slideDark } },
+      createElement(Text, { style: { ...cs.topTagWhite } }, "DURING PHASE 1"),
+      createElement(
+        Text,
+        { style: { ...cs.medTitle, color: "#ffffff" } },
+        "Tag Everything."
+      ),
+      createElement(View, { style: { marginTop: 16 } },
+        createElement(SlideBullet, { text: "Which keyword triggered the call", color: GREEN, textColor: "rgba(255,255,255,0.7)" }),
+        createElement(SlideBullet, { text: "Did it become a booked job", color: GREEN, textColor: "rgba(255,255,255,0.7)" }),
+        createElement(SlideBullet, { text: "What was the service type", color: GREEN, textColor: "rgba(255,255,255,0.7)" }),
+        createElement(SlideBullet, { text: "What was the revenue", color: GREEN, textColor: "rgba(255,255,255,0.7)" }),
+      ),
+      createElement(
+        Text,
+        { style: { ...cs.bodyLarge, color: "rgba(255,255,255,0.45)", marginTop: 40 } },
+        "This is the data that makes Phase 2 work.\nWithout it, AI Max is just guessing."
+      ),
+      createElement(SlideFooter, { num: 4, light: true })
+    ),
+
+    // Slide 5 — Phase 2
+    createElement(
+      Page,
+      { size: SLIDE_SIZE, style: { ...cs.slide, ...cs.slideGreen } },
+      createElement(Text, { style: { ...cs.topTagWhite } }, "PHASE 2 \u2014 WEEK 6+"),
+      createElement(
+        Text,
+        { style: { ...cs.medTitle, color: "#ffffff" } },
+        "Launch AI Max\nat 50% Budget"
+      ),
+      createElement(
+        Text,
+        { style: { ...cs.bodyLarge, color: "rgba(255,255,255,0.8)", marginBottom: 24 } },
+        "Keep exact match campaigns running."
+      ),
+      createElement(SlideBullet, { text: "AI Max uses YOUR data to find similar buyers", color: "#ffffff", textColor: "rgba(255,255,255,0.75)" }),
+      createElement(SlideBullet, { text: "Discovers search patterns you\u2019d never target manually", color: "#ffffff", textColor: "rgba(255,255,255,0.75)" }),
+      createElement(SlideBullet, { text: "Optimizes bids based on your best conversions", color: "#ffffff", textColor: "rgba(255,255,255,0.75)" }),
+      createElement(
+        Text,
+        { style: { ...cs.bodyMed, color: "rgba(255,255,255,0.6)", marginTop: 32 } },
+        "Now the AI has something to learn from."
+      ),
+      createElement(SlideFooter, { num: 5, light: true })
+    ),
+
+    // Slide 6 — Benchmarks
+    createElement(
+      Page,
+      { size: SLIDE_SIZE, style: { ...cs.slide, ...cs.slideWhite } },
+      createElement(Text, { style: { ...cs.topTag } }, "BENCHMARKS"),
+      createElement(
+        Text,
+        { style: { ...cs.smTitle, color: BLACK, marginBottom: 40 } },
+        "Cost Per Click by Trade"
+      ),
+      ...[
+        { trade: "Roofing", cpc: "$50 \u2013 $150" },
+        { trade: "HVAC", cpc: "$20 \u2013 $40" },
+        { trade: "Plumbing", cpc: "$20 \u2013 $40" },
+        { trade: "Electrical", cpc: "$15 \u2013 $35" },
+        { trade: "Water Damage", cpc: "$30 \u2013 $80" },
+      ].map((b, i, arr) =>
+        createElement(
+          View,
+          { style: { ...cs.benchmarkRow, borderBottomColor: i < arr.length - 1 ? BORDER : "transparent" }, key: b.trade },
+          createElement(Text, { style: { ...cs.benchmarkLabel, color: BLACK } }, b.trade),
+          createElement(Text, { style: { ...cs.benchmarkValue, color: GREEN, fontFamily: "Helvetica-Bold" } }, b.cpc)
+        )
+      ),
+      createElement(
+        Text,
+        { style: { ...cs.bodyMed, color: MUTED, marginTop: 36 } },
+        "At these prices, you can\u2019t afford to let AI guess.\nBuild the data first."
+      ),
+      createElement(SlideFooter, { num: 6 })
+    ),
+
+    // Slide 7 — Timeline
+    createElement(
+      Page,
+      { size: SLIDE_SIZE, style: { ...cs.slide, ...cs.slideDark } },
+      createElement(Text, { style: { ...cs.topTagWhite } }, "TIMELINE"),
+      createElement(
+        Text,
+        { style: { ...cs.smTitle, color: "#ffffff", marginBottom: 40 } },
+        "6\u201310 Weeks to a Fully\nOptimized System"
+      ),
+      ...[
+        { week: "Week 1\u20132", desc: "Campaigns calibrate (costs higher)" },
+        { week: "Week 3\u20134", desc: "Consistent call volume, best keywords emerge" },
+        { week: "Week 5\u20136", desc: "Enough data to launch Phase 2" },
+        { week: "Week 7\u201310", desc: "AI Max expands on proven conversions" },
+      ].map((t) =>
+        createElement(
+          View,
+          { style: { flexDirection: "row", marginBottom: 24, alignItems: "flex-start" }, key: t.week },
+          createElement(
+            View,
+            { style: { backgroundColor: GREEN, borderRadius: 6, paddingHorizontal: 14, paddingVertical: 8, marginRight: 20, width: 130 } },
+            createElement(Text, { style: { fontSize: 20, fontFamily: "Helvetica-Bold", color: "#ffffff", textAlign: "center" } }, t.week)
+          ),
+          createElement(
+            Text,
+            { style: { fontSize: 26, color: "rgba(255,255,255,0.65)", lineHeight: 1.5, flex: 1, paddingTop: 4 } },
+            t.desc
+          )
+        )
+      ),
+      createElement(SlideFooter, { num: 7, light: true })
+    ),
+
+    // Slide 8 — CTA
+    createElement(
+      Page,
+      { size: SLIDE_SIZE, style: { ...cs.slide, ...cs.slideDark } },
+      createElement(View, { style: cs.greenBar }),
+      createElement(
+        Text,
+        { style: { ...cs.medTitle, color: "#ffffff" } },
+        "Want the\nFull Guide?"
+      ),
+      createElement(
+        Text,
+        { style: { ...cs.bodyLarge, color: "rgba(255,255,255,0.55)", marginBottom: 36 } },
+        "Free PDF \u2014 no email required:"
+      ),
+      createElement(SlideBullet, { text: "Copy-paste keyword lists by trade", color: GREEN, textColor: "rgba(255,255,255,0.7)" }),
+      createElement(SlideBullet, { text: "Campaign setup checklist", color: GREEN, textColor: "rgba(255,255,255,0.7)" }),
+      createElement(SlideBullet, { text: "Budget benchmarks and calculator", color: GREEN, textColor: "rgba(255,255,255,0.7)" }),
+      createElement(SlideBullet, { text: "AI Max configuration walkthrough", color: GREEN, textColor: "rgba(255,255,255,0.7)" }),
+      createElement(
+        Text,
+        { style: { fontSize: 24, color: GREEN, fontFamily: "Helvetica-Bold", marginTop: 40 } },
+        "thomastowndigital.com/free-content/google-ads-ai-max-guide"
+      ),
+      createElement(SlideFooter, { num: 8, light: true })
+    )
+  );
+}
+
 // ─── Route handler ────────────────────────────────────────────────────────────
 
 const DOCS: Record<string, { doc: () => React.ReactElement; filename: string }> = {
@@ -774,6 +1174,10 @@ const DOCS: Record<string, { doc: () => React.ReactElement; filename: string }> 
   "google-ads-ai-max-guide": {
     doc: GoogleAdsAiMaxGuidePdf,
     filename: "TTD-Two-Phase-Google-Ads-Strategy.pdf",
+  },
+  "google-ads-ai-max-carousel": {
+    doc: AiMaxCarouselPdf,
+    filename: "TTD-Two-Phase-Google-Ads-Carousel.pdf",
   },
 };
 
