@@ -197,54 +197,31 @@ export default function Footer() {
             <Link href="/contact" className="btn-yellow" style={{ fontSize: "12px", padding: "11px 22px" }}>
               Book a Call →
             </Link>
-          </div>
-        </div>
-
-        {/* Partner badges */}
-        <div
-          style={{
-            borderTop: "1px solid rgba(255,255,255,0.06)",
-            paddingTop: "28px",
-            paddingBottom: "28px",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "36px",
-            flexWrap: "wrap",
-          }}
-        >
-          {[
-            { Icon: GoogleAdsIcon, label: "Google Ads" },
-            { Icon: MicrosoftIcon, label: "Microsoft" },
-            { Icon: MetaIcon, label: "Meta" },
-            { Icon: HubSpotIcon, label: "HubSpot" },
-            { Icon: TiktokIcon, label: "TikTok" },
-            { Icon: RedditIcon, label: "Reddit" },
-          ].map(({ Icon, label }) => (
             <div
-              key={label}
               style={{
                 display: "flex",
                 alignItems: "center",
-                gap: "8px",
-                opacity: 0.35,
+                gap: "16px",
+                flexWrap: "wrap",
+                marginTop: "20px",
               }}
             >
-              <Icon style={{ width: "20px", height: "20px", fill: "#fff" }} />
-              <span
-                style={{
-                  fontFamily: "'Barlow', sans-serif",
-                  fontWeight: 700,
-                  fontSize: "11px",
-                  letterSpacing: "0.04em",
-                  textTransform: "uppercase",
-                  color: "#fff",
-                }}
-              >
-                {label}
-              </span>
+              {[
+                { Icon: GoogleAdsIcon, label: "Google Ads" },
+                { Icon: MicrosoftIcon, label: "Microsoft" },
+                { Icon: MetaIcon, label: "Meta" },
+                { Icon: HubSpotIcon, label: "HubSpot" },
+                { Icon: TiktokIcon, label: "TikTok" },
+                { Icon: RedditIcon, label: "Reddit" },
+              ].map(({ Icon, label }) => (
+                <Icon
+                  key={label}
+                  aria-label={label}
+                  style={{ width: "18px", height: "18px", fill: "rgba(255,255,255,0.35)" }}
+                />
+              ))}
             </div>
-          ))}
+          </div>
         </div>
 
         {/* Bottom bar */}
