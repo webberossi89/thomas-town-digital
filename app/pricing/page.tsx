@@ -399,7 +399,7 @@ export default function PricingPage() {
             Book a strategy call. We&apos;ll look at your market, your current setup, and tell you exactly what would move the needle.
           </p>
           <Link href="/contact" className="btn-yellow" style={{ fontSize: "14px", padding: "15px 32px" }}>
-            Book a Strategy Call →
+            Get Your Phone Ringing →
           </Link>
         </div>
       </section>
