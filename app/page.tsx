@@ -164,7 +164,7 @@ export default function HomePage() {
 
             <div style={{ display: "flex", gap: "14px", flexWrap: "wrap" }}>
               <Link href="/contact" className="btn-yellow" style={{ fontSize: "14px", padding: "16px 32px" }}>
-                Book a Strategy Call →
+                Get Your Phone Ringing →
               </Link>
               <Link href="/services" className="btn-outline" style={{ fontSize: "14px", padding: "15px 32px" }}>
                 See How We Do It
