@@ -412,7 +412,7 @@ export default function AboutPage() {
             Let&apos;s talk. Book a strategy call.
           </p>
           <Link href="/contact" className="btn-yellow" style={{ fontSize: "14px", padding: "16px 36px" }}>
-            Book a Strategy Call →
+            Get Your Phone Ringing →
           </Link>
         </div>
       </section>
