@@ -287,6 +287,20 @@ export default function BlogPage() {
                 >
                   {featured.category}
                 </span>
+                <span
+                  style={{
+                    fontSize: "10px",
+                    fontWeight: 700,
+                    letterSpacing: "0.1em",
+                    textTransform: "uppercase",
+                    color: "#fff",
+                    background: "#0a0a0a",
+                    padding: "4px 10px",
+                    borderRadius: "100px",
+                  }}
+                >
+                  Featured
+                </span>
                 <p style={{ fontSize: "12px", color: "rgba(0,0,0,0.4)" }}>
                   {featured.date} · {featured.readTime}
                 </p>
