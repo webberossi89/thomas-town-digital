@@ -8,6 +8,16 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    category: "SMB Marketing",
+    title: "Top 5 Marketing Mistakes Contractors Make — And How to Fix Them Fast",
+    summary:
+      "Most contractor marketing failures come down to the same five mistakes. If your marketing spend isn't producing consistent results, you're probably making at least two of them.",
+    date: "May 23, 2025",
+    dateISO: "2025-05-23",
+    readTime: "6 min read",
+    slug: "top-5-marketing-mistakes-contractors",
+  },
+  {
     category: "Marketing",
     title: "Google Guaranteed vs LSA Ads: What's the Difference in 2026?",
     summary: "Google Guaranteed and LSA ads aren't the same thing. Learn how each works, what they cost, and which one actually drives quality leads for contractors.",
@@ -24,6 +34,33 @@ const posts = [
     dateISO: "2026-03-26",
     readTime: "9 min read",
     slug: "hvac-marketing-agency-services",
+  },
+  {
+    category: "Marketing",
+    title: "How to Choose a Home Service Lead Generation Agency in 2026",
+    summary: "Most agencies talk a good game but deliver junk leads. Here's how to pick a home service lead generation agency that actually understands your business.",
+    date: "March 25, 2026",
+    dateISO: "2026-03-25",
+    readTime: "8 min read",
+    slug: "choose-home-service-lead-generation-agency",
+  },
+  {
+    category: "Services",
+    title: "Charlotte Google Ads Agency for Contractors: Why Location Matters in 2026",
+    summary: "Most Charlotte Google Ads agencies waste contractor budgets on broad targeting. Here's why working with a local partner who understands home service search intent matters.",
+    date: "March 25, 2026",
+    dateISO: "2026-03-25",
+    readTime: "8 min read",
+    slug: "charlotte-google-ads-agency-contractors",
+  },
+  {
+    category: "LSA",
+    title: "What Are Google Local Services Ads and How Do They Work in 2026?",
+    summary: "Local Services Ads put your home service business at the very top of Google with a green checkmark. Learn how LSAs work, what they cost, and if they're worth it.",
+    date: "March 25, 2026",
+    dateISO: "2026-03-25",
+    readTime: "9 min read",
+    slug: "what-are-local-services-ads",
   },
   {
     category: "SEO",
@@ -54,6 +91,15 @@ const posts = [
   },
   {
     category: "Services",
+    title: "Local Services Ads Management That Fills Your Calendar, Not Just Your Dashboard",
+    summary: "Poor LSA management wastes budget on bad leads. See how Thomas Town Digital tightens targeting, improves lead quality, and builds a predictable pipeline.",
+    date: "March 12, 2026",
+    dateISO: "2026-03-12",
+    readTime: "8 min read",
+    slug: "local-services-ads-management-home-services",
+  },
+  {
+    category: "Services",
     title: "Google Ads Management for Contractors: How to Turn Ad Spend Into Booked Jobs",
     summary: "Stop wasting budget on clicks that don't convert. Thomastown Digital builds Google Ads systems for contractors that drive real calls and booked jobs. Free audit.",
     date: "March 5, 2026",
@@ -69,42 +115,6 @@ const posts = [
     dateISO: "2026-03-05",
     readTime: "8 min read",
     slug: "home-services-marketing-agency",
-  },
-  {
-    category: "Services",
-    title: "Local Services Ads Management That Fills Your Calendar, Not Just Your Dashboard",
-    summary: "Poor LSA management wastes budget on bad leads. See how Thomas Town Digital tightens targeting, improves lead quality, and builds a predictable pipeline.",
-    date: "March 12, 2026",
-    dateISO: "2026-03-12",
-    readTime: "8 min read",
-    slug: "local-services-ads-management-home-services",
-  },
-  {
-    category: "Marketing",
-    title: "How to Choose a Home Service Lead Generation Agency in 2026",
-    summary: "Most agencies talk a good game but deliver junk leads. Here's how to pick a home service lead generation agency that actually understands your business.",
-    date: "March 25, 2026",
-    dateISO: "2026-03-25",
-    readTime: "8 min read",
-    slug: "choose-home-service-lead-generation-agency",
-  },
-  {
-    category: "Services",
-    title: "Charlotte Google Ads Agency for Contractors: Why Location Matters in 2026",
-    summary: "Most Charlotte Google Ads agencies waste contractor budgets on broad targeting. Here's why working with a local partner who understands home service search intent matters.",
-    date: "March 25, 2026",
-    dateISO: "2026-03-25",
-    readTime: "8 min read",
-    slug: "charlotte-google-ads-agency-contractors",
-  },
-  {
-    category: "LSA",
-    title: "What Are Google Local Services Ads and How Do They Work in 2026?",
-    summary: "Local Services Ads put your home service business at the very top of Google with a green checkmark. Learn how LSAs work, what they cost, and if they're worth it.",
-    date: "March 25, 2026",
-    dateISO: "2026-03-25",
-    readTime: "9 min read",
-    slug: "what-are-local-services-ads",
   },
   {
     category: "Google Ads",
@@ -147,6 +157,16 @@ const posts = [
     slug: "optimize-google-business-profile-lsa",
   },
   {
+    category: "LSA",
+    title: "The Complete Marketing Stack for Home Service Businesses in 2026",
+    summary:
+      "If you're in HVAC, plumbing, roofing, or water damage, your marketing stack needs to work together. GBP, LSA, Google Ads, and call tracking — in the right order. Here's the full playbook.",
+    date: "January 30, 2026",
+    dateISO: "2026-01-30",
+    readTime: "9 min read",
+    slug: "complete-marketing-stack-home-service",
+  },
+  {
     category: "Google Ads",
     title: "Google Ads for Roofing Companies: Complete Budget Guide and ROI Analysis",
     summary:
@@ -177,16 +197,6 @@ const posts = [
     slug: "stop-chasing-google-recommendations",
   },
   {
-    category: "SMB Marketing",
-    title: "Top 5 Marketing Mistakes Contractors Make — And How to Fix Them Fast",
-    summary:
-      "Most contractor marketing failures come down to the same five mistakes. If your marketing spend isn't producing consistent results, you're probably making at least two of them.",
-    date: "May 23, 2025",
-    dateISO: "2025-05-23",
-    readTime: "6 min read",
-    slug: "top-5-marketing-mistakes-contractors",
-  },
-  {
     category: "Google Ads",
     title: "How Successful Contractors Are Using Google Ads to Book More Jobs",
     summary:
@@ -195,17 +205,7 @@ const posts = [
     dateISO: "2025-04-29",
     readTime: "7 min read",
     slug: "contractors-google-ads-book-more-jobs",
-  },
-  {
-    category: "LSA",
-    title: "The Complete Marketing Stack for Home Service Businesses in 2026",
-    summary:
-      "If you're in HVAC, plumbing, roofing, or water damage, your marketing stack needs to work together. GBP, LSA, Google Ads, and call tracking — in the right order. Here's the full playbook.",
-    date: "January 30, 2026",
-    dateISO: "2026-01-30",
-    readTime: "9 min read",
-    slug: "complete-marketing-stack-home-service",
-  },
+  }
 ];
 
 const categoryColor = (cat: string) => {
