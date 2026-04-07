@@ -416,7 +416,7 @@ export default function BlogPage() {
             Book a strategy call. We&apos;ll show you exactly what it would take to build a pipeline that converts.
           </p>
           <Link href="/contact" className="btn-yellow" style={{ fontSize: "14px", padding: "14px 30px" }}>
-            Book a Strategy Call →
+            Get Your Phone Ringing →
           </Link>
         </div>
       </section>
