@@ -7,6 +7,8 @@ export const metadata: Metadata = {
 };
 
 const posts = [
+    slug: "google-ads-for-roofing-companies",
+  },
   {
     category: "Google Ads",
     title: "Google Ads for Roofing Companies: Complete Budget Guide and ROI Analysis",
