@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import TypeformContact from "@/components/TypeformContact";
 
 export const metadata: Metadata = {
-  title: "Book a Strategy Call | Thomas Town Digital",
+  title: "Get Your Phone Ringing | Thomas Town Digital",
   description:
     "Book a strategy call. No pitch, no pressure — just a straight conversation about your home service business and where we can help.",
 };
