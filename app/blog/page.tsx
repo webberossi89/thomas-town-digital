@@ -9,6 +9,15 @@ export const metadata: Metadata = {
 const posts = [
   {
     category: "Google Ads",
+    title: "How Much Do Google Ads Cost for Roofing Companies? CPC, CPL & Budget Breakdown",
+    summary: "What do Google Ads actually cost for roofers? Get real CPC, CPL, and monthly budget benchmarks, plus how to judge if your spend is working. Find out.",
+    date: "April 9, 2026",
+    dateISO: "2026-04-09",
+    readTime: "12 min read",
+    slug: "google-ads-cost-roofing-companies",
+  },
+  {
+    category: "Google Ads",
     title: "Google Ads for Contractors: Straight Answers to the Questions That Actually Matter",
     summary: "Get straight answers on Google Ads for contractors: costs, setup, lead quality, and ROI. No fluff. See how it actually works for home service businesses.",
     date: "April 16, 2026",
@@ -24,25 +33,6 @@ const posts = [
     dateISO: "2026-04-14",
     readTime: "8 min read",
     slug: "contractor-ppc-management",
-  },
-  {
-    category: "Google Ads",
-    title: "How Much Do Google Ads Cost for Roofing Companies? CPC, CPL & Budget Breakdown",
-    summary: "What do Google Ads actually cost for roofers? Get real CPC, CPL, and monthly budget benchmarks, plus how to judge if your spend is working. Find out.",
-    date: "April 9, 2026",
-    dateISO: "2026-04-09",
-    readTime: "12 min read",
-    slug: "google-ads-cost-roofing-companies",
-  },
-  {
-    category: "Google Ads",
-    title: "Google Ads for Roofing Companies: Complete Budget Guide and ROI Analysis",
-    summary:
-      "How much should a roofing company actually spend on Google Ads? Real benchmarks, cost per lead breakdowns by service type, and ROI projections for competitive metro markets.",
-    date: "January 2, 2026",
-    dateISO: "2026-01-02",
-    readTime: "10 min read",
-    slug: "google-ads-roofing-budget-guide",
   },
   {
     category: "Google Ads",
@@ -201,6 +191,16 @@ const posts = [
     dateISO: "2026-01-30",
     readTime: "9 min read",
     slug: "complete-marketing-stack-home-service",
+  },
+  {
+    category: "Google Ads",
+    title: "Google Ads for Roofing Companies: Complete Budget Guide and ROI Analysis",
+    summary:
+      "How much should a roofing company actually spend on Google Ads? Real benchmarks, cost per lead breakdowns by service type, and ROI projections for competitive metro markets.",
+    date: "January 2, 2026",
+    dateISO: "2026-01-02",
+    readTime: "10 min read",
+    slug: "google-ads-roofing-budget-guide",
   },
   {
     category: "LSA",
