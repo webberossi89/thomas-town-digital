@@ -9,6 +9,15 @@ export const metadata: Metadata = {
 const posts = [
   {
     category: "Google Ads",
+    title: "What Is a Good ROAS for Roofing Google Ads? Industry Benchmarks Explained",
+    summary: "What",
+    date: "April 18, 2026",
+    dateISO: "2026-04-19",
+    readTime: "10 min read",
+    slug: "average-roas-roofing-google-ads",
+  },
+  {
+    category: "Google Ads",
     title: "How Much Do Google Ads Cost for Roofing Companies? CPC, CPL & Budget Breakdown",
     summary: "What do Google Ads actually cost for roofers? Get real CPC, CPL, and monthly budget benchmarks, plus how to judge if your spend is working. Find out.",
     date: "April 9, 2026",
