@@ -15,7 +15,7 @@ interface ArticleLayoutProps {
 }
 
 export default function ArticleLayout({ children, meta }: ArticleLayoutProps) {
-  const canonicalUrl = `https://thomastowndigital.com/blog/${meta.slug}`;
+  const canonicalUrl = `https://www.thomastowndigital.com/blog/${meta.slug}`;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -28,12 +28,12 @@ export default function ArticleLayout({ children, meta }: ArticleLayoutProps) {
     author: {
       "@type": "Person",
       name: "Jared Webber",
-      url: "https://thomastowndigital.com/about",
+      url: "https://www.thomastowndigital.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Thomas Town Digital",
-      url: "https://thomastowndigital.com",
+      url: "https://www.thomastowndigital.com",
     },
   };
 

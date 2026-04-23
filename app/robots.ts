@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/free-content/home-services-playbook-newsletter"],
       },
     ],
-    sitemap: "https://thomastowndigital.com/sitemap.xml",
+    sitemap: "https://www.thomastowndigital.com/sitemap.xml",
     host: "https://www.thomastowndigital.com",
   };
 }

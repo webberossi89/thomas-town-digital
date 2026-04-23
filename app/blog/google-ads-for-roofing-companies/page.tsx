@@ -2,13 +2,15 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "Google Ads for Roofing Companies: How to Generate High Quality Leads — Thomas Town Digital",
+  title: "Google Ads for Roofers: Generating High Quality Leads",
   description: "Learn how Google Ads for roofing companies actually works — campaign structure, budgets, bidding, and how to turn clicks into booked jobs. Get the breakdown.",
   openGraph: {
     title: "Google Ads for Roofing Companies: How to Generate High Quality Leads",
     description: "Learn how Google Ads for roofing companies actually works — campaign structure, budgets, bidding, and how to turn clicks into booked jobs. Get the breakdown.",
     type: "article",
     publishedTime: "2026-04-05T00:00:00Z",
+    url: "https://www.thomastowndigital.comapp/blog/google-ads-for-roofing-companies",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
 

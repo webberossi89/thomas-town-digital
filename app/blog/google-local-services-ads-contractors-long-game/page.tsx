@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "Google Local Services Ads for Contractors: Why the Long Game Wins — Thomas Town Digital",
+  title: "LSA for Contractors: Why the Long Game Wins",
   description:
     "LSA isn't a sprint — it's a credit score. The contractors who dominate aren't outspending competitors, they're out-trusting them.",
   openGraph: {
@@ -10,6 +10,8 @@ export const metadata: Metadata = {
     description: "LSA rewards patience and consistency. Here's what it looks like to build lasting LSA dominance as a contractor.",
     type: "article",
     publishedTime: "2025-12-12T00:00:00Z",
+    url: "https://www.thomastowndigital.comapp/blog/google-local-services-ads-contractors-long-game",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
 

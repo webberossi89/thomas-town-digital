@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "Google Ads for Roofing Companies: Budget Guide and ROI Analysis — Thomas Town Digital",
+  title: "Google Ads for Roofers: Budget Guide & ROI Analysis",
   description:
     "Real benchmarks for roofing Google Ads in competitive markets. Cost per lead breakdowns by service type and ROI projections for different budget levels.",
   openGraph: {
@@ -10,6 +10,8 @@ export const metadata: Metadata = {
     description: "How much should a roofing company spend on Google Ads? Real benchmarks, CPL breakdowns, and ROI projections for major metro markets.",
     type: "article",
     publishedTime: "2026-01-02T00:00:00Z",
+    url: "https://www.thomastowndigital.comapp/blog/google-ads-roofing-budget-guide",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
 

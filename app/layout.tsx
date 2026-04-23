@@ -7,7 +7,7 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Thomas Town Digital | Home Services Marketing",
   description: "We help home service businesses grow with paid search, paid social, and local SEO. More leads. More jobs. More revenue.",
-  metadataBase: new URL("https://thomastowndigital.com"),
+  metadataBase: new URL("https://www.thomastowndigital.com"),
   icons: {
     icon: [
       { url: "/logos/TT-Logo_MonoGram-Black-Sqaure.png", media: "(prefers-color-scheme: light)" },
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Thomas Town Digital",
     description: "Digital lead generation and SMB marketing for home service businesses.",
-    url: "https://thomastowndigital.com",
+    url: "https://www.thomastowndigital.com",
     siteName: "Thomas Town Digital",
     type: "website",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
@@ -47,10 +47,10 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "@id": "https://thomastowndigital.com/#organization",
+              "@id": "https://www.thomastowndigital.com/#organization",
               "name": "Thomas Town Digital",
-              "url": "https://thomastowndigital.com",
-              "logo": "https://thomastowndigital.com/logos/TT-Logo-Socials_Socials-01.png",
+              "url": "https://www.thomastowndigital.com",
+              "logo": "https://www.thomastowndigital.com/logos/TT-Logo-Socials_Socials-01.png",
               "description": "Thomas Town Digital is a home services marketing agency that helps contractors and local service businesses generate more qualified leads through SEO, Google Ads, Local Services Ads, and high-converting website design.",
               "foundingLocation": { "@type": "Place", "name": "Charlotte, NC" },
               "areaServed": { "@type": "Country", "name": "United States" },
@@ -69,10 +69,10 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "@id": "https://thomastowndigital.com/#localbusiness",
+              "@id": "https://www.thomastowndigital.com/#localbusiness",
               "name": "Thomas Town Digital",
-              "url": "https://thomastowndigital.com",
-              "image": "https://thomastowndigital.com/logos/TT-Logo-Socials_Socials-01.png",
+              "url": "https://www.thomastowndigital.com",
+              "image": "https://www.thomastowndigital.com/logos/TT-Logo-Socials_Socials-01.png",
               "description": "Home services marketing agency specialising in Google Ads, Local Services Ads, and SEO for contractors and home service businesses across the United States.",
               "address": {
                 "@type": "PostalAddress",
@@ -103,14 +103,14 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              "@id": "https://thomastowndigital.com/#website",
+              "@id": "https://www.thomastowndigital.com/#website",
               "name": "Thomas Town Digital",
-              "url": "https://thomastowndigital.com",
+              "url": "https://www.thomastowndigital.com",
               "description": "Marketing agency for home service businesses — Google Ads, Local Services Ads, SEO, and lead generation for contractors.",
-              "publisher": { "@id": "https://thomastowndigital.com/#organization" },
+              "publisher": { "@id": "https://www.thomastowndigital.com/#organization" },
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://thomastowndigital.com/blog?q={search_term_string}",
+                "target": "https://www.thomastowndigital.com/blog?q={search_term_string}",
                 "query-input": "required name=search_term_string"
               }
             })

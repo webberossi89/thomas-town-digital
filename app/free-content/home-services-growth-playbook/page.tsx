@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Home Services Growth Playbook — Free Download | Thomas Town Digital",
+  title: "Home Services Growth Playbook — Free Download",
   description:
     "A comprehensive guide to growing your home services business with proven digital marketing strategies. GBP, LSA, Google Ads, and call tracking — the full stack.",
 };

@@ -2,13 +2,15 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "How to Choose a Home Service Lead Generation Agency — Thomas Town Digital",
+  title: "How to Choose a Home Service Lead Generation Agency",
   description: "Most agencies talk a good game but deliver junk leads. Here's how to pick a home service lead generation agency that actually understands your business.",
   openGraph: {
     title: "How to Choose a Home Service Lead Generation Agency in 2026",
     description: "Most agencies talk a good game but deliver junk leads. Here's how to pick a home service lead generation agency that actually understands your business.",
     type: "article",
     publishedTime: "2026-03-25T00:00:00Z",
+    url: "https://www.thomastowndigital.comapp/blog/choose-home-service-lead-generation-agency",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
 

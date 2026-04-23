@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Water Damage & Restoration Marketing Agency — Thomas Town Digital",
-  description: "SEO, Google Ads, LSA, websites, and AI automations for water damage and restoration companies. We help restoration contractors dominate emergency search and generate more insurance-backed jobs.",
+  title: "Water Damage & Restoration Marketing Agency",
+  description: "SEO, Google Ads, LSA, websites, and AI automations for water damage and restoration companies. We help restoration contractors dominate emergency search and",
 };
 
 const results = [

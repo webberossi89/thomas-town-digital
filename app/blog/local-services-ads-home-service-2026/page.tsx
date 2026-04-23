@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "Local Services Ads for Home Service Businesses: What's Actually Working in 2026 — Thomas Town Digital",
+  title: "LSA for Home Service Businesses: What's Working in 2026",
   description:
-    "LSA has moved from a secondary option to the primary paid channel for most home service businesses. A complete breakdown of how it works and how to set it up right.",
+    "LSA has moved from a secondary option to the primary paid channel for most home service businesses. Here's how it works and how to set it up.",
   openGraph: {
     title: "Local Services Ads for Home Service Businesses: What's Actually Working in 2026",
     description: "A complete breakdown of how LSA works, what's changed, and exactly how to set it up to generate qualified leads consistently.",
     type: "article",
     publishedTime: "2026-02-18T00:00:00Z",
+    url: "https://www.thomastowndigital.comapp/blog/local-services-ads-home-service-2026",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
 

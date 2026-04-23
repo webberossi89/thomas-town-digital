@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Charlotte Marketing Agency for Contractors — Thomas Town Digital",
-  description: "Home services marketing agency based in Charlotte, NC. Google Ads, LSA, SEO, and websites for roofing, HVAC, plumbing, and electrical contractors across the Charlotte metro.",
+  title: "Charlotte Marketing Agency for Contractors",
+  description: "Home services marketing agency based in Charlotte, NC. Google Ads, LSA, SEO, and websites for roofing, HVAC, plumbing, and electrical contractors across the",
 };
 
 const results = [

@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "Top 5 Marketing Mistakes Contractors Make — Thomas Town Digital",
+  title: "Top 5 Marketing Mistakes Contractors Make",
   description:
-    "Most contractor marketing failures come down to the same five mistakes. If your spend isn't producing consistent results, you're probably making at least two of them.",
+    "Most contractor marketing failures come down to the same five mistakes. If your spend isn't producing results, you're making at least two.",
   openGraph: {
     title: "Top 5 Marketing Mistakes Contractors Make — And How to Fix Them Fast",
     description: "We've analyzed hundreds of contractor marketing accounts. The failures cluster around five repeating patterns.",
     type: "article",
     publishedTime: "2025-05-23T00:00:00Z",
+    url: "https://www.thomastowndigital.comapp/blog/top-5-marketing-mistakes-contractors",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
 

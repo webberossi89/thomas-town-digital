@@ -2,13 +2,15 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "What Are Local Services Ads? How They Work in 2026 — Thomas Town Digital",
-  description: "Local Services Ads put your home service business at the very top of Google with a green checkmark. Learn how LSAs work, what they cost, and if they're worth it.",
+  title: "What Are Local Services Ads? How They Work in 2026",
+  description: "Local Services Ads put your home service business at the very top of Google with a green checkmark.",
   openGraph: {
     title: "What Are Google Local Services Ads and How Do They Work in 2026?",
     description: "Local Services Ads put your home service business at the very top of Google with a green checkmark. Learn how LSAs work, what they cost, and if they're worth it.",
     type: "article",
     publishedTime: "2026-03-25T00:00:00Z",
+    url: "https://www.thomastowndigital.comapp/blog/what-are-local-services-ads",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
 

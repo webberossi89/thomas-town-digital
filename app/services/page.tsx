@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Services — SEO, PPC, Websites & AI Automations | Thomas Town Digital",
+  title: "Services — SEO, PPC, Websites & AI Automations",
   description: "Four core services built for home service businesses: local SEO, PPC (Google Ads & LSA), high-converting websites, and AI automation workflows.",
 };
 

@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Local Services Ads Management for Home Service Businesses — Thomas Town Digital",
-  description: "We manage Local Services Ads (LSA) and the Google Guaranteed badge for home service contractors. Setup, bid management, lead dispute filing, and monthly reporting included.",
+  title: "Local Services Ads Management for Home Service Businesses",
+  description: "We manage Local Services Ads (LSA) and the Google Guaranteed badge for home service contractors.",
 };
 
 const results = [

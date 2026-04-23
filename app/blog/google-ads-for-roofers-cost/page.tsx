@@ -2,13 +2,15 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "Google Ads for Roofers: CPC, CPL & Budget Breakdown 2026 — Thomas Town Digital",
+  title: "Google Ads for Roofers: CPC, CPL & Budget Breakdown 2026",
   description: "What does it actually cost to run Google Ads for roofers? Real CPC, CPL, and budget data — plus how to tell if your spend is working. Get the full breakdown.",
   openGraph: {
     title: "How Much Do Google Ads Cost for Roofers in 2026? (CPC, CPL & Budget Breakdown)",
     description: "What does it actually cost to run Google Ads for roofers? Real CPC, CPL, and budget data — plus how to tell if your spend is working. Get the full breakdown.",
     type: "article",
     publishedTime: "2026-03-12T00:00:00Z",
+    url: "https://www.thomastowndigital.comapp/blog/google-ads-for-roofers-cost",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
 
