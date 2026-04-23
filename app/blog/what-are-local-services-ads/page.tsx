@@ -3,7 +3,7 @@ import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
   title: "What Are Local Services Ads? How They Work in 2026",
-  description: "Local Services Ads put your home service business at the very top of Google with a green checkmark.",
+  description: "Local Services Ads put your home service business at the very top of Google with a Google Guaranteed badge. Here's how they work for contractors.",
   openGraph: {
     title: "What Are Google Local Services Ads and How Do They Work in 2026?",
     description: "Local Services Ads put your home service business at the very top of Google with a green checkmark. Learn how LSAs work, what they cost, and if they're worth it.",
