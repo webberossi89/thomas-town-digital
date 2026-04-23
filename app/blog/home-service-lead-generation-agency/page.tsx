@@ -2,13 +2,15 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "How Home Service Lead Generation Actually Works in 2026 — Thomas Town Digital",
+  title: "How Home Service Lead Generation Actually Works in 2026",
   description: "Learn how lead generation for contractors really works in 2026 — from search intent to booked jobs. Straight talk from a home service lead generation agency.",
   openGraph: {
     title: "How Does Home Service Lead Generation Actually Work in 2026?",
     description: "Learn how lead generation for contractors really works in 2026 — from search intent to booked jobs. Straight talk from a home service lead generation agency.",
     type: "article",
     publishedTime: "2026-03-19T00:00:00Z",
+    url: "https://www.thomastowndigital.comapp/blog/home-service-lead-generation-agency",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
 

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "How to Optimize Your Google Business Profile for Local Services Ads — Thomas Town Digital",
+  title: "Optimize Your Google Business Profile for LSA",
   description:
     "Your GBP isn't just about map pack rankings anymore — it's your LSA application. Here's exactly how to optimize it before you spend a dollar on ads.",
   openGraph: {
@@ -10,6 +10,8 @@ export const metadata: Metadata = {
     description: "Your GBP is your LSA credit score. Get this wrong and no amount of ad spend will fix it.",
     type: "article",
     publishedTime: "2026-02-06T00:00:00Z",
+    url: "https://www.thomastowndigital.comapp/blog/optimize-google-business-profile-lsa",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
 

@@ -2,13 +2,15 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "Google Ads Management for Contractors | Thomastown Digital — Thomas Town Digital",
-  description: "Stop wasting budget on clicks that don't convert. Thomastown Digital builds Google Ads systems for contractors that drive real calls and booked jobs. Free audit.",
+  title: "Google Ads Management for Contractors | Thomastown Digital",
+  description: "Stop wasting budget on clicks that don't convert. Thomastown Digital builds Google Ads systems for contractors that drive real calls and booked jobs.",
   openGraph: {
     title: "Google Ads Management for Contractors: How to Turn Ad Spend Into Booked Jobs",
     description: "Stop wasting budget on clicks that don't convert. Thomastown Digital builds Google Ads systems for contractors that drive real calls and booked jobs. Free audit.",
     type: "article",
     publishedTime: "2026-03-05T00:00:00Z",
+    url: "https://www.thomastowndigital.comapp/blog/google-ads-management-for-contractors",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
 

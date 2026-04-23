@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Home Services Marketing Agency — Thomas Town Digital",
-  description: "Thomas Town Digital is a home services marketing agency in Charlotte, NC. We build exclusive lead pipelines for contractors using Google Ads, LSA, SEO, and websites.",
+  description: "Thomas Town Digital is a home services marketing agency in Charlotte, NC. We build exclusive lead pipelines for contractors using Google Ads, LSA, SEO, and",
 };
 
 const results = [

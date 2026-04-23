@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "How Successful Contractors Are Using Google Ads to Book More Jobs — Thomas Town Digital",
+  title: "How Contractors Use Google Ads to Book More Jobs",
   description:
-    "The top-performing contractors in 2025 aren't relying on word-of-mouth alone. They've built Google Ads systems that fill their schedule with high-quality jobs. Here's how.",
+    "Top contractors aren't relying on word-of-mouth. They've built Google Ads systems that fill their schedules with high-quality jobs.",
   openGraph: {
     title: "How Successful Contractors Are Using Google Ads to Book More Jobs",
     description: "From hyper-local targeting to emergency campaign structures — how the best-performing contractors are running Google Ads today.",
     type: "article",
     publishedTime: "2025-04-29T00:00:00Z",
+    url: "https://www.thomastowndigital.comapp/blog/contractors-google-ads-book-more-jobs",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
 

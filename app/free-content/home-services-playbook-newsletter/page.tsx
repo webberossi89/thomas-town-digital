@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "The Home Services Playbook — Monthly Newsletter | Thomas Town Digital",
+  title: "The Home Services Playbook — Monthly Newsletter",
   description:
     "Your monthly no-BS guide to marketing that works. Google Ads breakdowns, LSA updates, and growth tactics for home service businesses — delivered monthly.",
 };

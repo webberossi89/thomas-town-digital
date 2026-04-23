@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "The Two-Phase Google Ads Strategy for Contractors — Free Guide | Thomas Town Digital",
+  title: "Two-Phase Google Ads Strategy for Contractors (Free Guide)",
   description:
-    "Step-by-step guide to running Google Ads for home service businesses. Start with exact match keywords to build conversion data, then layer in AI Max to scale. Includes keyword lists, budget benchmarks, and timeline.",
+    "Step-by-step guide to running Google Ads for home service businesses. Start with exact match to build conversion data, then layer in AI Max to scale.",
 };
 
 const phases = [

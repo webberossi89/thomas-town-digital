@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "Stop Chasing Google's Recommendations: Why Their Best Practices Don't Always Work — Thomas Town Digital",
+  title: "Why Google's Best Practices Don't Always Work",
   description:
     "That \"Ad Strength: Poor\" notification doesn't mean your campaign is failing. Google's algorithm optimizes for Google's revenue — not yours.",
   openGraph: {
@@ -10,6 +10,8 @@ export const metadata: Metadata = {
     description: "Google's recommendations are built on models, not strategy. Here's how to evaluate them like a practitioner.",
     type: "article",
     publishedTime: "2025-06-06T00:00:00Z",
+    url: "https://www.thomastowndigital.comapp/blog/stop-chasing-google-recommendations",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
 

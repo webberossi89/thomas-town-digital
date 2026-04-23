@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Roofing Marketing Agency — Thomas Town Digital",
-  description: "SEO, Google Ads, LSA, websites, and AI automations for roofing companies. We help roofers generate more replacement and repair leads without shared lead gen platforms.",
+  description: "SEO, Google Ads, LSA, websites, and AI automations for roofing companies. We help roofers generate more replacement and repair leads without shared lead gen",
 };
 
 const results = [

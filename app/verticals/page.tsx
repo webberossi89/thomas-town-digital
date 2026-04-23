@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Industries We Serve — Home Service Marketing | Thomas Town Digital",
+  title: "Industries We Serve — Home Service Marketing",
   description:
-    "Thomas Town Digital works with home service businesses across every major trade. SEO, PPC, websites, and AI automations for roofing, HVAC, plumbing, electrical, restoration, and more.",
+    "SEO, PPC, websites, and AI automations for every home service vertical including roofing, HVAC, plumbing, electrical, and restoration.",
 };
 
 const featuredVerticals = [

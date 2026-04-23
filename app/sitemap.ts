@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import fs from "fs";
 import path from "path";
 
-const BASE = "https://thomastowndigital.com";
+const BASE = "https://www.thomastowndigital.com";
 
 // Directories / files that should not appear as pages in the sitemap
 const EXCLUDED_DIRS = new Set(["api", "_next", "blog", "free-content"]);

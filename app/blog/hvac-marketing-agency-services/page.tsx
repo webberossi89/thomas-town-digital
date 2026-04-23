@@ -2,13 +2,15 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "HVAC Marketing Agency Services for Heating & Cooling Companies — Thomas Town Digital",
+  title: "HVAC Marketing Services for Heating & Cooling Companies",
   description: "Thomas Town Digital helps HVAC companies generate better leads, fill their schedule, and cut wasted ad spend. See what a real HVAC marketing partner does.",
   openGraph: {
     title: "HVAC Marketing Agency Services: What We Do for Heating & Cooling Companies",
     description: "Thomas Town Digital helps HVAC companies generate better leads, fill their schedule, and cut wasted ad spend. See what a real HVAC marketing partner does.",
     type: "article",
     publishedTime: "2026-03-26T00:00:00Z",
+    url: "https://www.thomastowndigital.comapp/blog/hvac-marketing-agency-services",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
 

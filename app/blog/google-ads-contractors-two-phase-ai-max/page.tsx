@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "Google Ads for Contractors: The Two-Phase AI Max Strategy — Thomas Town Digital",
+  title: "Google Ads for Contractors: The Two-Phase AI Max Strategy",
   description:
     "A step-by-step guide to running Google Ads for contractors using exact match keywords and AI Max campaigns to generate more calls and booked jobs.",
   openGraph: {
@@ -10,6 +10,8 @@ export const metadata: Metadata = {
     description: "Most contractors running Google Ads are leaving money on the table. Here's the two-phase approach that builds a data foundation before layering in AI.",
     type: "article",
     publishedTime: "2026-02-25T00:00:00Z",
+    url: "https://www.thomastowndigital.comapp/blog/google-ads-contractors-two-phase-ai-max",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
 

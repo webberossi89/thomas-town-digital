@@ -2,13 +2,15 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "Google Guaranteed vs LSA Ads: What's the Difference? — Thomas Town Digital",
+  title: "Google Guaranteed vs LSA Ads: What's the Difference?",
   description: "Google Guaranteed and LSA ads aren't the same thing. Learn how each works, what they cost, and which one actually drives quality leads for contractors.",
   openGraph: {
     title: "Google Guaranteed vs LSA Ads: What's the Difference in 2026?",
     description: "Google Guaranteed and LSA ads aren't the same thing. Learn how each works, what they cost, and which one actually drives quality leads for contractors.",
     type: "article",
     publishedTime: "2026-03-26T00:00:00Z",
+    url: "https://www.thomastowndigital.comapp/blog/google-guaranteed-vs-lsa-ads",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
 
