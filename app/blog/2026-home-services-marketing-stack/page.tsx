@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "If you run a roofing, HVAC, or plumbing business, your marketing landscape looks very different from two years ago. Here's the stack that's working.",
     type: "article",
     publishedTime: "2026-02-18T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/2026-home-services-marketing-stack",
+    url: "https://www.thomastowndigital.com/blog/2026-home-services-marketing-stack",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "Local Services Ads put your home service business at the very top of Google with a green checkmark. Learn how LSAs work, what they cost, and if they're worth it.",
     type: "article",
     publishedTime: "2026-03-25T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/what-are-local-services-ads",
+    url: "https://www.thomastowndigital.com/blog/what-are-local-services-ads",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

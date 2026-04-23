@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "How much should a roofing company spend on Google Ads? Real benchmarks, CPL breakdowns, and ROI projections for major metro markets.",
     type: "article",
     publishedTime: "2026-01-02T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/google-ads-roofing-budget-guide",
+    url: "https://www.thomastowndigital.com/blog/google-ads-roofing-budget-guide",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

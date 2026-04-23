@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "From hyper-local targeting to emergency campaign structures — how the best-performing contractors are running Google Ads today.",
     type: "article",
     publishedTime: "2025-04-29T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/contractors-google-ads-book-more-jobs",
+    url: "https://www.thomastowndigital.com/blog/contractors-google-ads-book-more-jobs",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

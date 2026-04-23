@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "Most contractors running Google Ads are leaving money on the table. Here's the two-phase approach that builds a data foundation before layering in AI.",
     type: "article",
     publishedTime: "2026-02-25T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/google-ads-contractors-two-phase-ai-max",
+    url: "https://www.thomastowndigital.com/blog/google-ads-contractors-two-phase-ai-max",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

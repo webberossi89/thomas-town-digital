@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "A home services marketing agency helps contractors get more qualified leads through SEO, Google Ads, and LSAs. Learn what they actually do and if you need one.",
     type: "article",
     publishedTime: "2026-03-05T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/home-services-marketing-agency",
+    url: "https://www.thomastowndigital.com/blog/home-services-marketing-agency",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

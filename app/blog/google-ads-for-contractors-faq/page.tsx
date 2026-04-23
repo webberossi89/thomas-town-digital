@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "Get straight answers on Google Ads for contractors — costs, setup, lead quality, and ROI. No fluff. See how it actually works for home service businesses.",
     type: "article",
     publishedTime: "2026-04-12T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/google-ads-for-contractors-faq",
+    url: "https://www.thomastowndigital.com/blog/google-ads-for-contractors-faq",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

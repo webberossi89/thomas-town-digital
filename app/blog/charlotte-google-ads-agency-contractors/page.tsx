@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "Most Charlotte Google Ads agencies waste contractor budgets on broad targeting. Here's why working with a local partner who understands home service search intent matters.",
     type: "article",
     publishedTime: "2026-03-25T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/charlotte-google-ads-agency-contractors",
+    url: "https://www.thomastowndigital.com/blog/charlotte-google-ads-agency-contractors",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

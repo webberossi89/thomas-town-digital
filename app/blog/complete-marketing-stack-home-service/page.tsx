@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "If you're in HVAC, plumbing, roofing, or water damage, your marketing stack needs to work together. Here's the full playbook.",
     type: "article",
     publishedTime: "2026-01-30T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/complete-marketing-stack-home-service",
+    url: "https://www.thomastowndigital.com/blog/complete-marketing-stack-home-service",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

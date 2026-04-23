@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "What does it actually cost to run Google Ads for roofers? Real CPC, CPL, and budget data — plus how to tell if your spend is working. Get the full breakdown.",
     type: "article",
     publishedTime: "2026-03-12T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/google-ads-for-roofers-cost",
+    url: "https://www.thomastowndigital.com/blog/google-ads-for-roofers-cost",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
@@ -32,7 +32,7 @@ const content = `<p>If you're a roofing contractor trying to figure out what Goo
 
 <p>Add to that the seasonal surge in roofing demand after hail or wind events, when every local roofer — plus national storm-chasing outfits — floods into Google Ads simultaneously. In competitive markets during storm season, CPCs can spike dramatically. In quieter markets during slow seasons, they compress. You're not buying a fixed-rate ad. You're bidding in a live auction every single time someone searches.</p>
 
-<p>Understanding this dynamic is the first step. If your agency or in-house marketer is treating roofing Google Ads like a set-it-and-forget-it channel, that's a problem.</p>
+<p>Understanding this dynamic is the first step. If your agency or in-house marketer is treating roofing Google Ads like a set-it-and-forget-it channel, that's a problem. For a deeper look at budget planning and ROI projections across market tiers, see our <a href="/blog/google-ads-roofing-budget-guide">complete Google Ads budget guide for roofers</a>.</p>
 
 <h2>Step 2: Know the Real Cost Per Click (CPC) Benchmarks for Roofing</h2>
 
