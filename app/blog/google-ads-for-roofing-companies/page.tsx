@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "Learn how Google Ads for roofing companies actually works — campaign structure, budgets, bidding, and how to turn clicks into booked jobs. Get the breakdown.",
     type: "article",
     publishedTime: "2026-04-05T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/google-ads-for-roofing-companies",
+    url: "https://www.thomastowndigital.com/blog/google-ads-for-roofing-companies",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
@@ -34,7 +34,7 @@ const content = `<p>Google Ads for roofing companies works — but most roofing 
 
 <p>Roofing is a high-value, low-frequency purchase. Homeowners don't replace their roof every year — they do it once every 15–20 years, usually after a storm or an inspection that forces the issue. That means when they search, they're often motivated, but the search volume is uneven, highly seasonal, and intensely competitive.</p>
 
-<p>In most mid-size markets, a roofing contractor is competing against 10–20 other bidders for the same set of keywords. Cost-per-click for roofing terms typically runs between $15 and $45 depending on the market — and in storm-heavy metros like Dallas, Denver, or Atlanta, those numbers can spike well above that during active weather events.</p>
+<p>In most mid-size markets, a roofing contractor is competing against 10–20 other bidders for the same set of keywords. Cost-per-click for roofing terms typically runs between $15 and $45 depending on the market — and in storm-heavy metros like Dallas, Denver, or Atlanta, those numbers can spike well above that during active weather events. For the full monthly-budget picture — what spend level actually makes sense for each market tier and the ROI math behind it — see our <a href="/blog/google-ads-roofing-budget-guide">Google Ads budget guide for roofers</a>.</p>
 
 <p>The other challenge is lead quality. Roofing attracts a high volume of tire-kickers, insurance claim shoppers, renters with no authority to approve work, and homeowners fishing for a quote they'll never use. A campaign that isn't set up to filter for genuine buyers will produce plenty of call volume — just not the kind that converts to signed contracts.</p>
 

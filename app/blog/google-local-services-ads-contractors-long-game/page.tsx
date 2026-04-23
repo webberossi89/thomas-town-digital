@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "LSA rewards patience and consistency. Here's what it looks like to build lasting LSA dominance as a contractor.",
     type: "article",
     publishedTime: "2025-12-12T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/google-local-services-ads-contractors-long-game",
+    url: "https://www.thomastowndigital.com/blog/google-local-services-ads-contractors-long-game",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

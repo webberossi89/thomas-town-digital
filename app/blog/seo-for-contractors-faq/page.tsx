@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "Get straight answers on SEO for contractors — how it works, what it costs, and what actually drives leads. Book a free audit with Thomas Town Digital.",
     type: "article",
     publishedTime: "2026-03-19T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/seo-for-contractors-faq",
+    url: "https://www.thomastowndigital.com/blog/seo-for-contractors-faq",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

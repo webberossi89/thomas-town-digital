@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "Learn how lead generation for contractors really works in 2026 — from search intent to booked jobs. Straight talk from a home service lead generation agency.",
     type: "article",
     publishedTime: "2026-03-19T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/home-service-lead-generation-agency",
+    url: "https://www.thomastowndigital.com/blog/home-service-lead-generation-agency",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

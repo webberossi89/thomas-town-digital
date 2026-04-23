@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "A complete breakdown of how LSA works, what's changed, and exactly how to set it up to generate qualified leads consistently.",
     type: "article",
     publishedTime: "2026-02-18T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/local-services-ads-home-service-2026",
+    url: "https://www.thomastowndigital.com/blog/local-services-ads-home-service-2026",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

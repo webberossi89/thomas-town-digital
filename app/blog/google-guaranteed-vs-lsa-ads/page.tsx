@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "Google Guaranteed and LSA ads aren't the same thing. Learn how each works, what they cost, and which one actually drives quality leads for contractors.",
     type: "article",
     publishedTime: "2026-03-26T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/google-guaranteed-vs-lsa-ads",
+    url: "https://www.thomastowndigital.com/blog/google-guaranteed-vs-lsa-ads",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

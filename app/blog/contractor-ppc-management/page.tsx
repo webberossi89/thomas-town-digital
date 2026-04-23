@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "Hiring an agency for contractor PPC management? Here's what good looks like, what to watch for, and how to know if your spend is working. Get the breakdown.",
     type: "article",
     publishedTime: "2026-04-12T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/contractor-ppc-management",
+    url: "https://www.thomastowndigital.com/blog/contractor-ppc-management",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

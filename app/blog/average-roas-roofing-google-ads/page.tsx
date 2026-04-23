@@ -82,7 +82,7 @@ const content = `<p>A good ROAS for roofing Google Ads is typically between <str
 
 <p>From there, work backwards. If your average replacement job is $11,000, your close rate is 25% from lead to job, and you need a 4x minimum ROAS to stay profitable, you can afford to spend up to $687 per booked job ($11,000 ÷ 4 ÷ 4 leads needed per job). That's your allowable CPL ceiling.</p>
 
-<p>Most roofing companies have never done this math. They set ad budgets based on what feels affordable rather than what the economics of the business actually support. That's usually why campaigns underperform — the targeting and bidding decisions aren't connected to the revenue model.</p>
+<p>Most roofing companies have never done this math. They set ad budgets based on what feels affordable rather than what the economics of the business actually support. That's usually why campaigns underperform — the targeting and bidding decisions aren't connected to the revenue model. Our <a href="/blog/google-ads-roofing-budget-guide">Google Ads budget guide for roofers</a> walks through the budget math at each market tier with ROI projections.</p>
 
 <h2>Why a High ROAS Doesn't Always Mean the Campaigns Are Healthy</h2>
 

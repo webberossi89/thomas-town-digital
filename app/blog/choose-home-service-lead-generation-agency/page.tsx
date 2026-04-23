@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "Most agencies talk a good game but deliver junk leads. Here's how to pick a home service lead generation agency that actually understands your business.",
     type: "article",
     publishedTime: "2026-03-25T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/choose-home-service-lead-generation-agency",
+    url: "https://www.thomastowndigital.com/blog/choose-home-service-lead-generation-agency",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

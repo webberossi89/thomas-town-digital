@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "Your GBP is your LSA credit score. Get this wrong and no amount of ad spend will fix it.",
     type: "article",
     publishedTime: "2026-02-06T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/optimize-google-business-profile-lsa",
+    url: "https://www.thomastowndigital.com/blog/optimize-google-business-profile-lsa",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

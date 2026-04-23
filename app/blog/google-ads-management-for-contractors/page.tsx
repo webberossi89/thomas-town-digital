@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "Stop wasting budget on clicks that don't convert. Thomastown Digital builds Google Ads systems for contractors that drive real calls and booked jobs. Free audit.",
     type: "article",
     publishedTime: "2026-03-05T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/google-ads-management-for-contractors",
+    url: "https://www.thomastowndigital.com/blog/google-ads-management-for-contractors",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

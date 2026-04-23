@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "Google's recommendations are built on models, not strategy. Here's how to evaluate them like a practitioner.",
     type: "article",
     publishedTime: "2025-06-06T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/stop-chasing-google-recommendations",
+    url: "https://www.thomastowndigital.com/blog/stop-chasing-google-recommendations",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

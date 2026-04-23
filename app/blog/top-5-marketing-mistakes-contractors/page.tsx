@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "We've analyzed hundreds of contractor marketing accounts. The failures cluster around five repeating patterns.",
     type: "article",
     publishedTime: "2025-05-23T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/top-5-marketing-mistakes-contractors",
+    url: "https://www.thomastowndigital.com/blog/top-5-marketing-mistakes-contractors",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

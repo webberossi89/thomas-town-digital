@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "What do Google Ads actually cost for roofers? Get real CPC, CPL, and monthly budget benchmarks — plus how to judge if your spend is working. Find out.",
     type: "article",
     publishedTime: "2026-04-05T00:00:00Z",
-    url: "https://www.thomastowndigital.comapp/blog/google-ads-cost-roofing-companies",
+    url: "https://www.thomastowndigital.com/blog/google-ads-cost-roofing-companies",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };
@@ -26,7 +26,7 @@ const meta = {
 
 const content = `<p>Google Ads for roofing companies can work extremely well — or burn through your budget with nothing to show for it. The difference usually comes down to how the campaign is built, not how much you spend. Before you set a budget, you need to understand what you're actually paying for: cost per click, cost per lead, and what it actually costs to book a job through paid search.</p>
 
-<p>Here's a straightforward breakdown of Google Ads roofing cost — what the numbers look like, what drives them up or down, and how to evaluate whether your current spend makes sense.</p>
+<p>Here's a straightforward breakdown of Google Ads roofing cost — what the numbers look like, what drives them up or down, and how to evaluate whether your current spend makes sense. If you want the monthly budget planning view with ROI projections by market tier, our <a href="/blog/google-ads-roofing-budget-guide">Google Ads budget guide for roofers</a> walks through the numbers at each spend level.</p>
 
 <h2>What Google Ads Actually Costs for Roofing: The Real Benchmarks</h2>
 
