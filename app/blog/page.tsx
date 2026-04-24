@@ -18,6 +18,15 @@ const posts = [
       slug: "google-ads-roofing-budget-guide",
     },
   {
+    category: "SEO",
+    title: "SEO vs Google Ads for Contractors: Which Generates Better Leads?",
+    summary: "SEO vs Google Ads for contractors — which drives better leads and booked jobs? Get a clear breakdown with real benchmarks. Find out which is right for you.",
+    date: "April 18, 2026",
+    dateISO: "2026-04-19",
+    readTime: "10 min read",
+    slug: "seo-vs-google-ads-contractors",
+  },
+  {
       category: "Google Ads",
       title: "What Is a Good ROAS for Roofing Google Ads? Industry Benchmarks Explained",
       summary: "What's a good ROAS for roofing Google Ads? Get real benchmarks, what drives performance, and how to know if your campaigns are actually working. Find out.",
