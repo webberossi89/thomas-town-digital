@@ -18,6 +18,15 @@ const posts = [
       slug: "google-ads-roofing-budget-guide",
     },
   {
+    category: "Marketing",
+    title: "Roofing Lead Generation: 7 Proven Strategies That Actually Work in 2025",
+    summary: "Stop chasing bad leads. These 7 roofing lead generation strategies are built to drive qualified calls and booked jobs in 2025. See what actually works.",
+    date: "April 25, 2026",
+    dateISO: "2026-04-26",
+    readTime: "8 min read",
+    slug: "roofing-lead-generation-strategies",
+  },
+  {
     category: "SEO",
     title: "SEO vs Google Ads for Contractors: Which Generates Better Leads?",
     summary: "SEO vs Google Ads for contractors — which drives better leads and booked jobs? Get a clear breakdown with real benchmarks. Find out which is right for you.",
