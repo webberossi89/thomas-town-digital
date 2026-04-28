@@ -106,14 +106,29 @@ export default function HomeServicesGrowthPlaybookPage() {
           <p style={{ fontSize: "18px", color: "rgba(255,255,255,0.55)", lineHeight: 1.75, maxWidth: "580px", marginBottom: "40px" }}>
             The complete digital marketing playbook for roofing, HVAC, plumbing, and water damage businesses. Five chapters covering every component of a lead generation system that actually works.
           </p>
-          <a
-            href="/api/resources?slug=home-services-growth-playbook"
-            download
-            className="btn-yellow"
-            style={{ fontSize: "15px", padding: "16px 36px" }}
-          >
-            Download Free PDF →
-          </a>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "10px" }}>
+            <a
+              href="https://www.notion.so/Home-Services-Growth-Playbook-3505e52bc8e78124920be803fbf2ae62"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-yellow"
+              style={{ fontSize: "15px", padding: "16px 36px" }}
+            >
+              Read in Notion →
+            </a>
+            <a
+              href="/api/resources?slug=home-services-growth-playbook"
+              download
+              style={{
+                fontSize: "12px",
+                color: "rgba(255,255,255,0.45)",
+                textDecoration: "underline",
+                textUnderlineOffset: "3px",
+              }}
+            >
+              or download as PDF
+            </a>
+          </div>
         </div>
       </section>
 
@@ -265,17 +280,31 @@ export default function HomeServicesGrowthPlaybookPage() {
           </p>
           <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap" }}>
             <a
-              href="/api/resources?slug=home-services-growth-playbook"
+              href="https://www.notion.so/Home-Services-Growth-Playbook-3505e52bc8e78124920be803fbf2ae62"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-yellow"
               style={{ fontSize: "14px", padding: "15px 32px" }}
             >
-              Download Free Playbook →
+              Read in Notion →
             </a>
             <Link href="/contact" className="btn-outline" style={{ fontSize: "14px", padding: "15px 32px", color: "#fff", borderColor: "rgba(255,255,255,0.2)" }}>
               Book a Strategy Call
             </Link>
+          </div>
+          <div style={{ marginTop: "20px" }}>
+            <a
+              href="/api/resources?slug=home-services-growth-playbook"
+              download
+              style={{
+                fontSize: "12px",
+                color: "rgba(255,255,255,0.4)",
+                textDecoration: "underline",
+                textUnderlineOffset: "3px",
+              }}
+            >
+              or download as PDF
+            </a>
           </div>
         </div>
       </section>
