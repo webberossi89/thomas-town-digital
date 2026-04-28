@@ -19,6 +19,15 @@ const posts = [
     },
   {
     category: "Marketing",
+    title: "How Much Should Roofing Companies Spend on Marketing? A Practical Budget Guide",
+    summary: "What's the right marketing budget for roofing companies? Get real benchmarks, the 5–10% rule, and a step-by-step breakdown. See how to allocate spend.",
+    date: "April 25, 2026",
+    dateISO: "2026-04-26",
+    readTime: "8 min read",
+    slug: "average-marketing-budget-roofing-companies",
+  },
+  {
+    category: "Marketing",
     title: "Roofing Lead Generation: 7 Proven Strategies That Actually Work in 2025",
     summary: "Stop chasing bad leads. These 7 roofing lead generation strategies are built to drive qualified calls and booked jobs in 2025. See what actually works.",
     date: "April 25, 2026",
