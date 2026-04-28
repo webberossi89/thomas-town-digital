@@ -91,14 +91,29 @@ export default function LocalSeoCheatSheetPage() {
           <p style={{ fontSize: "18px", color: "rgba(255,255,255,0.55)", lineHeight: 1.75, maxWidth: "580px", marginBottom: "40px" }}>
             Every local SEO lever that matters for home service businesses — condensed into one actionable reference. GBP optimization, citations, reviews, on-page strategy, and more.
           </p>
-          <a
-            href="/api/resources?slug=local-seo-cheat-sheet"
-            download
-            className="btn-yellow"
-            style={{ fontSize: "15px", padding: "16px 36px" }}
-          >
-            Download Free PDF →
-          </a>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "10px" }}>
+            <a
+              href="https://www.notion.so/Ultimate-Local-SEO-Cheat-Sheet-2025-3505e52bc8e781a299e6d9b56c307106"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-yellow"
+              style={{ fontSize: "15px", padding: "16px 36px" }}
+            >
+              Read in Notion →
+            </a>
+            <a
+              href="/api/resources?slug=local-seo-cheat-sheet"
+              download
+              style={{
+                fontSize: "12px",
+                color: "rgba(255,255,255,0.45)",
+                textDecoration: "underline",
+                textUnderlineOffset: "3px",
+              }}
+            >
+              or download as PDF
+            </a>
+          </div>
         </div>
       </section>
 
@@ -203,16 +218,31 @@ export default function LocalSeoCheatSheetPage() {
           </p>
           <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap" }}>
             <a
-              href="/api/resources?slug=local-seo-cheat-sheet"
-              download
+              href="https://www.notion.so/Ultimate-Local-SEO-Cheat-Sheet-2025-3505e52bc8e781a299e6d9b56c307106"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-yellow"
               style={{ fontSize: "14px", padding: "15px 32px" }}
             >
-              Download Free →
+              Read in Notion →
             </a>
             <Link href="/contact" className="btn-outline" style={{ fontSize: "14px", padding: "15px 32px", color: "#fff", borderColor: "rgba(255,255,255,0.2)" }}>
               Book a Strategy Call
             </Link>
+          </div>
+          <div style={{ marginTop: "20px" }}>
+            <a
+              href="/api/resources?slug=local-seo-cheat-sheet"
+              download
+              style={{
+                fontSize: "12px",
+                color: "rgba(255,255,255,0.4)",
+                textDecoration: "underline",
+                textUnderlineOffset: "3px",
+              }}
+            >
+              or download as PDF
+            </a>
           </div>
         </div>
       </section>

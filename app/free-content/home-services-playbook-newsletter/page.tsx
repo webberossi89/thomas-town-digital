@@ -122,6 +122,21 @@ export default function HomeServicesPlaybookNewsletterPage() {
             >
               Subscribe Free →
             </a>
+            <a
+              href="https://www.notion.so/The-Home-Services-Playbook-Newsletter-3505e52bc8e78154be82c321349755d8"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: "inline-block",
+                marginLeft: "16px",
+                fontSize: "12px",
+                color: "rgba(255,255,255,0.45)",
+                textDecoration: "underline",
+                textUnderlineOffset: "3px",
+              }}
+            >
+              See what&apos;s inside in Notion →
+            </a>
             <p style={{ fontSize: "12px", color: "rgba(0,0,0,0.35)", marginTop: "16px" }}>
               Delivered monthly. Unsubscribe anytime.
             </p>
@@ -256,6 +271,21 @@ export default function HomeServicesPlaybookNewsletterPage() {
             <Link href="/contact" className="btn-outline" style={{ fontSize: "14px", padding: "15px 32px", color: "#fff", borderColor: "rgba(255,255,255,0.2)" }}>
               Book a Strategy Call
             </Link>
+          </div>
+          <div style={{ marginTop: "20px" }}>
+            <a
+              href="https://www.notion.so/The-Home-Services-Playbook-Newsletter-3505e52bc8e78154be82c321349755d8"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                fontSize: "12px",
+                color: "rgba(255,255,255,0.4)",
+                textDecoration: "underline",
+                textUnderlineOffset: "3px",
+              }}
+            >
+              See what&apos;s inside in Notion →
+            </a>
           </div>
         </div>
       </section>

@@ -86,7 +86,7 @@ export default function FreeContentPage() {
             <span style={{ color: "#2D8A45" }}>Your Pipeline</span>
           </h1>
           <p style={{ fontSize: "18px", color: "rgba(255,255,255,0.5)", lineHeight: 1.75, maxWidth: "520px" }}>
-            Free guides, cheat sheets, and templates built specifically for home service businesses. No email walls, no gated PDFs — just useful stuff.
+            Free guides, cheat sheets, and templates built specifically for home service businesses. Read every magnet online in Notion, or download a PDF copy. No email walls.
           </p>
         </div>
       </section>
