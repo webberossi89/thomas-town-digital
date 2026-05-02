@@ -61,6 +61,15 @@ const resources = [
     href: "/free-content/lead-management-system",
     accent: false,
   },
+  {
+    tag: "Custom Build",
+    title: "Custom Google Ads Account Build for Your Business",
+    desc: "Tell us about your contracting business. In 30 minutes we'll email you a real, market-specific Google Ads account build: keywords, ad copy, negatives, geo targets, GA4 tracking, and per-campaign budgets.",
+    detail: "Spreadsheet · Free",
+    cta: "Build Mine →",
+    href: "/free-content/google-ads-build",
+    accent: true,
+  },
 ];
 
 export default function FreeContentPage() {
@@ -86,7 +95,7 @@ export default function FreeContentPage() {
             <span style={{ color: "#2D8A45" }}>Your Pipeline</span>
           </h1>
           <p style={{ fontSize: "18px", color: "rgba(255,255,255,0.5)", lineHeight: 1.75, maxWidth: "520px" }}>
-            Free guides, cheat sheets, and templates built specifically for home service businesses. No email walls, no gated PDFs — just useful stuff.
+            Free guides, cheat sheets, and templates built specifically for home service businesses. Read every magnet online in Notion, or download a PDF copy. No email walls.
           </p>
         </div>
       </section>

@@ -109,14 +109,29 @@ export default function GoogleLsaGuidePage() {
           <p style={{ fontSize: "18px", color: "rgba(255,255,255,0.55)", lineHeight: 1.75, maxWidth: "580px", marginBottom: "40px" }}>
             LSA is the highest-performing paid channel for most home service businesses. This guide covers everything — setup, rankings, lead management, and scaling — so you can stop guessing and start dominating your market.
           </p>
-          <a
-            href="/api/resources?slug=google-lsa-guide"
-            download
-            className="btn-yellow"
-            style={{ fontSize: "15px", padding: "16px 36px" }}
-          >
-            Download Free Guide →
-          </a>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "10px" }}>
+            <a
+              href="https://www.notion.so/Complete-Guide-to-Dominating-Google-Local-Service-Ads-3505e52bc8e78153b976e5747e708823"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-yellow"
+              style={{ fontSize: "15px", padding: "16px 36px" }}
+            >
+              Read in Notion →
+            </a>
+            <a
+              href="/api/resources?slug=google-lsa-guide"
+              download
+              style={{
+                fontSize: "12px",
+                color: "rgba(255,255,255,0.45)",
+                textDecoration: "underline",
+                textUnderlineOffset: "3px",
+              }}
+            >
+              or download as PDF
+            </a>
+          </div>
         </div>
       </section>
 
@@ -306,17 +321,31 @@ export default function GoogleLsaGuidePage() {
           </p>
           <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap" }}>
             <a
-              href="/api/resources?slug=google-lsa-guide"
+              href="https://www.notion.so/Complete-Guide-to-Dominating-Google-Local-Service-Ads-3505e52bc8e78153b976e5747e708823"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-yellow"
               style={{ fontSize: "14px", padding: "15px 32px" }}
             >
-              Download Free →
+              Read in Notion →
             </a>
             <Link href="/contact" className="btn-outline" style={{ fontSize: "14px", padding: "15px 32px", color: "#fff", borderColor: "rgba(255,255,255,0.2)" }}>
               Book a Strategy Call
             </Link>
+          </div>
+          <div style={{ marginTop: "20px" }}>
+            <a
+              href="/api/resources?slug=google-lsa-guide"
+              download
+              style={{
+                fontSize: "12px",
+                color: "rgba(255,255,255,0.4)",
+                textDecoration: "underline",
+                textUnderlineOffset: "3px",
+              }}
+            >
+              or download as PDF
+            </a>
           </div>
         </div>
       </section>

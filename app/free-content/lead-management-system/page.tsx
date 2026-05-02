@@ -96,14 +96,29 @@ export default function LeadManagementSystemPage() {
           <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.35)", marginBottom: "40px" }}>
             Copy them. Customize your business name and number. Start using today.
           </p>
-          <a
-            href="/api/resources?slug=lead-management-system"
-            download
-            className="btn-yellow"
-            style={{ fontSize: "15px", padding: "16px 36px" }}
-          >
-            Download Free PDF →
-          </a>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "10px" }}>
+            <a
+              href="https://www.notion.so/Complete-Lead-Management-System-3505e52bc8e7819c9378f99073c49978"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-yellow"
+              style={{ fontSize: "15px", padding: "16px 36px" }}
+            >
+              Read in Notion →
+            </a>
+            <a
+              href="/api/resources?slug=lead-management-system"
+              download
+              style={{
+                fontSize: "12px",
+                color: "rgba(255,255,255,0.45)",
+                textDecoration: "underline",
+                textUnderlineOffset: "3px",
+              }}
+            >
+              or download as PDF
+            </a>
+          </div>
         </div>
       </section>
 
@@ -258,16 +273,31 @@ export default function LeadManagementSystemPage() {
           </p>
           <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap" }}>
             <a
-              href="/api/resources?slug=lead-management-system"
-              download
+              href="https://www.notion.so/Complete-Lead-Management-System-3505e52bc8e7819c9378f99073c49978"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-yellow"
               style={{ fontSize: "14px", padding: "15px 32px" }}
             >
-              Download Free →
+              Read in Notion →
             </a>
             <Link href="/contact" className="btn-outline" style={{ fontSize: "14px", padding: "15px 32px", color: "#fff", borderColor: "rgba(255,255,255,0.2)" }}>
               Book a Strategy Call
             </Link>
+          </div>
+          <div style={{ marginTop: "20px" }}>
+            <a
+              href="/api/resources?slug=lead-management-system"
+              download
+              style={{
+                fontSize: "12px",
+                color: "rgba(255,255,255,0.4)",
+                textDecoration: "underline",
+                textUnderlineOffset: "3px",
+              }}
+            >
+              or download as PDF
+            </a>
           </div>
         </div>
       </section>
