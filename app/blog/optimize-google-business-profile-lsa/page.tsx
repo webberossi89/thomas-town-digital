@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/optimize-google-business-profile-lsa" },
   title: "Optimize Your Google Business Profile for LSA",
   description:
     "Your GBP isn't just about map pack rankings anymore — it's your LSA application. Here's exactly how to optimize it before you spend a dollar on ads.",

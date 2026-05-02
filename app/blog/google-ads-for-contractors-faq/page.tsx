@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/google-ads-for-contractors-faq" },
   title: "Google Ads for Contractors: Frequently Asked Questions",
   description: "Get straight answers on Google Ads for contractors — costs, setup, lead quality, and ROI. No fluff. See how it actually works for home service businesses.",
   openGraph: {

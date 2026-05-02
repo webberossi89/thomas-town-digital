@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/home-service-lead-generation-agency" },
   title: "How Home Service Lead Generation Actually Works in 2026",
   description: "Learn how lead generation for contractors really works in 2026 — from search intent to booked jobs. Straight talk from a home service lead generation agency.",
   openGraph: {

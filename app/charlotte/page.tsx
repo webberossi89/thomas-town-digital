@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/charlotte" },
   title: "Charlotte Marketing Agency for Contractors",
   description: "Home services marketing agency based in Charlotte, NC. Google Ads, LSA, SEO, and websites for roofing, HVAC, plumbing, and electrical contractors across the",
 };

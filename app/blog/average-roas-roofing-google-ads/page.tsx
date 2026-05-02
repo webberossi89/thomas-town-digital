@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/average-roas-roofing-google-ads" },
   title: "Average ROAS for Roofing Google Ads: Benchmarks Explained — Thomas Town Digital",
   description: "What's a good ROAS for roofing Google Ads? Get real benchmarks, what drives performance, and how to know if your campaigns are actually working. Find out.",
   openGraph: {

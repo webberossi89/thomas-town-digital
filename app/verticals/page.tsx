@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/verticals" },
   title: "Industries We Serve — Home Service Marketing",
   description:
     "SEO, PPC, websites, and AI automations for every home service vertical including roofing, HVAC, plumbing, electrical, and restoration.",

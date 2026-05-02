@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/free-content/lead-management-system" },
   title: "Complete Lead Management System for Home Services — Free",
   description:
     "Pre-written email and text templates to follow up with leads, re-engage past customers, and book more jobs. Ready to copy and use today.",

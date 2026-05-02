@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/local-services-ads" },
   title: "Local Services Ads Management for Home Service Businesses",
   description: "We manage Local Services Ads (LSA) and the Google Guaranteed badge for home service contractors who want a steady, predictable lead pipeline.",
 };

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/2026-home-services-marketing-stack" },
   title: "2026 Home Services Marketing Stack: What's Working",
   description:
     "The contractors winning in 2026 aren't chasing trends; they're building their stack in order: Local SEO, then LSA, then paid search.",

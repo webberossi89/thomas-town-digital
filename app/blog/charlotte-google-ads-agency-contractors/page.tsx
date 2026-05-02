@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/charlotte-google-ads-agency-contractors" },
   title: "Charlotte Google Ads Agency for Contractors (2026 Guide)",
   description: "Most Charlotte Google Ads agencies waste contractor budgets on broad targeting. Here's why working with a local partner who understands home service search",
   openGraph: {

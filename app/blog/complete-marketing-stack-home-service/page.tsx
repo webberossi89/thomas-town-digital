@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/complete-marketing-stack-home-service" },
   title: "Marketing Stack for Home Service Businesses in 2026",
   description:
     "GBP, LSA, Google Ads, and call tracking — in the right order. The full marketing stack playbook for HVAC, plumbing, roofing, and water damage businesses.",

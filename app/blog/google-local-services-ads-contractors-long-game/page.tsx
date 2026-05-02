@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/google-local-services-ads-contractors-long-game" },
   title: "LSA for Contractors: Why the Long Game Wins",
   description:
     "LSA isn't a sprint — it's a credit score. The contractors who dominate aren't outspending competitors, they're out-trusting them.",

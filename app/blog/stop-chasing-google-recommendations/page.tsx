@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/stop-chasing-google-recommendations" },
   title: "Why Google's Best Practices Don't Always Work",
   description:
     "That \"Ad Strength: Poor\" notification doesn't mean your campaign is failing. Google's algorithm optimizes for Google's revenue — not yours.",

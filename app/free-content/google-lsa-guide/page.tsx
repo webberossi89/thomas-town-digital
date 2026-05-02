@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/free-content/google-lsa-guide" },
   title: "Complete Guide to Dominating Google Local Service Ads — Free",
   description:
     "How to set up, optimize, and manage Google Local Service Ads for maximum lead flow. Covers GBP requirements, budgeting, rankings, and dispute management.",
