@@ -3,7 +3,7 @@ import Link from "next/link";
 import AdsBuildForm from "./AdsBuildForm";
 
 export const metadata: Metadata = {
-  title: "Free Custom Google Ads Account Build for Contractors — Thomas Town Digital",
+  title: "Free Custom Google Ads Account Build for Contractors | Thomas Town Digital",
   description:
     "Get a custom Google Ads account build for your contracting business in 30 minutes. Real keywords, ad copy, negatives, geo targets, GA4 tracking, and per-campaign budgets. Free.",
   alternates: {
