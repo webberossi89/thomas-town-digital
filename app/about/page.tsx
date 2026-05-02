@@ -1,5 +1,20 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/about" },
+  title: "About Thomas Town Digital | Home Services Marketing Agency",
+  description:
+    "Home services marketing agency built to help contractors grow. We focus on paid search, local SEO, and lead generation that drives jobs, not vanity metrics.",
+  openGraph: {
+    title: "About Thomas Town Digital",
+    description:
+      "Home services marketing agency built to help contractors grow with paid search, local SEO, and lead generation that drives real jobs.",
+    url: "https://www.thomastowndigital.com/about",
+    images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
+  },
+};
 
 const values = [
   {
