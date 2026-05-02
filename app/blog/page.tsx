@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog" },
   title: "Blog — Thomas Town Digital",
   description: "Marketing insights, strategy guides, and growth playbooks built specifically for home service businesses — roofing, HVAC, plumbing, and more.",
 };

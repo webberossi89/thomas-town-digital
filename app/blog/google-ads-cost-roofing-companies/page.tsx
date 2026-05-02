@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/google-ads-cost-roofing-companies" },
   title: "Google Ads Cost for Roofing Companies: CPC, CPL & Budgets",
   description: "What do Google Ads actually cost for roofers? Get real CPC, CPL, and monthly budget benchmarks — plus how to judge if your spend is working. Find out.",
   openGraph: {

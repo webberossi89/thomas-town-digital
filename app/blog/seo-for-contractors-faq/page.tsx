@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/seo-for-contractors-faq" },
   title: "SEO for Contractors: Frequently Asked Questions 2026",
   description: "Get straight answers on SEO for contractors — how it works, what it costs, and what actually drives leads. Book a free audit with Thomas Town Digital.",
   openGraph: {

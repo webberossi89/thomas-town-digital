@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/hvac-marketing-agency-services" },
   title: "HVAC Marketing Services for Heating & Cooling Companies",
   description: "Thomas Town Digital helps HVAC companies generate better leads, fill their schedule, and cut wasted ad spend. See what a real HVAC marketing partner does.",
   openGraph: {

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/google-ads-for-roofing-companies" },
   title: "Google Ads for Roofers: Generating High Quality Leads",
   description: "Learn how Google Ads for roofing companies actually works — campaign structure, budgets, bidding, and how to turn clicks into booked jobs. Get the breakdown.",
   openGraph: {

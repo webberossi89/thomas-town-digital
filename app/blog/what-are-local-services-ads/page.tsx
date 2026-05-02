@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/what-are-local-services-ads" },
   title: "What Are Local Services Ads? How They Work in 2026",
   description: "Local Services Ads put your home service business at the very top of Google with a Google Guaranteed badge. Here's how they work for contractors.",
   openGraph: {

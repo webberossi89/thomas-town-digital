@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/google-ads-roofing-budget-guide" },
   title: "Google Ads for Roofers: Budget Guide & ROI Analysis",
   description:
     "Real benchmarks for roofing Google Ads in competitive markets. Cost per lead breakdowns by service type and ROI projections for different budget levels.",

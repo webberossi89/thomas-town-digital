@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/water-damage" },
   title: "Water Damage & Restoration Marketing Agency",
   description: "SEO, Google Ads, LSA, websites, and AI automations for water damage and restoration companies. We help restoration contractors dominate emergency search and",
 };

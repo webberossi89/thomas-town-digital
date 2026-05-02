@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/home-services-marketing-agency" },
   title: "What Is a Home Services Marketing Agency? (2026)",
   description: "A home services marketing agency helps contractors get more qualified leads through SEO, Google Ads, and LSAs. Learn what they actually do and if you need one.",
   openGraph: {

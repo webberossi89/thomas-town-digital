@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/electrical" },
   title: "Electrical Marketing Agency — Thomas Town Digital",
   description: "SEO, Google Ads, LSA, websites, and AI automations for electrical contractors. We help electricians generate more residential and commercial service leads.",
 };

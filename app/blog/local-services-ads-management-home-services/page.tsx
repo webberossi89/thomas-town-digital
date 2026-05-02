@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/local-services-ads-management-home-services" },
   title: "Local Services Ads Management for Home Service Businesses",
   description: "Poor LSA management wastes budget on bad leads. See how Thomas Town Digital tightens targeting, improves lead quality, and builds a predictable pipeline.",
   openGraph: {

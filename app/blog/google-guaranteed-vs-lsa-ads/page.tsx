@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/google-guaranteed-vs-lsa-ads" },
   title: "Google Guaranteed vs LSA Ads: What's the Difference?",
   description: "Google Guaranteed and LSA ads aren't the same thing. Learn how each works, what they cost, and which one actually drives quality leads for contractors.",
   openGraph: {

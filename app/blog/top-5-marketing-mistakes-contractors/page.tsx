@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/top-5-marketing-mistakes-contractors" },
   title: "Top 5 Marketing Mistakes Contractors Make",
   description:
     "Most contractor marketing failures come down to the same five mistakes. If your spend isn't producing results, you're making at least two.",

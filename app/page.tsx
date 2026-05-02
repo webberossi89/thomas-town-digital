@@ -3,12 +3,13 @@ import Link from "next/link";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/" },
   title: "Home Services Marketing Agency | Thomas Town Digital",
   description: "Thomas Town Digital is a home services marketing agency helping contractors get more leads with Google Ads, Local Services Ads, and SEO. More calls.",
   openGraph: {
     title: "Home Services Marketing Agency | Thomas Town Digital",
     description: "We help home service businesses grow with paid search, paid social, and local SEO. More leads. More jobs. More revenue.",
-    url: "https://www.thomastowndigital.comapp",
+    url: "https://www.thomastowndigital.com/",
     images: [{ url: "/logos/TT-Logo-Socials_Socials-01.png" }],
   },
 };

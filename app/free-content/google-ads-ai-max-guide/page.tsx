@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/free-content/google-ads-ai-max-guide" },
   title: "Two-Phase Google Ads Strategy for Contractors (Free Guide)",
   description:
     "Step-by-step guide to running Google Ads for home service businesses. Start with exact match to build conversion data, then layer in AI Max to scale.",

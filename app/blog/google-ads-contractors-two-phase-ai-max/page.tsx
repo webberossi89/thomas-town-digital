@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/google-ads-contractors-two-phase-ai-max" },
   title: "Google Ads for Contractors: The Two-Phase AI Max Strategy",
   description:
     "A step-by-step guide to running Google Ads for contractors using exact match keywords and AI Max campaigns to generate more calls and booked jobs.",

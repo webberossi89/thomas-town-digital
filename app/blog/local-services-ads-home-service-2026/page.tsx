@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/local-services-ads-home-service-2026" },
   title: "LSA for Home Service Businesses: What's Working in 2026",
   description:
     "LSA has moved from a secondary option to the primary paid channel for most home service businesses. Here's how it works and how to set it up.",

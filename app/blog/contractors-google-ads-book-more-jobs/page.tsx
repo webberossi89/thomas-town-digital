@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/contractors-google-ads-book-more-jobs" },
   title: "How Contractors Use Google Ads to Book More Jobs",
   description:
     "Top contractors aren't relying on word-of-mouth. They've built Google Ads systems that fill their schedules with high-quality jobs.",

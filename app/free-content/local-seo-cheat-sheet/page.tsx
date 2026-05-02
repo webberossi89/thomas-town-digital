@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/free-content/local-seo-cheat-sheet" },
   title: "Ultimate Local SEO Cheat Sheet 2025 — Free Download",
   description:
     "Proven strategies to dominate local search, optimize your Google Business Profile, and rank in the map pack. One page. No fluff. Free.",
