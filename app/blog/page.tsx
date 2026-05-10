@@ -20,6 +20,15 @@ const posts = [
     },
   {
     category: "SEO",
+    title: "Local SEO vs National SEO for Contractors: Which One Actually Drives Calls",
+    summary: "Local SEO for contractors generates calls. National SEO generates traffic. Here's how to tell which one your business actually needs — and where to focus first.",
+    date: "May 19, 2026",
+    dateISO: "2026-05-19",
+    readTime: "10 min read",
+    slug: "local-seo-vs-national-seo-for-contractors",
+  },
+  {
+    category: "SEO",
     title: "SEO for Roofing Companies: The 5 Ranking Factors That Actually Matter",
     summary: "Most roofing SEO advice is generic. Here are the 5 ranking factors that actually drive calls and booked jobs for roofing companies. See how.",
     date: "May 19, 2026",
