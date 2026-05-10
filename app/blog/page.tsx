@@ -19,6 +19,15 @@ const posts = [
       slug: "google-ads-roofing-budget-guide",
     },
   {
+    category: "Marketing",
+    title: "Electrician Marketing That Actually Books Jobs: What Works in 2026",
+    summary: "Learn which electrician marketing strategies generate real booked jobs — not just clicks. SEO, Google Ads, LSAs, and what actually works in 2026. Find out.",
+    date: "May 12, 2026",
+    dateISO: "2026-05-12",
+    readTime: "11 min read",
+    slug: "electrician-marketing-that-books-jobs",
+  },
+  {
     category: "SEO",
     title: "How Contractor SEO Actually Works: The 4 Steps That Drive Job Bookings",
     summary: "Contractor SEO doesn't have to be a mystery. Learn the 4 steps that turn search visibility into booked jobs. See how it works.",
