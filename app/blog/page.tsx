@@ -20,6 +20,15 @@ const posts = [
     },
   {
     category: "Marketing",
+    title: "What Is Home Services Marketing? How It Works and Why Traditional Agencies Get It Wrong",
+    summary: "Home services marketing explained: what it is, how it works, and why most agencies get it wrong for contractors. Get the real breakdown. See how.",
+    date: "May 5, 2026",
+    dateISO: "2026-05-05",
+    readTime: "9 min read",
+    slug: "what-is-home-services-marketing",
+  },
+  {
+    category: "Marketing",
     title: "How Much Should Roofing Companies Spend on Marketing? A Practical Budget Guide",
     summary: "What's the right marketing budget for roofing companies? Get real benchmarks, the 5–10% rule, and a step-by-step breakdown. See how to allocate spend.",
     date: "April 25, 2026",
