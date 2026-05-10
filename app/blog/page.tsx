@@ -19,6 +19,15 @@ const posts = [
       slug: "google-ads-roofing-budget-guide",
     },
   {
+    category: "SEO",
+    title: "SEO for Roofing Companies: The 5 Ranking Factors That Actually Matter",
+    summary: "Most roofing SEO advice is generic. Here are the 5 ranking factors that actually drive calls and booked jobs for roofing companies. See how.",
+    date: "May 19, 2026",
+    dateISO: "2026-05-19",
+    readTime: "10 min read",
+    slug: "seo-for-roofing-companies-ranking-factors",
+  },
+  {
     category: "LSA",
     title: "Local Services Ads: 12 Questions Contractors Actually Ask Before Starting",
     summary: "Thinking about Local Services Ads? Here are 12 real questions contractors ask before getting started — with straight answers on cost, leads, and setup.",
