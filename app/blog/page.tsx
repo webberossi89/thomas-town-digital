@@ -19,6 +19,15 @@ const posts = [
       slug: "google-ads-roofing-budget-guide",
     },
   {
+    category: "LSA",
+    title: "Local Services Ads: 12 Questions Contractors Actually Ask Before Starting",
+    summary: "Thinking about Local Services Ads? Here are 12 real questions contractors ask before getting started — with straight answers on cost, leads, and setup.",
+    date: "May 12, 2026",
+    dateISO: "2026-05-12",
+    readTime: "12 min read",
+    slug: "local-services-ads-contractor-questions",
+  },
+  {
     category: "Marketing",
     title: "Electrician Marketing That Actually Books Jobs: What Works in 2026",
     summary: "Learn which electrician marketing strategies generate real booked jobs — not just clicks. SEO, Google Ads, LSAs, and what actually works in 2026. Find out.",
