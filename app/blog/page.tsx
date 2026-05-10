@@ -19,6 +19,15 @@ const posts = [
       slug: "google-ads-roofing-budget-guide",
     },
   {
+    category: "SEO",
+    title: "How Contractor SEO Actually Works: The 4 Steps That Drive Job Bookings",
+    summary: "Contractor SEO doesn't have to be a mystery. Learn the 4 steps that turn search visibility into booked jobs. See how it works.",
+    date: "May 5, 2026",
+    dateISO: "2026-05-05",
+    readTime: "10 min read",
+    slug: "how-contractor-seo-works",
+  },
+  {
     category: "Marketing",
     title: "What Is Home Services Marketing? How It Works and Why Traditional Agencies Get It Wrong",
     summary: "Home services marketing explained: what it is, how it works, and why most agencies get it wrong for contractors. Get the real breakdown. See how.",
