@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Local SEO vs National SEO for Contractors: Which One Actually Drives Calls",
     description: "Local SEO for contractors generates calls. National SEO generates traffic. Here's how to tell which one your business actually needs — and where to focus first.",
     type: "article",
-    publishedTime: "2026-05-19T00:00:00Z",
+    publishedTime: "2026-05-10T00:00:00Z",
   },
 };
 
@@ -16,8 +16,8 @@ const meta = {
   title: "Local SEO vs National SEO for Contractors: Which One Actually Drives Calls",
   description: "Local SEO for contractors generates calls. National SEO generates traffic. Here's how to tell which one your business actually needs — and where to focus first.",
   category: "SEO",
-  date: "May 19, 2026",
-  dateISO: "2026-05-19",
+  date: "May 10, 2026",
+  dateISO: "2026-05-10",
   readTime: "10 min read",
   slug: "local-seo-vs-national-seo-for-contractors",
 };

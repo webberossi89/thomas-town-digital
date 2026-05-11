@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "What Is Home Services Marketing? How It Works and Why Traditional Agencies Get It Wrong",
     description: "Home services marketing explained: what it is, how it works, and why most agencies get it wrong for contractors. Get the real breakdown. See how.",
     type: "article",
-    publishedTime: "2026-05-05T00:00:00Z",
+    publishedTime: "2026-05-10T00:00:00Z",
   },
 };
 
@@ -16,8 +16,8 @@ const meta = {
   title: "What Is Home Services Marketing? How It Works and Why Traditional Agencies Get It Wrong",
   description: "Home services marketing explained: what it is, how it works, and why most agencies get it wrong for contractors. Get the real breakdown. See how.",
   category: "Marketing",
-  date: "May 5, 2026",
-  dateISO: "2026-05-05",
+  date: "May 10, 2026",
+  dateISO: "2026-05-10",
   readTime: "9 min read",
   slug: "what-is-home-services-marketing",
 };
