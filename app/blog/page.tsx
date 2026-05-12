@@ -28,6 +28,15 @@ const posts = [
     slug: "hvac-marketing-agency-why-generic-fails",
   },
   {
+    category: "Marketing",
+    title: "Plumbing Marketing Agencies: What to Look For and What to Avoid",
+    summary: "Hiring a plumbing marketing agency? Know what separates real lead generation from wasted spend. See what to look for and what to avoid. Read the breakdown.",
+    date: "May 12, 2026",
+    dateISO: "2026-05-12",
+    readTime: "11 min read",
+    slug: "plumbing-marketing-agency-what-to-look-for",
+  },
+  {
     category: "SEO",
     title: "Local SEO vs National SEO for Contractors: Which One Actually Drives Calls",
     summary: "Local SEO for contractors generates calls. National SEO generates traffic. Here's how to tell which one your business actually needs — and where to focus first.",
