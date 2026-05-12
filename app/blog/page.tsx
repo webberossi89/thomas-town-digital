@@ -19,6 +19,15 @@ const posts = [
       slug: "google-ads-roofing-budget-guide",
     },
   {
+    category: "Marketing",
+    title: "Why HVAC Companies Fail With Generic Marketing Agencies",
+    summary: "Generic agencies waste HVAC marketing budgets on traffic that never books. See why industry-specific strategy is the difference between leads and booked jobs.",
+    date: "May 26, 2026",
+    dateISO: "2026-05-26",
+    readTime: "9 min read",
+    slug: "hvac-marketing-agency-why-generic-fails",
+  },
+  {
     category: "SEO",
     title: "Local SEO vs National SEO for Contractors: Which One Actually Drives Calls",
     summary: "Local SEO for contractors generates calls. National SEO generates traffic. Here's how to tell which one your business actually needs — and where to focus first.",
