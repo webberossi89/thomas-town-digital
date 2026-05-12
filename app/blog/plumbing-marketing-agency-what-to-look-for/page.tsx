@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Plumbing Marketing Agencies: What to Look For and What to Avoid",
     description: "Hiring a plumbing marketing agency? Know what separates real lead generation from wasted spend. See what to look for and what to avoid. Read the breakdown.",
     type: "article",
-    publishedTime: "2026-05-26T00:00:00Z",
+    publishedTime: "2026-05-12T00:00:00Z",
   },
 };
 
@@ -16,8 +16,8 @@ const meta = {
   title: "Plumbing Marketing Agencies: What to Look For and What to Avoid",
   description: "Hiring a plumbing marketing agency? Know what separates real lead generation from wasted spend. See what to look for and what to avoid. Read the breakdown.",
   category: "Marketing",
-  date: "May 26, 2026",
-  dateISO: "2026-05-26",
+  date: "May 12, 2026",
+  dateISO: "2026-05-12",
   readTime: "11 min read",
   slug: "plumbing-marketing-agency-what-to-look-for",
 };
