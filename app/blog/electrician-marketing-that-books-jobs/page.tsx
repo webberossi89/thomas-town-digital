@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Electrician Marketing That Actually Books Jobs: What Works in 2026",
     description: "Learn which electrician marketing strategies generate real booked jobs — not just clicks. SEO, Google Ads, LSAs, and what actually works in 2026. Find out.",
     type: "article",
-    publishedTime: "2026-05-10T00:00:00Z",
+    publishedTime: "2026-05-05T00:00:00Z",
   },
 };
 
@@ -16,8 +16,8 @@ const meta = {
   title: "Electrician Marketing That Actually Books Jobs: What Works in 2026",
   description: "Learn which electrician marketing strategies generate real booked jobs — not just clicks. SEO, Google Ads, LSAs, and what actually works in 2026. Find out.",
   category: "Marketing",
-  date: "May 10, 2026",
-  dateISO: "2026-05-10",
+  date: "May 5, 2026",
+  dateISO: "2026-05-05",
   readTime: "11 min read",
   slug: "electrician-marketing-that-books-jobs",
 };

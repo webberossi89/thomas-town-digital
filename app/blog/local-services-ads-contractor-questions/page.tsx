@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Local Services Ads: 12 Questions Contractors Actually Ask Before Starting",
     description: "Thinking about Local Services Ads? Here are 12 real questions contractors ask before getting started — with straight answers on cost, leads, and setup.",
     type: "article",
-    publishedTime: "2026-05-10T00:00:00Z",
+    publishedTime: "2026-05-06T00:00:00Z",
   },
 };
 
@@ -16,8 +16,8 @@ const meta = {
   title: "Local Services Ads: 12 Questions Contractors Actually Ask Before Starting",
   description: "Thinking about Local Services Ads? Here are 12 real questions contractors ask before getting started — with straight answers on cost, leads, and setup.",
   category: "LSA",
-  date: "May 10, 2026",
-  dateISO: "2026-05-10",
+  date: "May 6, 2026",
+  dateISO: "2026-05-06",
   readTime: "12 min read",
   slug: "local-services-ads-contractor-questions",
 };
