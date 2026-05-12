@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "SEO for Roofing Companies: The 5 Ranking Factors That Actually Matter",
     description: "Most roofing SEO advice is generic. Here are the 5 ranking factors that actually drive calls and booked jobs for roofing companies. See how.",
     type: "article",
-    publishedTime: "2026-05-19T00:00:00Z",
+    publishedTime: "2026-05-10T00:00:00Z",
   },
 };
 
@@ -16,8 +16,8 @@ const meta = {
   title: "SEO for Roofing Companies: The 5 Ranking Factors That Actually Matter",
   description: "Most roofing SEO advice is generic. Here are the 5 ranking factors that actually drive calls and booked jobs for roofing companies. See how.",
   category: "SEO",
-  date: "May 19, 2026",
-  dateISO: "2026-05-19",
+  date: "May 10, 2026",
+  dateISO: "2026-05-10",
   readTime: "10 min read",
   slug: "seo-for-roofing-companies-ranking-factors",
 };
