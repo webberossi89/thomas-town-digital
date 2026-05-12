@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Why HVAC Companies Fail With Generic Marketing Agencies",
     description: "Generic agencies waste HVAC marketing budgets on traffic that never books. See why industry-specific strategy is the difference between leads and booked jobs.",
     type: "article",
-    publishedTime: "2026-05-12T00:00:00Z",
+    publishedTime: "2026-05-11T00:00:00Z",
   },
 };
 
@@ -16,8 +16,8 @@ const meta = {
   title: "Why HVAC Companies Fail With Generic Marketing Agencies",
   description: "Generic agencies waste HVAC marketing budgets on traffic that never books. See why industry-specific strategy is the difference between leads and booked jobs.",
   category: "Marketing",
-  date: "May 12, 2026",
-  dateISO: "2026-05-12",
+  date: "May 11, 2026",
+  dateISO: "2026-05-11",
   readTime: "9 min read",
   slug: "hvac-marketing-agency-why-generic-fails",
 };

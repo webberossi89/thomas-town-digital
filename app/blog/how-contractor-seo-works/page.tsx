@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "How Contractor SEO Actually Works: The 4 Steps That Drive Job Bookings",
     description: "Contractor SEO doesn't have to be a mystery. Learn the 4 steps that turn search visibility into booked jobs. See how it works.",
     type: "article",
-    publishedTime: "2026-05-10T00:00:00Z",
+    publishedTime: "2026-05-04T00:00:00Z",
   },
 };
 
@@ -16,8 +16,8 @@ const meta = {
   title: "How Contractor SEO Actually Works: The 4 Steps That Drive Job Bookings",
   description: "Contractor SEO doesn't have to be a mystery. Learn the 4 steps that turn search visibility into booked jobs. See how it works.",
   category: "SEO",
-  date: "May 10, 2026",
-  dateISO: "2026-05-10",
+  date: "May 4, 2026",
+  dateISO: "2026-05-04",
   readTime: "10 min read",
   slug: "how-contractor-seo-works",
 };
