@@ -339,6 +339,26 @@ export default function ElectricalPage() {
         </div>
       </section>
 
+      {/* Related Articles */}
+      <section style={{ paddingTop: "80px", paddingBottom: "80px", background: "#f7f7f7" }}>
+        <div className="container" style={{ maxWidth: "880px" }}>
+          <p style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 700, fontSize: "11px", textTransform: "uppercase", letterSpacing: "0.12em", color: "#2D8A45", marginBottom: "12px" }}>
+            Keep Reading
+          </p>
+          <h2 style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 900, fontSize: "clamp(26px, 3vw, 38px)", textTransform: "uppercase", letterSpacing: "-0.02em", color: "#0a0a0a", lineHeight: 1.05, marginBottom: "40px" }}>
+            More on Electrical Marketing
+          </h2>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr", gap: "16px" }}>
+            {relatedPosts.map((p) => (
+              <Link key={p.slug} href={`/blog/${p.slug}`} style={{ display: "block", padding: "24px 28px", background: "#fff", border: "1px solid rgba(0,0,0,0.08)", borderRadius: "12px", textDecoration: "none", color: "#0a0a0a", transition: "border-color 0.18s, box-shadow 0.18s" }} className="related-card">
+                <p style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 700, fontSize: "17px", color: "#0a0a0a", lineHeight: 1.35, marginBottom: "6px" }}>{p.title}</p>
+                <p style={{ fontSize: "13px", color: "#2D8A45", fontWeight: 600, letterSpacing: "0.04em", textTransform: "uppercase" }}>Read article →</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section style={{ paddingTop: "72px", paddingBottom: "96px", background: "#0a0a0a" }}>
         <div className="container" style={{ textAlign: "center", maxWidth: "560px" }}>
