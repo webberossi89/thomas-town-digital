@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "SEO for Electricians: How to Rank #1 in Your City — Thomastown Digital",
+  title: "SEO for Electricians: How to Rank #1 in Your City",
   description: "Learn how to rank your electrical business at the top of local search with this step-by-step SEO guide. Real tactics, no fluff. See how it works.",
   openGraph: {
     title: "SEO for Electricians: How to Rank #1 in Your City (Step-by-Step)",

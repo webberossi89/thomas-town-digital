@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "Contractor SEO: 7 Tactics That Get You Ranked Locally — Thomastown Digital",
+  title: "Contractor SEO: 7 Tactics That Get You Ranked Locally",
   description: "Learn 7 contractor SEO tactics that actually drive local search rankings, qualified calls, and booked jobs — not just traffic. See how it works.",
   openGraph: {
     title: "Contractor SEO: 7 Tactics That Actually Get You Ranked in Local Search",

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "SEO for Roofing Companies: 5 Ranking Factors That Matter — Thomastown Digital",
+  title: "SEO for Roofing Companies: 5 Ranking Factors That Matter",
   description: "Most roofing SEO advice is generic. Here are the 5 ranking factors that actually drive calls and booked jobs for roofing companies. See how.",
   openGraph: {
     title: "SEO for Roofing Companies: The 5 Ranking Factors That Actually Matter",

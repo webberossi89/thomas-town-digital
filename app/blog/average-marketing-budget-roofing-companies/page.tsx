@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "Roofing Company Marketing Budget Guide: How Much to Spend — Thomas Town Digital",
+  title: "Roofing Company Marketing Budget Guide: How Much to Spend",
   description: "What's the right marketing budget for roofing companies? Get real benchmarks, the 5–10% rule, and a step-by-step breakdown. See how to allocate spend.",
   openGraph: {
     title: "How Much Should Roofing Companies Spend on Marketing? A Practical Budget Guide",

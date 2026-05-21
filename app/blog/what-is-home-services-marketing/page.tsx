@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "What Is Home Services Marketing? How It Works — Thomastown Digital",
+  title: "What Is Home Services Marketing? How It Works",
   description: "Home services marketing explained: what it is, how it works, and why most agencies get it wrong for contractors. Get the real breakdown. See how.",
   openGraph: {
     title: "What Is Home Services Marketing? How It Works and Why Traditional Agencies Get It Wrong",
