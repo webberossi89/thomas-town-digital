@@ -3,7 +3,7 @@ import TypeformContact from "@/components/TypeformContact";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/contact" },
-  title: "Get Your Phone Ringing | Thomas Town Digital",
+  title: "Get Your Phone Ringing",
   description:
     "Book a strategy call. No pitch, no pressure — just a straight conversation about your home service business and where we can help.",
 };

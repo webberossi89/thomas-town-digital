@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/hvac" },
-  title: "HVAC Marketing Agency — Thomas Town Digital",
+  title: "HVAC Marketing Agency",
   description: "SEO, Google Ads, LSA, websites, and AI automations for HVAC companies. We help HVAC contractors generate more repair and replacement leads year-round.",
 };
 

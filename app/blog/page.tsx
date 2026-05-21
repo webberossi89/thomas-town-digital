@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/blog" },
-  title: "Blog — Thomas Town Digital",
+  title: "Blog",
   description: "Marketing insights, strategy guides, and growth playbooks built specifically for home service businesses — roofing, HVAC, plumbing, and more.",
 };
 
@@ -371,7 +371,7 @@ const posts = [
     },
   {
     category: "LSA",
-    title: "Local Services Ads vs Google Ads: Better Roofing Leads? — Thomastown Digital",
+    title: "Local Services Ads vs Google Ads: Better Roofing Leads?",
     summary: "Local Services Ads vs Google Ads for roofers — which drives better leads? We break down cost, quality, and when to run both. Get the full comparison.",
     date: "May 19, 2026",
     dateISO: "2026-05-19",
@@ -380,7 +380,7 @@ const posts = [
   },
   {
     category: "Marketing",
-    title: "HVAC Marketing Agency: What to Look for (And Avoid) — Thomastown Digital",
+    title: "HVAC Marketing Agency: What to Look for (And Avoid)",
     summary: "Hiring an HVAC marketing agency? Know the green flags, the red flags, and the questions that separate real partners from expensive disappointments. Find out more.",
     date: "May 21, 2026",
     dateISO: "2026-05-21",

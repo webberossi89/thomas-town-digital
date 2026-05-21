@@ -5,7 +5,10 @@ import Footer from "@/components/Footer";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Thomas Town Digital | Home Services Marketing",
+  title: {
+    default: "Thomas Town Digital | Home Services Marketing",
+    template: "%s — Thomas Town Digital",
+  },
   description: "We help home service businesses grow with paid search, paid social, and local SEO. More leads. More jobs. More revenue.",
   metadataBase: new URL("https://www.thomastowndigital.com"),
   icons: {

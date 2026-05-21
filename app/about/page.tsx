@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/about" },
-  title: "About Thomas Town Digital | Home Services Marketing Agency",
+  title: "About Us",
   description:
     "Home services marketing agency built to help contractors grow. We focus on paid search, local SEO, and lead generation that drives jobs, not vanity metrics.",
   openGraph: {
