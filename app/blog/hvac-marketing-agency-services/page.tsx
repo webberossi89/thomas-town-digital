@@ -25,7 +25,7 @@ const meta = {
   slug: "hvac-marketing-agency-services",
 };
 
-const content = `<p>If you're an HVAC company looking for a marketing agency, you've probably already been burned once. You signed with someone who promised leads, delivered a bunch of garbage calls from people three counties away, and handed you a dashboard full of impressions and clicks that never turned into booked jobs. It's one of the most common complaints we hear from heating and cooling companies.</p>
+const content = `<p>If you're an <a href="/hvac">HVAC company looking for a marketing agency</a>, you've probably already been burned once. You signed with someone who promised leads, delivered a bunch of garbage calls from people three counties away, and handed you a dashboard full of impressions and clicks that never turned into booked jobs. It's one of the most common complaints we hear from heating and cooling companies.</p>
 
 <p>Thomas Town Digital works exclusively with home service contractors. HVAC is one of our core verticals, and we understand how the business actually works — seasonal demand swings, emergency calls, equipment replacement cycles, the difference between a maintenance plan customer and a one-and-done tune-up call. That context shapes everything we do, from how we build campaigns to what we define as a quality lead.</p>
 

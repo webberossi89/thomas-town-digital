@@ -55,9 +55,33 @@ const faqs = [
   },
 ];
 
+const relatedPosts = [
+  { title: "Local Services Ads for Home Services: What's Actually Working in 2026", slug: "local-services-ads-home-service-2026" },
+  { title: "Stop Chasing Google's Recommendations: Why They Don't Always Work", slug: "stop-chasing-google-recommendations" },
+  { title: "The Complete Marketing Stack for Home Service Businesses in 2026", slug: "complete-marketing-stack-home-service" },
+];
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.thomastowndigital.com/water-damage#service",
+  name: "Water Damage & Restoration Marketing Agency Services",
+  description: "SEO, Google Ads, and Local Services Ads for water damage and restoration contractors. The highest-performing LSA category — built around emergency search intent.",
+  provider: { "@id": "https://www.thomastowndigital.com/#organization" },
+  serviceType: "Restoration Marketing",
+  areaServed: { "@type": "Country", name: "United States" },
+  audience: { "@type": "BusinessAudience", audienceType: "Water damage and restoration contractors" },
+  url: "https://www.thomastowndigital.com/water-damage",
+  category: "Marketing Services",
+};
+
 export default function WaterDamagePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       {/* Hero */}
       <section
         style={{
@@ -310,6 +334,26 @@ export default function WaterDamagePage() {
               </div>
             ))}
             <div style={{ borderTop: "1px solid rgba(0,0,0,0.08)" }} />
+          </div>
+        </div>
+      </section>
+
+      {/* Related Articles */}
+      <section style={{ paddingTop: "80px", paddingBottom: "80px", background: "#f7f7f7" }}>
+        <div className="container" style={{ maxWidth: "880px" }}>
+          <p style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 700, fontSize: "11px", textTransform: "uppercase", letterSpacing: "0.12em", color: "#2D8A45", marginBottom: "12px" }}>
+            Keep Reading
+          </p>
+          <h2 style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 900, fontSize: "clamp(26px, 3vw, 38px)", textTransform: "uppercase", letterSpacing: "-0.02em", color: "#0a0a0a", lineHeight: 1.05, marginBottom: "40px" }}>
+            More on Water Damage Restoration Marketing
+          </h2>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr", gap: "16px" }}>
+            {relatedPosts.map((p) => (
+              <Link key={p.slug} href={`/blog/${p.slug}`} style={{ display: "block", padding: "24px 28px", background: "#fff", border: "1px solid rgba(0,0,0,0.08)", borderRadius: "12px", textDecoration: "none", color: "#0a0a0a", transition: "border-color 0.18s, box-shadow 0.18s" }} className="related-card">
+                <p style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 700, fontSize: "17px", color: "#0a0a0a", lineHeight: 1.35, marginBottom: "6px" }}>{p.title}</p>
+                <p style={{ fontSize: "13px", color: "#2D8A45", fontWeight: 600, letterSpacing: "0.04em", textTransform: "uppercase" }}>Read article →</p>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

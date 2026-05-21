@@ -55,9 +55,33 @@ const faqs = [
   },
 ];
 
+const relatedPosts = [
+  { title: "HVAC Marketing Agency Services: What We Do for Heating & Cooling Companies", slug: "hvac-marketing-agency-services" },
+  { title: "Why HVAC Companies Fail With Generic Marketing Agencies", slug: "hvac-marketing-agency-why-generic-fails" },
+  { title: "The 2026 Home Services Marketing Stack: What's Working Right Now", slug: "2026-home-services-marketing-stack" },
+];
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.thomastowndigital.com/hvac#service",
+  name: "HVAC Marketing Agency Services",
+  description: "SEO, Google Ads, Local Services Ads, and websites for HVAC companies. Built around seasonal demand spikes, emergency calls, and replacement cycles, not generic agency playbooks.",
+  provider: { "@id": "https://www.thomastowndigital.com/#organization" },
+  serviceType: "HVAC Marketing",
+  areaServed: { "@type": "Country", name: "United States" },
+  audience: { "@type": "BusinessAudience", audienceType: "HVAC contractors" },
+  url: "https://www.thomastowndigital.com/hvac",
+  category: "Marketing Services",
+};
+
 export default function HvacPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       {/* Hero */}
       <section style={{ paddingTop: "120px", paddingBottom: "80px", background: "#0a0a0a" }}>
         <div className="container" style={{ maxWidth: "800px" }}>
@@ -224,6 +248,26 @@ export default function HvacPage() {
               </div>
             ))}
             <div style={{ borderTop: "1px solid rgba(0,0,0,0.08)" }} />
+          </div>
+        </div>
+      </section>
+
+      {/* Related Articles */}
+      <section style={{ paddingTop: "80px", paddingBottom: "80px", background: "#f7f7f7" }}>
+        <div className="container" style={{ maxWidth: "880px" }}>
+          <p style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 700, fontSize: "11px", textTransform: "uppercase", letterSpacing: "0.12em", color: "#2D8A45", marginBottom: "12px" }}>
+            Keep Reading
+          </p>
+          <h2 style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 900, fontSize: "clamp(26px, 3vw, 38px)", textTransform: "uppercase", letterSpacing: "-0.02em", color: "#0a0a0a", lineHeight: 1.05, marginBottom: "40px" }}>
+            More on HVAC Marketing
+          </h2>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr", gap: "16px" }}>
+            {relatedPosts.map((p) => (
+              <Link key={p.slug} href={`/blog/${p.slug}`} style={{ display: "block", padding: "24px 28px", background: "#fff", border: "1px solid rgba(0,0,0,0.08)", borderRadius: "12px", textDecoration: "none", color: "#0a0a0a", transition: "border-color 0.18s, box-shadow 0.18s" }} className="related-card">
+                <p style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 700, fontSize: "17px", color: "#0a0a0a", lineHeight: 1.35, marginBottom: "6px" }}>{p.title}</p>
+                <p style={{ fontSize: "13px", color: "#2D8A45", fontWeight: 600, letterSpacing: "0.04em", textTransform: "uppercase" }}>Read article →</p>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

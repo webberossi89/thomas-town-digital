@@ -31,7 +31,7 @@ export default function Article() {
   return (
     <ArticleLayout meta={meta}>
       <p>
-        The most common question we get from roofing company owners before a strategy call is some version of: &ldquo;How much should I actually be spending on Google Ads to get real results?&rdquo; It&apos;s the right question. And most of the answers they&apos;ve been given — from agencies, from Google reps, from other contractors — are either vague or optimistic in ways that don&apos;t survive contact with reality.
+        The most common question we get from <a href="/roofing">roofing company</a> owners before a strategy call is some version of: &ldquo;How much should I actually be spending on Google Ads to get real results?&rdquo; It&apos;s the right question. And most of the answers they&apos;ve been given — from agencies, from Google reps, from other contractors — are either vague or optimistic in ways that don&apos;t survive contact with reality.
       </p>
       <p>
         Here are real numbers from competitive markets. What it costs. What it generates. And what return you can reasonably expect at different budget levels.

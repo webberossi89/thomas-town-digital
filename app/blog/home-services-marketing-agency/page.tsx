@@ -25,7 +25,7 @@ const meta = {
   slug: "home-services-marketing-agency",
 };
 
-const content = `<p>A <strong>home services marketing agency</strong> is a company that specialises in helping contractors and local service businesses — roofers, plumbers, HVAC companies, electricians, landscapers — generate more qualified leads and booked jobs through digital marketing. The key word there is <em>specialises</em>. The difference between a general marketing agency and one built specifically for home services isn't just messaging — it's operational. The strategies, campaign structures, and conversion systems that work for a roofing company in a competitive metro market are fundamentally different from what works for a SaaS product or an e-commerce store.</p>
+const content = `<p>A <strong><a href="/home-services-marketing-agency">home services marketing agency</a></strong> is a company that specialises in helping contractors and local service businesses — roofers, plumbers, HVAC companies, electricians, landscapers — generate more qualified leads and booked jobs through digital marketing. The key word there is <em>specialises</em>. The difference between a general marketing agency and one built specifically for home services isn't just messaging — it's operational. The strategies, campaign structures, and conversion systems that work for a roofing company in a competitive metro market are fundamentally different from what works for a SaaS product or an e-commerce store.</p>
 
 <p>If you've hired a generalist agency before and ended up with traffic but not calls, or calls but not the right kind, this is usually why.</p>
 

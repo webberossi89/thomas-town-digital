@@ -34,7 +34,7 @@ export default function Article() {
         If you&apos;ve ever logged into Google Ads and seen that nagging &ldquo;Ad Strength: Poor&rdquo; notification, you&apos;re not alone. Google loves to tell you how to &ldquo;improve&rdquo; your campaigns — an endless stream of recommendations, optimization scores, and auto-apply suggestions. And here&apos;s the truth: blindly following Google&apos;s advice can actually hurt your business.
       </p>
       <p>
-        Google&apos;s systems are built on models and algorithms, not real-world business strategy. And when you&apos;re running competitive campaigns in industries like roofing, water damage restoration, HVAC, or plumbing, their recommendations often miss the mark completely.
+        Google&apos;s systems are built on models and algorithms, not real-world business strategy. And when you&apos;re running competitive campaigns in industries like <a href="/roofing">roofing</a>, <a href="/water-damage">water damage restoration</a>, <a href="/hvac">HVAC</a>, or <a href="/plumbing">plumbing</a>, their recommendations often miss the mark completely.
       </p>
 
       <h2>The Competitor Campaign Problem</h2>

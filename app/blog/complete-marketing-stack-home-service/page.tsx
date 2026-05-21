@@ -31,7 +31,7 @@ export default function Article() {
   return (
     <ArticleLayout meta={meta}>
       <p>
-        Home service marketing in 2026 isn&apos;t complicated. But it does require the right components in the right order. Businesses that skip steps — or stack channels before the foundation is solid — consistently see poor ROI and blame the channel when the real problem was the sequence.
+        <a href="/home-services-marketing-agency">Home service marketing</a> in 2026 isn&apos;t complicated. But it does require the right components in the right order. Businesses that skip steps — or stack channels before the foundation is solid — consistently see poor ROI and blame the channel when the real problem was the sequence.
       </p>
       <p>
         This is the complete marketing stack for HVAC, plumbing, roofing, and water damage businesses. Not every tool that exists. The specific components that are actually driving growth right now, and exactly how they work together.

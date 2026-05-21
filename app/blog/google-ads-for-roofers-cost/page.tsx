@@ -25,7 +25,7 @@ const meta = {
   slug: "google-ads-for-roofers-cost",
 };
 
-const content = `<p>If you're a roofing contractor trying to figure out what Google Ads should actually cost — and whether what you're spending right now is anywhere close to reasonable — this breakdown is for you. Google Ads for roofers is one of the most expensive paid search categories in home services, and most contractors either overpay, underspend, or burn budget on clicks that never convert to calls. Here's what the numbers actually look like in 2026, and how to build a budget that makes sense for your market.</p>
+const content = `<p>If you're a <a href="/roofing">roofing contractor</a> trying to figure out what Google Ads should actually cost — and whether what you're spending right now is anywhere close to reasonable — this breakdown is for you. Google Ads for roofers is one of the most expensive paid search categories in home services, and most contractors either overpay, underspend, or burn budget on clicks that never convert to calls. Here's what the numbers actually look like in 2026, and how to build a budget that makes sense for your market.</p>
 
 <h2>Step 1: Understand Why Roofing Is One of the Most Expensive Google Ads Niches</h2>
 

@@ -55,9 +55,33 @@ const faqs = [
   },
 ];
 
+const relatedPosts = [
+  { title: "Electrician Marketing That Actually Books Jobs: What Works in 2026", slug: "electrician-marketing-that-books-jobs" },
+  { title: "SEO for Electricians: How to Rank #1 in Your City (Step-by-Step)", slug: "seo-for-electricians-rank-number-one" },
+  { title: "The 2026 Home Services Marketing Stack: What's Working Right Now", slug: "2026-home-services-marketing-stack" },
+];
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.thomastowndigital.com/electrical#service",
+  name: "Electrical Marketing Agency Services",
+  description: "SEO, Google Ads, Local Services Ads, and websites for electrical contractors. Built for high-ticket searches like panel upgrades, EV charger installs, and rewires.",
+  provider: { "@id": "https://www.thomastowndigital.com/#organization" },
+  serviceType: "Electrician Marketing",
+  areaServed: { "@type": "Country", name: "United States" },
+  audience: { "@type": "BusinessAudience", audienceType: "Electrical contractors" },
+  url: "https://www.thomastowndigital.com/electrical",
+  category: "Marketing Services",
+};
+
 export default function ElectricalPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       {/* Hero */}
       <section
         style={{
@@ -311,6 +335,26 @@ export default function ElectricalPage() {
               </div>
             ))}
             <div style={{ borderTop: "1px solid rgba(0,0,0,0.08)" }} />
+          </div>
+        </div>
+      </section>
+
+      {/* Related Articles */}
+      <section style={{ paddingTop: "80px", paddingBottom: "80px", background: "#f7f7f7" }}>
+        <div className="container" style={{ maxWidth: "880px" }}>
+          <p style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 700, fontSize: "11px", textTransform: "uppercase", letterSpacing: "0.12em", color: "#2D8A45", marginBottom: "12px" }}>
+            Keep Reading
+          </p>
+          <h2 style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 900, fontSize: "clamp(26px, 3vw, 38px)", textTransform: "uppercase", letterSpacing: "-0.02em", color: "#0a0a0a", lineHeight: 1.05, marginBottom: "40px" }}>
+            More on Electrical Marketing
+          </h2>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr", gap: "16px" }}>
+            {relatedPosts.map((p) => (
+              <Link key={p.slug} href={`/blog/${p.slug}`} style={{ display: "block", padding: "24px 28px", background: "#fff", border: "1px solid rgba(0,0,0,0.08)", borderRadius: "12px", textDecoration: "none", color: "#0a0a0a", transition: "border-color 0.18s, box-shadow 0.18s" }} className="related-card">
+                <p style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 700, fontSize: "17px", color: "#0a0a0a", lineHeight: 1.35, marginBottom: "6px" }}>{p.title}</p>
+                <p style={{ fontSize: "13px", color: "#2D8A45", fontWeight: 600, letterSpacing: "0.04em", textTransform: "uppercase" }}>Read article →</p>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

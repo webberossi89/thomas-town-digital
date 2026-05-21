@@ -22,7 +22,7 @@ const meta = {
   slug: "average-marketing-budget-roofing-companies",
 };
 
-const content = `<p>Most roofing contractors either spend too little and wonder why the phone stays quiet, or they throw money at leads and ads without any clear sense of what's working. The average marketing budget for roofing companies sits somewhere between 5% and 10% of gross revenue — but that number alone doesn't tell you much unless you know how to allocate it, what to prioritise, and when to adjust.</p>
+const content = `<p>Most <a href="/roofing">roofing contractors</a> either spend too little and wonder why the phone stays quiet, or they throw money at leads and ads without any clear sense of what's working. The average marketing budget for roofing companies sits somewhere between 5% and 10% of gross revenue — but that number alone doesn't tell you much unless you know how to allocate it, what to prioritise, and when to adjust.</p>
 
 <p>This guide breaks down exactly how to think about your roofing marketing budget: how much to set aside, how to split it across channels, and how to know if you're getting a real return. It's built for roofing business owners who want predictable lead flow, not just activity on a dashboard.</p>
 
