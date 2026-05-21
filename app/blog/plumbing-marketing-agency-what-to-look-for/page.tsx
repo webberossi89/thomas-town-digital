@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Plumbing Marketing Agencies: What to Look For and What to Avoid",
     description: "Hiring a plumbing marketing agency? Know what separates real lead generation from wasted spend. See what to look for and what to avoid. Read the breakdown.",
     type: "article",
-    publishedTime: "2026-05-12T00:00:00Z",
+    publishedTime: "2026-05-15T00:00:00Z",
   },
 };
 
@@ -16,13 +16,13 @@ const meta = {
   title: "Plumbing Marketing Agencies: What to Look For and What to Avoid",
   description: "Hiring a plumbing marketing agency? Know what separates real lead generation from wasted spend. See what to look for and what to avoid. Read the breakdown.",
   category: "Marketing",
-  date: "May 12, 2026",
-  dateISO: "2026-05-12",
+  date: "May 15, 2026",
+  dateISO: "2026-05-15",
   readTime: "11 min read",
   slug: "plumbing-marketing-agency-what-to-look-for",
 };
 
-const content = `<p>Most plumbing companies that hire a marketing agency end up disappointed — not because marketing doesn't work, but because the wrong agency burned through budget on traffic that never converted into booked jobs. If you're evaluating a <strong>plumbing marketing agency</strong>, the difference between a good hire and a bad one comes down to a handful of specific things: how they structure campaigns, how they measure results, and whether they actually understand how plumbing leads convert. This article breaks down what matters, what doesn't, and what should send you walking.</p>
+const content = `<p>Most <a href="/plumbing">plumbing companies</a> that hire a marketing agency end up disappointed — not because marketing doesn't work, but because the wrong agency burned through budget on traffic that never converted into booked jobs. If you're evaluating a <strong>plumbing marketing agency</strong>, the difference between a good hire and a bad one comes down to a handful of specific things: how they structure campaigns, how they measure results, and whether they actually understand how plumbing leads convert. This article breaks down what matters, what doesn't, and what should send you walking.</p>
 
 <h2>Why Most Plumbing Marketing Agencies Underdeliver</h2>
 

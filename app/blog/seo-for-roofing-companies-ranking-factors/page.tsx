@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "SEO for Roofing Companies: The 5 Ranking Factors That Actually Matter",
     description: "Most roofing SEO advice is generic. Here are the 5 ranking factors that actually drive calls and booked jobs for roofing companies. See how.",
     type: "article",
-    publishedTime: "2026-05-07T00:00:00Z",
+    publishedTime: "2026-05-11T00:00:00Z",
   },
 };
 
@@ -16,8 +16,8 @@ const meta = {
   title: "SEO for Roofing Companies: The 5 Ranking Factors That Actually Matter",
   description: "Most roofing SEO advice is generic. Here are the 5 ranking factors that actually drive calls and booked jobs for roofing companies. See how.",
   category: "SEO",
-  date: "May 7, 2026",
-  dateISO: "2026-05-07",
+  date: "May 11, 2026",
+  dateISO: "2026-05-11",
   readTime: "10 min read",
   slug: "seo-for-roofing-companies-ranking-factors",
 };
@@ -26,7 +26,7 @@ const content = `<p><strong>TL;DR:</strong> Most SEO advice roofing companies ge
 
 <h2>Why Most Roofing SEO Advice Misses the Point</h2>
 
-<p>If you've looked into SEO for roofing companies before, you've probably heard the same recycled advice: publish more blog content, get more backlinks, use your keywords. That's not wrong — but it's not specific enough to be useful for a roofing company competing in a local market against established players.</p>
+<p>If you've looked into <a href="/roofing">SEO for roofing companies</a> before, you've probably heard the same recycled advice: publish more blog content, get more backlinks, use your keywords. That's not wrong — but it's not specific enough to be useful for a roofing company competing in a local market against established players.</p>
 
 <p>Roofing SEO is different from general SEO in one critical way: almost every lead you care about has strong local intent. When someone searches "roof replacement near me" or "emergency roof repair [city name]," they're not browsing — they're ready to call. That means the ranking factors that matter most are the ones that control local visibility, not just broad organic rankings.</p>
 

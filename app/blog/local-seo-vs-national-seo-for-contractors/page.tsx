@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Local SEO vs National SEO for Contractors: Which One Actually Drives Calls",
     description: "Local SEO for contractors generates calls. National SEO generates traffic. Here's how to tell which one your business actually needs — and where to focus first.",
     type: "article",
-    publishedTime: "2026-05-08T00:00:00Z",
+    publishedTime: "2026-05-13T00:00:00Z",
   },
 };
 
@@ -16,13 +16,13 @@ const meta = {
   title: "Local SEO vs National SEO for Contractors: Which One Actually Drives Calls",
   description: "Local SEO for contractors generates calls. National SEO generates traffic. Here's how to tell which one your business actually needs — and where to focus first.",
   category: "SEO",
-  date: "May 8, 2026",
-  dateISO: "2026-05-08",
+  date: "May 13, 2026",
+  dateISO: "2026-05-13",
   readTime: "10 min read",
   slug: "local-seo-vs-national-seo-for-contractors",
 };
 
-const content = `<p><strong>TL;DR:</strong> For most contractors, local SEO for contractors is the only type of SEO that directly generates calls and booked jobs. National SEO builds traffic, but traffic from someone three states away doesn't book. Local SEO focuses on ranking in Google Maps, the local pack, and city-specific searches — exactly where homeowners look when they need a plumber, roofer, or HVAC tech today. Unless you operate across multiple states or run a franchise, national SEO isn't where your budget belongs.</p>
+const content = `<p><strong>TL;DR:</strong> For most contractors, <a href="/home-services-marketing-agency">local SEO for contractors</a> is the only type of SEO that directly generates calls and booked jobs. National SEO builds traffic, but traffic from someone three states away doesn't book. Local SEO focuses on ranking in Google Maps, the local pack, and city-specific searches — exactly where homeowners look when they need a plumber, roofer, or HVAC tech today. Unless you operate across multiple states or run a franchise, national SEO isn't where your budget belongs.</p>
 
 <h2>Why This Comparison Matters for Contractors</h2>
 
