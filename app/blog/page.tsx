@@ -379,7 +379,7 @@ const categoryColor = (cat: string) => {
 
 export default function BlogPage() {
   const featured = posts[0];
-  const rest = posts.slice(1);
+  const rest = posts.slice(1).sort((a, b) => b.dateISO.localeCompare(a.dateISO));
 
   return (
     <>
