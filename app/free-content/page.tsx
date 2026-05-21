@@ -33,7 +33,7 @@ const resources = [
     detail: "PDF · Free",
     cta: "Get the Playbook",
     href: "/free-content/home-services-growth-playbook",
-    accent: true,
+    accent: false,
   },
   {
     tag: "Cheat Sheet",
