@@ -25,7 +25,7 @@ const meta = {
   slug: "google-ads-for-contractors-faq",
 };
 
-const content = `<p>Google Ads for contractors generates more questions than almost any other marketing topic — and a lot of bad answers. Most of what's online is written by people who understand the platform but have never actually managed campaigns for a roofer, plumber, or HVAC company. The result is advice that sounds reasonable but falls apart in practice.</p>
+const content = `<p><a href="/verticals">Google Ads for contractors</a> generates more questions than almost any other marketing topic — and a lot of bad answers. Most of what's online is written by people who understand the platform but have never actually managed campaigns for a roofer, plumber, or HVAC company. The result is advice that sounds reasonable but falls apart in practice.</p>
 
 <p>This page covers the questions contractors actually ask: what it costs, whether it works, why campaigns fail, and what separates a well-run campaign from one that burns through budget without booking jobs. No padding, no sales pitch — just straight answers based on how these campaigns actually perform in the field.</p>
 

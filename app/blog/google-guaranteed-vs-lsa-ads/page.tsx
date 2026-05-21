@@ -25,7 +25,7 @@ const meta = {
   slug: "google-guaranteed-vs-lsa-ads",
 };
 
-const content = `<p>If you've looked into getting your business into the top spots on Google, you've probably run into both the <strong>Google Guaranteed</strong> badge and Local Services Ads — and walked away wondering if they're the same thing, related, or completely different programs. They're not the same. But they're connected in a way that trips up a lot of contractors.</p>
+const content = `<p>If you've looked into getting your business into the top spots on Google, you've probably run into both the <strong>Google Guaranteed</strong> badge and <a href="/local-services-ads">Local Services Ads</a> — and walked away wondering if they're the same thing, related, or completely different programs. They're not the same. But they're connected in a way that trips up a lot of contractors.</p>
 
 <p>Here's the plain-language breakdown: what each one is, how they work, what they cost, and which one actually makes sense for your business in 2026.</p>
 

@@ -55,9 +55,33 @@ const faqs = [
   },
 ];
 
+const relatedPosts = [
+  { title: "Plumbing Marketing Agency: What to Look For and Avoid", slug: "plumbing-marketing-agency-what-to-look-for" },
+  { title: "Local Services Ads Management for Home Services", slug: "local-services-ads-management-home-services" },
+  { title: "The 2026 Home Services Marketing Stack: What's Working Right Now", slug: "2026-home-services-marketing-stack" },
+];
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.thomastowndigital.com/plumbing#service",
+  name: "Plumbing Marketing Agency Services",
+  description: "SEO, Google Ads, Local Services Ads, and websites for plumbing companies. Lead generation built around emergency calls, service plans, and high-intent local search.",
+  provider: { "@id": "https://www.thomastowndigital.com/#organization" },
+  serviceType: "Plumbing Marketing",
+  areaServed: { "@type": "Country", name: "United States" },
+  audience: { "@type": "BusinessAudience", audienceType: "Plumbing contractors" },
+  url: "https://www.thomastowndigital.com/plumbing",
+  category: "Marketing Services",
+};
+
 export default function PlumbingPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       {/* Hero */}
       <section style={{ paddingTop: "120px", paddingBottom: "80px", background: "#0a0a0a" }}>
         <div className="container" style={{ maxWidth: "800px" }}>

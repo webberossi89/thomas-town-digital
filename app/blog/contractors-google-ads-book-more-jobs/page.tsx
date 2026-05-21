@@ -31,7 +31,7 @@ export default function Article() {
   return (
     <ArticleLayout meta={meta}>
       <p>
-        Word-of-mouth built most contracting businesses. It&apos;s still valuable. But it&apos;s not scalable, it&apos;s not predictable, and it doesn&apos;t give you control over when leads come in or what type of work they bring.
+        Word-of-mouth built most <a href="/home-services-marketing-agency">contracting businesses</a>. It&apos;s still valuable. But it&apos;s not scalable, it&apos;s not predictable, and it doesn&apos;t give you control over when leads come in or what type of work they bring.
       </p>
       <p>
         The top-performing contractors in 2025 have built Google Ads systems that run alongside their referral networks — generating consistent, high-quality inbound calls without depending on who someone happened to talk to last week. Here&apos;s exactly how they do it.

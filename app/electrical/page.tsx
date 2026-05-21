@@ -55,9 +55,33 @@ const faqs = [
   },
 ];
 
+const relatedPosts = [
+  { title: "Electrician Marketing That Actually Books Jobs: What Works in 2026", slug: "electrician-marketing-that-books-jobs" },
+  { title: "SEO for Electricians: How to Rank #1 in Your City (Step-by-Step)", slug: "seo-for-electricians-rank-number-one" },
+  { title: "The 2026 Home Services Marketing Stack: What's Working Right Now", slug: "2026-home-services-marketing-stack" },
+];
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.thomastowndigital.com/electrical#service",
+  name: "Electrical Marketing Agency Services",
+  description: "SEO, Google Ads, Local Services Ads, and websites for electrical contractors. Built for high-ticket searches like panel upgrades, EV charger installs, and rewires.",
+  provider: { "@id": "https://www.thomastowndigital.com/#organization" },
+  serviceType: "Electrician Marketing",
+  areaServed: { "@type": "Country", name: "United States" },
+  audience: { "@type": "BusinessAudience", audienceType: "Electrical contractors" },
+  url: "https://www.thomastowndigital.com/electrical",
+  category: "Marketing Services",
+};
+
 export default function ElectricalPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       {/* Hero */}
       <section
         style={{

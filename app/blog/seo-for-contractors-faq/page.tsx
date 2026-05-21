@@ -25,7 +25,7 @@ const meta = {
   slug: "seo-for-contractors-faq",
 };
 
-const content = `<p>SEO for contractors generates more questions than almost any other marketing topic — and a lot of bad answers. Between agencies overpromising results, confusing reporting, and no shortage of contractors who've spent months paying for work that produced nothing, it's reasonable to want straight answers before investing.</p>
+const content = `<p><a href="/verticals">SEO for contractors</a> generates more questions than almost any other marketing topic — and a lot of bad answers. Between agencies overpromising results, confusing reporting, and no shortage of contractors who've spent months paying for work that produced nothing, it's reasonable to want straight answers before investing.</p>
 
 <p>This page covers the questions Thomas Town Digital hears most often from roofers, plumbers, HVAC companies, and electricians trying to figure out whether SEO is worth their time and money — and how to do it right.</p>
 

@@ -25,7 +25,7 @@ const meta = {
   slug: "google-ads-for-roofing-companies",
 };
 
-const content = `<p>Google Ads for roofing companies works — but most roofing campaigns are set up in a way that burns through budget without producing booked jobs. The clicks are there. The leads aren't. And the reason usually isn't the platform — it's the setup.</p>
+const content = `<p><a href="/roofing">Google Ads for roofing companies</a> works — but most roofing campaigns are set up in a way that burns through budget without producing booked jobs. The clicks are there. The leads aren't. And the reason usually isn't the platform — it's the setup.</p>
 
 <p>This guide covers how roofing Google Ads campaigns actually need to be structured, what drives costs up and down, how to filter out low-quality leads before they hit your phone, and what separates campaigns that generate consistent work from ones that just generate invoices from Google.</p>
 

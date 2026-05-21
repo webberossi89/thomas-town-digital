@@ -31,7 +31,7 @@ export default function Article() {
   return (
     <ArticleLayout meta={meta}>
       <p>
-        Most contractor marketing failures aren&apos;t random. After auditing hundreds of home service marketing accounts, the problems cluster around the same five patterns — mistakes that drain budget, suppress lead flow, and make it impossible to know what&apos;s actually working.
+        Most <a href="/home-services-marketing-agency">contractor marketing</a> failures aren&apos;t random. After auditing hundreds of home service marketing accounts, the problems cluster around the same five patterns — mistakes that drain budget, suppress lead flow, and make it impossible to know what&apos;s actually working.
       </p>
       <p>
         If your marketing spend isn&apos;t generating consistent, predictable results, you&apos;re likely making at least two of these. Here&apos;s each mistake and exactly how to fix it.

@@ -49,15 +49,24 @@ export default function RootLayout({
               "@type": "Organization",
               "@id": "https://www.thomastowndigital.com/#organization",
               "name": "Thomas Town Digital",
+              "alternateName": ["Thomastown Digital", "TTD"],
               "url": "https://www.thomastowndigital.com",
               "logo": "https://www.thomastowndigital.com/logos/TT-Logo-Socials_Socials-01.png",
               "description": "Thomas Town Digital is a home services marketing agency that helps contractors and local service businesses generate more qualified leads through SEO, Google Ads, Local Services Ads, and high-converting website design.",
               "foundingLocation": { "@type": "Place", "name": "Charlotte, NC" },
               "areaServed": { "@type": "Country", "name": "United States" },
+              "knowsAbout": ["Home Services Marketing", "Google Ads for Contractors", "Local Services Ads", "SEO for Contractors", "Roofing Marketing", "HVAC Marketing", "Plumbing Marketing", "Electrician Marketing", "Water Damage Restoration Marketing"],
               "serviceType": ["Home Services Marketing", "Google Ads Management", "Local Services Ads Management", "SEO for Contractors", "Lead Generation"],
+              "founder": {
+                "@type": "Person",
+                "name": "Jared Webber",
+                "url": "https://www.thomastowndigital.com/about"
+              },
               "sameAs": [
                 "https://www.facebook.com/thomastowndigital",
-                "https://www.linkedin.com/company/thomastowndigital"
+                "https://www.linkedin.com/company/thomastowndigital",
+                "https://www.instagram.com/thomastowndigital",
+                "https://x.com/thomastowndigi"
               ]
             })
           }}

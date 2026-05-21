@@ -23,7 +23,7 @@ const meta = {
   slug: "average-roas-roofing-google-ads",
 };
 
-const content = `<p>A good ROAS for roofing Google Ads is typically between <strong>3x and 8x</strong> — meaning for every dollar spent on ads, a well-run campaign generates $3 to $8 in revenue. But that range is almost meaningless without context, because roofing is a high-ticket, low-frequency service where one booked job can be worth $8,000 to $25,000 or more. The average ROAS for roofing Google Ads looks different depending on job type, market size, close rate, and how you're tracking revenue in the first place.</p>
+const content = `<p>A good ROAS for <a href="/roofing">roofing Google Ads</a> is typically between <strong>3x and 8x</strong> — meaning for every dollar spent on ads, a well-run campaign generates $3 to $8 in revenue. But that range is almost meaningless without context, because roofing is a high-ticket, low-frequency service where one booked job can be worth $8,000 to $25,000 or more. The average ROAS for roofing Google Ads looks different depending on job type, market size, close rate, and how you're tracking revenue in the first place.</p>
 
 <p>If you're trying to figure out whether your current campaigns are performing or just burning budget, this breakdown will give you the benchmarks you need — and more importantly, help you understand what's actually driving those numbers.</p>
 
