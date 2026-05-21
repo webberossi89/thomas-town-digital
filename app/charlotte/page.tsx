@@ -20,7 +20,7 @@ const services = [
   },
   {
     name: "Local Services Ads (LSA)",
-    desc: "The Google Guaranteed badge puts your business above the search results for Charlotte homeowners. We handle setup, verification, bid optimisation, and dispute management.",
+    desc: "The Google Guaranteed badge puts your business above the search results for Charlotte homeowners. We handle setup, verification, bid optimisation, and revenue & ROI reporting tied to every booked job.",
   },
   {
     name: "SEO & Map Pack",

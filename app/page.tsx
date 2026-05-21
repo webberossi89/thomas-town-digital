@@ -35,7 +35,7 @@ const services = [
     icon: "⚡",
     title: "PPC",
     body: "High-intent leads the moment homeowners search. We build and manage Google Ads and LSA campaigns that drive real calls, not just clicks.",
-    bullets: ["Google Search & LSA campaigns", "Call tracking & attribution", "LSA dispute management"],
+    bullets: ["Google Search & LSA campaigns", "Call tracking & attribution", "Revenue reporting & ROI tracking"],
     href: "/services#ppc",
   },
   {

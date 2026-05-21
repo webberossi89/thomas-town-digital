@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const results = [
   { stat: "Google\nGuaranteed", label: "Badge setup & verification included" },
   { stat: "Pay Per\nLead", label: "Never pay per click — only for real leads" },
-  { stat: "Disputes\nFiled", label: "Bad leads disputed and credited back" },
+  { stat: "Revenue\nReported", label: "Every booked job tied back to its lead source" },
 ];
 
 const managementServices = [
@@ -23,8 +23,8 @@ const managementServices = [
     desc: "LSA bids determine how often your profile shows in the top positions. We adjust bids weekly based on lead volume, lead quality, and your target cost per booked job.",
   },
   {
-    name: "Lead Dispute Management",
-    desc: "Not every LSA lead is legitimate — wrong service area, wrong trade, spam calls. We review every lead and file disputes for credits on leads that don't qualify under Google's guarantee policy.",
+    name: "Revenue Reporting & ROI Tracking",
+    desc: "Every lead tagged back to the campaign and service type that produced it, then matched against booked jobs and revenue. You see real cost per booked job and ROI by trade — not just lead counts and spend totals.",
   },
   {
     name: "Budget Pacing & Allocation",
@@ -32,7 +32,7 @@ const managementServices = [
   },
   {
     name: "Monthly Reporting",
-    desc: "Every month we send a full LSA report: leads received, disputes filed and won, cost per lead, and recommendations for the next 30 days.",
+    desc: "Every month we send a full LSA report: leads received, booked jobs and revenue produced, cost per booked job by service type, and recommendations for the next 30 days.",
   },
 ];
 
@@ -46,8 +46,8 @@ const faqs = [
     a: "Lead costs vary by trade and market. Roofing leads typically run $40–$120. HVAC and plumbing leads are $25–$80. Electrical is often $30–$70. These are rough ranges — your actual cost per lead depends on your market's competitiveness and how well your bids and profile are managed. We'll give you market-specific estimates on the strategy call.",
   },
   {
-    q: "Can you dispute fake or low-quality leads?",
-    a: "Yes — and this is one of the most underused features of LSA. If a lead is for a service you don't offer, outside your service area, a spam call, or a duplicate, you can dispute it and receive a credit. Most contractors never dispute leads and overpay as a result. We review every lead and dispute everything that qualifies.",
+    q: "How will we know which leads actually book jobs?",
+    a: "Every lead is tagged back to the campaign and service type that produced it. We match that against booked jobs and revenue in your CRM (or in our tracking if you don't run one) so you see real cost per booked job and ROI by trade — not just lead counts and spend totals. Most LSA setups stop at lead volume; we report on what those leads actually turn into.",
   },
   {
     q: "How long does it take to get Google Guaranteed verified?",
@@ -87,7 +87,7 @@ export default function LocalServicesAdsPage() {
             Local Services Ads<br />Management for Home<br />Service Businesses.
           </h1>
           <p style={{ fontSize: "18px", color: "rgba(255,255,255,0.55)", lineHeight: 1.7, maxWidth: "580px", marginBottom: "40px" }}>
-            Local Services Ads put your business above Google Ads, above the map pack, and above organic results — with a Google Guaranteed badge. We handle setup, bid management, dispute filing, and reporting so you get the leads without the admin.
+            Local Services Ads put your business above Google Ads, above the map pack, and above organic results — with a Google Guaranteed badge. We handle setup, bid management, revenue & ROI reporting, and monthly review so you get the leads without the admin.
           </p>
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
             <Link href="/contact" className="btn-yellow" style={{ fontSize: "14px", padding: "15px 32px" }}>
@@ -173,22 +173,22 @@ export default function LocalServicesAdsPage() {
                   marginBottom: "24px",
                 }}
               >
-                Unmanaged LSA Campaigns Burn Budget on Junk Leads
+                Unmanaged LSA Campaigns Burn Budget Without Showing What's Working
               </h2>
               <p style={{ fontSize: "15px", color: "rgba(0,0,0,0.6)", lineHeight: 1.75, marginBottom: "16px" }}>
                 Most contractors set up their LSA profile once and never touch it again. Without active bid management, you either overpay during low-demand windows or get outbid during peak season when leads are most valuable.
               </p>
               <p style={{ fontSize: "15px", color: "rgba(0,0,0,0.6)", lineHeight: 1.75 }}>
-                Worse, Google charges for leads that don&apos;t qualify — wrong service area, spam calls, calls for services you don&apos;t offer. Those leads are fully disputable and creditable. Most contractors never file a single dispute and lose hundreds of dollars a month as a result.
+                Worse, most LSA campaigns operate as a black box. You see spend and lead counts, but never how many actually booked or what your true cost per booked job is. Without revenue and ROI tied back to each lead, you can&apos;t tell which service types or bid levels are doing the real work.
               </p>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
               {[
                 { label: "Set-and-forget LSA", bad: true, detail: "Overpaying on bids with no weekly optimisation" },
-                { label: "No dispute management", bad: true, detail: "Paying for spam calls and out-of-area leads" },
+                { label: "No revenue tracking", bad: true, detail: "Spend goes in, no idea what booked or what the ROI is" },
                 { label: "No budget pacing", bad: true, detail: "Budget burns out before high-value time windows" },
                 { label: "Weekly bid optimisation", bad: false, detail: "Bids adjusted to target cost per booked job" },
-                { label: "Every lead reviewed and disputed", bad: false, detail: "Credits recovered for every non-qualifying lead" },
+                { label: "Revenue & ROI per lead", bad: false, detail: "Every lead tied to booked job and revenue produced" },
                 { label: "Active budget pacing", bad: false, detail: "Spend focused on your best-converting windows" },
               ].map((item) => (
                 <div
