@@ -20,6 +20,15 @@ const posts = [
     },
   {
     category: "SEO",
+    title: "SEO for Electricians: How to Rank #1 in Your City (Step-by-Step)",
+    summary: "Learn how to rank your electrical business at the top of local search with this step-by-step SEO guide. Real tactics, no fluff. See how it works.",
+    date: "May 12, 2026",
+    dateISO: "2026-05-12",
+    readTime: "11 min read",
+    slug: "seo-for-electricians-rank-number-one",
+  },
+  {
+    category: "SEO",
     title: "Contractor SEO: 7 Tactics That Actually Get You Ranked in Local Search",
     summary: "Learn 7 contractor SEO tactics that actually drive local search rankings, qualified calls, and booked jobs — not just traffic. See how it works.",
     date: "May 5, 2026",
