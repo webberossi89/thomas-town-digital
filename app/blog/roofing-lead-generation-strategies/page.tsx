@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "Roofing Lead Generation: 7 Strategies That Work in 2025 — Thomas Town Digital",
+  title: "Roofing Lead Generation: 7 Strategies That Work in 2025",
   description: "Stop chasing bad leads. These 7 roofing lead generation strategies are built to drive qualified calls and booked jobs in 2025. See what actually works.",
   openGraph: {
     title: "Roofing Lead Generation: 7 Proven Strategies That Actually Work in 2025",

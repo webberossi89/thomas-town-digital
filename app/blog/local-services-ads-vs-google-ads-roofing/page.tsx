@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "Local Services Ads vs Google Ads: Better Roofing Leads? — Thomastown Digital",
+  title: "Local Services Ads vs Google Ads: Better Roofing Leads?",
   description: "Local Services Ads vs Google Ads for roofers — which drives better leads? We break down cost, quality, and when to run both. Get the full comparison.",
   openGraph: {
     title: "Local Services Ads vs Google Ads: Which One Gets You Better Roofing Leads?",

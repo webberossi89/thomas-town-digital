@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "Local SEO vs National SEO for Contractors: Which Drives Calls — Thomastown Digital",
+  title: "Local SEO vs National SEO for Contractors: Which Drives Calls",
   description: "Local SEO for contractors generates calls. National SEO generates traffic. Here's how to tell which one your business actually needs — and where to focus first.",
   openGraph: {
     title: "Local SEO vs National SEO for Contractors: Which One Actually Drives Calls",

@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "HVAC Marketing Agency: What to Look for (And Avoid) — Thomastown Digital",
-  description: "Hiring an HVAC marketing agency? Know the green flags, the red flags, and the questions that separate real partners from expensive disappointments. Find out more.",
+  title: "HVAC Marketing Agency: What to Look for (And Avoid)",
+  description: "Hiring an HVAC marketing agency? Know the green flags, red flags, and questions that separate real partners from expensive disappointments.",
   openGraph: {
     title: "HVAC Marketing Agency: What to Look for (And What to Avoid)",
-    description: "Hiring an HVAC marketing agency? Know the green flags, the red flags, and the questions that separate real partners from expensive disappointments. Find out more.",
+    description: "Hiring an HVAC marketing agency? Know the green flags, red flags, and questions that separate real partners from expensive disappointments.",
     type: "article",
     publishedTime: "2026-05-21T00:00:00Z",
   },

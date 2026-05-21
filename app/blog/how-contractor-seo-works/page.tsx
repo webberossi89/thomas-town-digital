@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "How Contractor SEO Works: 4 Steps to More Job Bookings — Thomastown Digital",
+  title: "How Contractor SEO Works: 4 Steps to More Job Bookings",
   description: "Contractor SEO doesn't have to be a mystery. Learn the 4 steps that turn search visibility into booked jobs. See how it works.",
   openGraph: {
     title: "How Contractor SEO Actually Works: The 4 Steps That Drive Job Bookings",

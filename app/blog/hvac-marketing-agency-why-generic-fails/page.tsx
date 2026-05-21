@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
-  title: "Why HVAC Companies Fail With Generic Marketing Agencies — Thomastown Digital",
+  title: "Why HVAC Companies Fail With Generic Marketing Agencies",
   description: "Generic agencies waste HVAC marketing budgets on traffic that never books. See why industry-specific strategy is the difference between leads and booked jobs.",
   openGraph: {
     title: "Why HVAC Companies Fail With Generic Marketing Agencies",
