@@ -47,7 +47,7 @@ const faqs = [
   },
   {
     q: "Do you manage Local Services Ads (LSAs) separately from Google Ads?",
-    a: "Yes. LSAs are a distinct product — we handle setup, Google Guaranteed verification, lead review, and dispute management (flagging junk leads for credit). Both are included depending on your plan.",
+    a: "Yes. LSAs are a distinct product — we handle setup, Google Guaranteed verification, lead review, and revenue & ROI reporting (so you see what each lead actually books). Both are included depending on your plan.",
   },
   {
     q: "How fast will we see results from SEO?",
