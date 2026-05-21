@@ -4,7 +4,7 @@ import TestimonialCarousel from "@/components/TestimonialCarousel";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
-  title: "Home Services Marketing Agency | Thomas Town Digital",
+  title: "Home Services Marketing Agency",
   description: "Thomas Town Digital is a home services marketing agency helping contractors get more leads with Google Ads, Local Services Ads, and SEO. More calls.",
   openGraph: {
     title: "Home Services Marketing Agency | Thomas Town Digital",

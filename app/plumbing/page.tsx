@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/plumbing" },
-  title: "Plumbing Marketing Agency — Thomas Town Digital",
+  title: "Plumbing Marketing Agency",
   description: "SEO, Google Ads, LSA, websites, and AI automations for plumbing companies. We help plumbers generate more service and emergency leads without paying for",
 };
 

@@ -3,7 +3,7 @@ import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/blog/google-ads-management-for-contractors" },
-  title: "Google Ads Management for Contractors | Thomastown Digital",
+  title: "Google Ads Management for Contractors",
   description: "Stop wasting budget on clicks that don't convert. Thomastown Digital builds Google Ads systems for contractors that drive real calls and booked jobs.",
   openGraph: {
     title: "Google Ads Management for Contractors: How to Turn Ad Spend Into Booked Jobs",

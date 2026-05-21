@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/home-services-marketing-agency" },
-  title: "Home Services Marketing Agency — Thomas Town Digital",
+  title: "Home Services Marketing Agency",
   description: "Thomas Town Digital is a home services marketing agency in Charlotte, NC. We build exclusive lead pipelines for contractors using Google Ads, LSA, SEO, and",
 };
 

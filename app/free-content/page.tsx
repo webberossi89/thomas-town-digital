@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/free-content" },
-  title: "Free Resources — Thomas Town Digital",
+  title: "Free Resources",
   description: "Free guides, checklists, and templates built for home service businesses. Download tools to improve your Google Ads, Local SEO, and lead generation.",
 };
 

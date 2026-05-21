@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/pricing" },
-  title: "Pricing — Thomas Town Digital",
+  title: "Pricing",
   description: "Transparent, flat-fee pricing for home service marketing. No percentage of ad spend. No hidden fees. Three tiers built for businesses doing $500K to $10M+.",
 };
 
