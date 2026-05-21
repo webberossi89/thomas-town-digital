@@ -55,9 +55,33 @@ const faqs = [
   },
 ];
 
+const relatedPosts = [
+  { title: "HVAC Marketing Agency Services: What We Do for Heating & Cooling Companies", slug: "hvac-marketing-agency-services" },
+  { title: "Why HVAC Companies Fail With Generic Marketing Agencies", slug: "hvac-marketing-agency-why-generic-fails" },
+  { title: "The 2026 Home Services Marketing Stack: What's Working Right Now", slug: "2026-home-services-marketing-stack" },
+];
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.thomastowndigital.com/hvac#service",
+  name: "HVAC Marketing Agency Services",
+  description: "SEO, Google Ads, Local Services Ads, and websites for HVAC companies. Built around seasonal demand spikes, emergency calls, and replacement cycles, not generic agency playbooks.",
+  provider: { "@id": "https://www.thomastowndigital.com/#organization" },
+  serviceType: "HVAC Marketing",
+  areaServed: { "@type": "Country", name: "United States" },
+  audience: { "@type": "BusinessAudience", audienceType: "HVAC contractors" },
+  url: "https://www.thomastowndigital.com/hvac",
+  category: "Marketing Services",
+};
+
 export default function HvacPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       {/* Hero */}
       <section style={{ paddingTop: "120px", paddingBottom: "80px", background: "#0a0a0a" }}>
         <div className="container" style={{ maxWidth: "800px" }}>

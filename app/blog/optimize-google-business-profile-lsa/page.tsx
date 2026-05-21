@@ -37,7 +37,7 @@ export default function Article() {
         Not anymore.
       </p>
       <p>
-        Now your GBP is essentially your Local Services Ads application. Think of it as a credit score — Google checks your GBP to decide where to show your Local Services Ads, how often, and how you rank against competitors. Categories, service areas, reviews, response time. All of it matters. All of it feeds into LSA performance.
+        Now your GBP is essentially your <a href="/local-services-ads">Local Services Ads</a> application. Think of it as a credit score — Google checks your GBP to decide where to show your Local Services Ads, how often, and how you rank against competitors. Categories, service areas, reviews, response time. All of it matters. All of it feeds into LSA performance.
       </p>
       <p>
         I&apos;ve seen businesses with 300+ reviews and a 4.9 rating get almost no LSA leads because of a single GBP configuration issue. Social proof wasn&apos;t the problem. The setup was.

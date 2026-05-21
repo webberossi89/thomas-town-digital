@@ -22,7 +22,7 @@ const meta = {
   slug: "roofing-lead-generation-strategies",
 };
 
-const content = `<p>Most roofing companies don't have a traffic problem — they have a lead quality problem. Plenty of clicks, plenty of form fills, but not enough booked jobs. That gap between activity and revenue is where most roofing lead generation strategies fall apart.</p>
+const content = `<p>Most <a href="/roofing">roofing companies</a> don't have a traffic problem — they have a lead quality problem. Plenty of clicks, plenty of form fills, but not enough booked jobs. That gap between activity and revenue is where most roofing lead generation strategies fall apart.</p>
 
 <p>The strategies below aren't about generating more volume for the sake of it. They're about pulling in the right homeowners at the right time — people who need a roof, have the budget to pay for it, and are ready to book. Each one is built around how roofing leads actually behave in 2025, and what separates contractors who stay fully booked from those chasing whatever the lead aggregators throw at them.</p>
 

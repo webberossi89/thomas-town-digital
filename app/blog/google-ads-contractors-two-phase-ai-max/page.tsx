@@ -31,7 +31,7 @@ export default function Article() {
   return (
     <ArticleLayout meta={meta}>
       <p>
-        Most contractors operating Google Ads campaigns are leaving serious money on the table. Not because their budgets are too small. Not because their market is too competitive. Because they skip a foundational step before turning on Google&apos;s AI features — and the result is wasted spend on searches that will never convert.
+        Most <a href="/verticals">contractors operating Google Ads campaigns</a> are leaving serious money on the table. Not because their budgets are too small. Not because their market is too competitive. Because they skip a foundational step before turning on Google&apos;s AI features — and the result is wasted spend on searches that will never convert.
       </p>
       <p>
         Here&apos;s the principle that shapes everything we do with Google Ads for home service businesses: <strong>Google&apos;s AI is only as good as the data you feed it.</strong> Without meaningful conversion signals, AI campaigns waste budget on irrelevant searches rather than qualified buyers ready to call.

@@ -154,6 +154,37 @@ const nextConfig: NextConfig = {
         destination: "/",
         permanent: true,
       },
+      // Legacy WordPress posts and CPTs still showing impressions in GSC
+      {
+        source: "/local-seo-strategies",
+        destination: "/verticals",
+        permanent: true,
+      },
+      {
+        source: "/local-seo-strategies/",
+        destination: "/verticals",
+        permanent: true,
+      },
+      {
+        source: "/restoration-marketing-in-major-u-s-cities-how-much-should-you-spend",
+        destination: "/water-damage",
+        permanent: true,
+      },
+      {
+        source: "/restoration-marketing-in-major-u-s-cities-how-much-should-you-spend/",
+        destination: "/water-damage",
+        permanent: true,
+      },
+      {
+        source: "/pixpopup-item/:slug*",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/portfolio-item/:slug*",
+        destination: "/",
+        permanent: true,
+      },
     ];
   },
 };

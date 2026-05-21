@@ -25,7 +25,7 @@ const meta = {
   slug: "google-ads-cost-roofing-companies",
 };
 
-const content = `<p>Google Ads for roofing companies can work extremely well — or burn through your budget with nothing to show for it. The difference usually comes down to how the campaign is built, not how much you spend. Before you set a budget, you need to understand what you're actually paying for: cost per click, cost per lead, and what it actually costs to book a job through paid search.</p>
+const content = `<p><a href="/roofing">Google Ads for roofing companies</a> can work extremely well — or burn through your budget with nothing to show for it. The difference usually comes down to how the campaign is built, not how much you spend. Before you set a budget, you need to understand what you're actually paying for: cost per click, cost per lead, and what it actually costs to book a job through paid search.</p>
 
 <p>Here's a straightforward breakdown of Google Ads roofing cost — what the numbers look like, what drives them up or down, and how to evaluate whether your current spend makes sense. If you want the monthly budget planning view with ROI projections by market tier, our <a href="/blog/google-ads-roofing-budget-guide">Google Ads budget guide for roofers</a> walks through the numbers at each spend level.</p>
 

@@ -25,7 +25,7 @@ const meta = {
   slug: "google-ads-management-for-contractors",
 };
 
-const content = `<p>Most contractors who've tried Google Ads have the same story: they spent real money, got some clicks, maybe a few calls, but couldn't tell if any of it turned into actual work. That's not a Google Ads problem — it's a management problem. Google Ads management for contractors is a specific discipline. It's not the same as running ads for an e-commerce store or a SaaS company. The search behavior is different, the margins are different, the lead quality stakes are different, and what counts as a win looks completely different.</p>
+const content = `<p>Most contractors who've tried Google Ads have the same story: they spent real money, got some clicks, maybe a few calls, but couldn't tell if any of it turned into actual work. That's not a Google Ads problem — it's a management problem. <a href="/home-services-marketing-agency">Google Ads management for contractors</a> is a specific discipline. It's not the same as running ads for an e-commerce store or a SaaS company. The search behavior is different, the margins are different, the lead quality stakes are different, and what counts as a win looks completely different.</p>
 
 <p>At Thomas Town Digital, we work exclusively with home service companies — roofers, plumbers, HVAC contractors, electricians, and similar trades. This page explains exactly how we approach Google Ads for contractors, what separates a campaign that generates revenue from one that burns through budget, and what you should expect from professional campaign management.</p>
 

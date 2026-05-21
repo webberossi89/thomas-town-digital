@@ -25,7 +25,7 @@ const meta = {
   slug: "contractor-ppc-management",
 };
 
-const content = `<p>Most contractors who've hired a marketing agency for PPC have the same story: the agency promised leads, reported clicks and impressions, and charged a management fee every month — while the phone rang less than expected and the leads that did come in weren't worth much. <strong>Contractor PPC management</strong> done right looks completely different from that. This page explains what good actually looks like, what you should be getting from whoever manages your campaigns, and how to tell the difference before you waste another dollar.</p>
+const content = `<p>Most contractors who've hired a marketing agency for PPC have the same story: the agency promised leads, reported clicks and impressions, and charged a management fee every month — while the phone rang less than expected and the leads that did come in weren't worth much. <strong><a href="/home-services-marketing-agency">Contractor PPC management</a></strong> done right looks completely different from that. This page explains what good actually looks like, what you should be getting from whoever manages your campaigns, and how to tell the difference before you waste another dollar.</p>
 
 <h2>What PPC Management for Contractors Actually Involves</h2>
 

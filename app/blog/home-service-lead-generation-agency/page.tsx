@@ -25,7 +25,7 @@ const meta = {
   slug: "home-service-lead-generation-agency",
 };
 
-const content = `<p>Most contractors who come to Thomas Town Digital aren't starting from zero. They've already tried Google Ads, maybe hired a home service lead generation agency or two, and spent real money with not much to show for it. Calls come in, but half of them are the wrong job, wrong area, or someone who's already called five other companies. The frustration isn't that marketing doesn't work — it's that nobody's explained how to make it actually work for a service business.</p>
+const content = `<p>Most contractors who come to Thomas Town Digital aren't starting from zero. They've already tried Google Ads, maybe hired a <a href="/home-services-marketing-agency">home service lead generation agency</a> or two, and spent real money with not much to show for it. Calls come in, but half of them are the wrong job, wrong area, or someone who's already called five other companies. The frustration isn't that marketing doesn't work — it's that nobody's explained how to make it actually work for a service business.</p>
 
 <p>This guide breaks down the real mechanics of lead generation for home service companies in 2026. Not theory. Not generic advice. The actual system, step by step, that turns local search demand into booked jobs and predictable revenue.</p>
 

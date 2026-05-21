@@ -24,7 +24,7 @@ const meta = {
 
 const content = `<p>Most contractors come to this question after getting burned — either by an SEO agency that promised page one rankings and delivered nothing for six months, or by a Google Ads campaign that spent $3,000 and produced a handful of calls that went nowhere. The question isn't which one sounds better. It's which one actually fills your schedule with real work.</p>
 
-<p>SEO for contractors and Google Ads are both legitimate lead generation channels. But they work differently, cost differently, and deliver different types of leads at different stages of a buyer's decision. The right answer depends on where your business is right now, what your cash flow looks like, and how fast you need the phone ringing.</p>
+<p><a href="/home-services-marketing-agency">SEO for contractors</a> and Google Ads are both legitimate lead generation channels. But they work differently, cost differently, and deliver different types of leads at different stages of a buyer's decision. The right answer depends on where your business is right now, what your cash flow looks like, and how fast you need the phone ringing.</p>
 
 <p>Here's how they actually compare — without the agency spin.</p>
 

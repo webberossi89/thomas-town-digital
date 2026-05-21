@@ -31,7 +31,7 @@ export default function Article() {
   return (
     <ArticleLayout meta={meta}>
       <p>
-        Local Services Ads has moved from a nice-to-have to the primary paid lead generation channel for most home service businesses. If you run an HVAC company, a plumbing operation, or a roofing company and you&apos;re not running LSA — you&apos;re losing leads to competitors who are.
+        <a href="/local-services-ads">Local Services Ads</a> has moved from a nice-to-have to the primary paid lead generation channel for most home service businesses. If you run an HVAC company, a plumbing operation, or a roofing company and you&apos;re not running LSA — you&apos;re losing leads to competitors who are.
       </p>
       <p>
         Here&apos;s a complete breakdown of how LSA works, why it outperforms traditional paid search for home services, and exactly how to set it up to generate consistent qualified leads.

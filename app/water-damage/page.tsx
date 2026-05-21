@@ -55,9 +55,33 @@ const faqs = [
   },
 ];
 
+const relatedPosts = [
+  { title: "Local Services Ads for Home Services: What's Actually Working in 2026", slug: "local-services-ads-home-service-2026" },
+  { title: "Stop Chasing Google's Recommendations: Why They Don't Always Work", slug: "stop-chasing-google-recommendations" },
+  { title: "The Complete Marketing Stack for Home Service Businesses in 2026", slug: "complete-marketing-stack-home-service" },
+];
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.thomastowndigital.com/water-damage#service",
+  name: "Water Damage & Restoration Marketing Agency Services",
+  description: "SEO, Google Ads, and Local Services Ads for water damage and restoration contractors. The highest-performing LSA category — built around emergency search intent.",
+  provider: { "@id": "https://www.thomastowndigital.com/#organization" },
+  serviceType: "Restoration Marketing",
+  areaServed: { "@type": "Country", name: "United States" },
+  audience: { "@type": "BusinessAudience", audienceType: "Water damage and restoration contractors" },
+  url: "https://www.thomastowndigital.com/water-damage",
+  category: "Marketing Services",
+};
+
 export default function WaterDamagePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       {/* Hero */}
       <section
         style={{

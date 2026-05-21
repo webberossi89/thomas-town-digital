@@ -37,7 +37,7 @@ export default function Article() {
         The landscape has changed.
       </p>
       <p>
-        Google Local Services Ads have become the primary source of high-intent leads for contractors — and their dominance is growing, not shrinking. If you&apos;re still running traditional Google Ads as your sole paid channel without adapting your overall strategy, you&apos;re falling behind competitors who understand how LSA actually works.
+        <a href="/local-services-ads">Google Local Services Ads</a> have become the primary source of high-intent leads for contractors — and their dominance is growing, not shrinking. If you&apos;re still running traditional Google Ads as your sole paid channel without adapting your overall strategy, you&apos;re falling behind competitors who understand how LSA actually works.
       </p>
       <p>
         The catch? <strong>LSA success isn&apos;t just about budget.</strong> It&apos;s about trust, consistency, and the one thing most contractors overlook: your Google Business Profile. LSAs work like a credit score, and your GBP is the payment history Google uses to decide whether you deserve top placement.

@@ -31,7 +31,7 @@ export default function Article() {
   return (
     <ArticleLayout meta={meta}>
       <p>
-        If you run a roofing, HVAC, or plumbing business, your marketing landscape in 2026 looks very different from what it did just two years ago. Google has shifted. Consumer behavior has shifted. And the contractors who are winning right now aren&apos;t necessarily the ones with the biggest budgets — they&apos;re the ones who figured out the right order to build their stack.
+        If you run a <a href="/verticals">roofing, HVAC, or plumbing business</a>, your marketing landscape in 2026 looks very different from what it did just two years ago. Google has shifted. Consumer behavior has shifted. And the contractors who are winning right now aren&apos;t necessarily the ones with the biggest budgets — they&apos;re the ones who figured out the right order to build their stack.
       </p>
       <p>
         This is the complete marketing stack for home service businesses in 2026. Four layers. A specific sequence. And the reasoning behind why order matters as much as the channels themselves.
