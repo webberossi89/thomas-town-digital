@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "HVAC Marketing Agency: What to Look for (And What to Avoid)",
     description: "Hiring an HVAC marketing agency? Know the green flags, the red flags, and the questions that separate real partners from expensive disappointments. Find out more.",
     type: "article",
-    publishedTime: "2026-05-19T00:00:00Z",
+    publishedTime: "2026-05-21T00:00:00Z",
   },
 };
 
@@ -16,8 +16,8 @@ const meta = {
   title: "HVAC Marketing Agency: What to Look for (And What to Avoid)",
   description: "Hiring an HVAC marketing agency? Know the green flags, the red flags, and the questions that separate real partners from expensive disappointments. Find out more.",
   category: "Marketing",
-  date: "May 19, 2026",
-  dateISO: "2026-05-19",
+  date: "May 21, 2026",
+  dateISO: "2026-05-21",
   readTime: "11 min read",
   slug: "hvac-marketing-agency-what-to-look-for",
 };

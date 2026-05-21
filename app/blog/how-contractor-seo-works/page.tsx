@@ -22,7 +22,7 @@ const meta = {
   slug: "how-contractor-seo-works",
 };
 
-const content = `<p>Contractor SEO works by making your business the first result homeowners see when they search for the service you offer in your area — and then converting that visibility into phone calls and booked jobs. It's not about tricks or gaming Google. It's a structured process: fix the technical foundation, dominate local search, build authority, and optimise your site to turn visitors into leads. Done right, it builds a lead pipeline that keeps running without paying for every click.</p>
+const content = `<p><a href="/verticals">Contractor SEO</a> works by making your business the first result homeowners see when they search for the service you offer in your area — and then converting that visibility into phone calls and booked jobs. It's not about tricks or gaming Google. It's a structured process: fix the technical foundation, dominate local search, build authority, and optimise your site to turn visitors into leads. Done right, it builds a lead pipeline that keeps running without paying for every click.</p>
 
 <p>Here's a common problem: contractors either dismiss SEO because they tried it once and saw nothing, or they're paying for it monthly without understanding what they're actually getting. Both situations waste money. This guide breaks down exactly what contractor SEO involves, step by step, so you can evaluate whether it's being done right — or whether there's a better path forward.</p>
 

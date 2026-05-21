@@ -22,7 +22,7 @@ const meta = {
   slug: "what-is-home-services-marketing",
 };
 
-const content = `<p><strong>Home services marketing is the practice of generating qualified leads for contractors and local service businesses — roofers, plumbers, HVAC companies, electricians — through channels built around local search intent, phone-based conversion, and service-area targeting.</strong> It's not about building a brand or growing a social following. It's about getting the phone to ring with people who need a job done and are ready to book. Most agencies treat it like any other marketing vertical. That's where things go wrong.</p>
+const content = `<p><strong><a href="/home-services-marketing-agency">Home services marketing</a> is the practice of generating qualified leads for contractors and local service businesses — roofers, plumbers, HVAC companies, electricians — through channels built around local search intent, phone-based conversion, and service-area targeting.</strong> It's not about building a brand or growing a social following. It's about getting the phone to ring with people who need a job done and are ready to book. Most agencies treat it like any other marketing vertical. That's where things go wrong.</p>
 
 <h2>What Home Services Marketing Actually Covers</h2>
 

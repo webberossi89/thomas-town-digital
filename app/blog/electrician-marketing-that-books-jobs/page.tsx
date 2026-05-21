@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Electrician Marketing That Actually Books Jobs: What Works in 2026",
     description: "Learn which electrician marketing strategies generate real booked jobs — not just clicks. SEO, Google Ads, LSAs, and what actually works in 2026. Find out.",
     type: "article",
-    publishedTime: "2026-05-05T00:00:00Z",
+    publishedTime: "2026-05-07T00:00:00Z",
   },
 };
 
@@ -16,13 +16,13 @@ const meta = {
   title: "Electrician Marketing That Actually Books Jobs: What Works in 2026",
   description: "Learn which electrician marketing strategies generate real booked jobs — not just clicks. SEO, Google Ads, LSAs, and what actually works in 2026. Find out.",
   category: "Marketing",
-  date: "May 5, 2026",
-  dateISO: "2026-05-05",
+  date: "May 7, 2026",
+  dateISO: "2026-05-07",
   readTime: "11 min read",
   slug: "electrician-marketing-that-books-jobs",
 };
 
-const content = `<p><strong>Most electrician marketing fails for the same reason: it generates traffic or impressions, but not booked jobs.</strong> The channels that work for electrical contractors are specific — Google Local Services Ads, a well-optimised Google Business Profile, targeted paid search, and a website built to convert calls. This article breaks down what actually produces real leads in 2026, what's wasted spend, and how to build a system that keeps your schedule full consistently.</p>
+const content = `<p><strong>Most <a href="/electrical">electrician marketing</a> fails for the same reason: it generates traffic or impressions, but not booked jobs.</strong> The channels that work for electrical contractors are specific — Google Local Services Ads, a well-optimised Google Business Profile, targeted paid search, and a website built to convert calls. This article breaks down what actually produces real leads in 2026, what's wasted spend, and how to build a system that keeps your schedule full consistently.</p>
 
 <h2>Why Most Electricians Struggle to Generate Consistent Leads</h2>
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Local Services Ads vs Google Ads: Which One Gets You Better Roofing Leads?",
     description: "Local Services Ads vs Google Ads for roofers — which drives better leads? We break down cost, quality, and when to run both. Get the full comparison.",
     type: "article",
-    publishedTime: "2026-05-12T00:00:00Z",
+    publishedTime: "2026-05-19T00:00:00Z",
   },
 };
 
@@ -16,8 +16,8 @@ const meta = {
   title: "Local Services Ads vs Google Ads: Which One Gets You Better Roofing Leads?",
   description: "Local Services Ads vs Google Ads for roofers — which drives better leads? We break down cost, quality, and when to run both. Get the full comparison.",
   category: "LSA",
-  date: "May 12, 2026",
-  dateISO: "2026-05-12",
+  date: "May 19, 2026",
+  dateISO: "2026-05-19",
   readTime: "11 min read",
   slug: "local-services-ads-vs-google-ads-roofing",
 };

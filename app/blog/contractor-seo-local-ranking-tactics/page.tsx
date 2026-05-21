@@ -22,7 +22,7 @@ const meta = {
   slug: "contractor-seo-local-ranking-tactics",
 };
 
-const content = `<p><strong>TL;DR:</strong> Contractor SEO is about getting your business in front of homeowners who are actively searching for the services you offer — before they call your competitor. The tactics that actually move the needle are Google Business Profile optimisation, service-specific landing pages, local citations, review generation, technical site health, targeted content, and link building from local sources. Done right, these seven tactics build a lead pipeline that doesn't stop when you turn off an ad budget.</p>
+const content = `<p><strong>TL;DR:</strong> <a href="/verticals">Contractor SEO</a> is about getting your business in front of homeowners who are actively searching for the services you offer — before they call your competitor. The tactics that actually move the needle are Google Business Profile optimisation, service-specific landing pages, local citations, review generation, technical site health, targeted content, and link building from local sources. Done right, these seven tactics build a lead pipeline that doesn't stop when you turn off an ad budget.</p>
 
 <h2>Why Most Contractor SEO Efforts Don't Produce Leads</h2>
 

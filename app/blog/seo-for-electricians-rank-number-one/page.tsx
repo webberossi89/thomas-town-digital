@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "SEO for Electricians: How to Rank #1 in Your City (Step-by-Step)",
     description: "Learn how to rank your electrical business at the top of local search with this step-by-step SEO guide. Real tactics, no fluff. See how it works.",
     type: "article",
-    publishedTime: "2026-05-12T00:00:00Z",
+    publishedTime: "2026-05-17T00:00:00Z",
   },
 };
 
@@ -16,13 +16,13 @@ const meta = {
   title: "SEO for Electricians: How to Rank #1 in Your City (Step-by-Step)",
   description: "Learn how to rank your electrical business at the top of local search with this step-by-step SEO guide. Real tactics, no fluff. See how it works.",
   category: "SEO",
-  date: "May 12, 2026",
-  dateISO: "2026-05-12",
+  date: "May 17, 2026",
+  dateISO: "2026-05-17",
   readTime: "11 min read",
   slug: "seo-for-electricians-rank-number-one",
 };
 
-const content = `<p>SEO for electricians comes down to one thing: showing up when someone in your city searches for an electrician and is ready to book. That means ranking in the Google Maps pack, appearing in organic results for your core services, and having a website that turns visitors into calls. This guide walks through exactly how to do that — step by step — with no wasted time on tactics that don't move the needle for local service businesses.</p>
+const content = `<p><a href="/electrical">SEO for electricians</a> comes down to one thing: showing up when someone in your city searches for an electrician and is ready to book. That means ranking in the Google Maps pack, appearing in organic results for your core services, and having a website that turns visitors into calls. This guide walks through exactly how to do that — step by step — with no wasted time on tactics that don't move the needle for local service businesses.</p>
 
 <p>Here's what this guide covers:</p>
 

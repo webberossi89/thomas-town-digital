@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Why HVAC Companies Fail With Generic Marketing Agencies",
     description: "Generic agencies waste HVAC marketing budgets on traffic that never books. See why industry-specific strategy is the difference between leads and booked jobs.",
     type: "article",
-    publishedTime: "2026-05-11T00:00:00Z",
+    publishedTime: "2026-05-14T00:00:00Z",
   },
 };
 
@@ -16,13 +16,13 @@ const meta = {
   title: "Why HVAC Companies Fail With Generic Marketing Agencies",
   description: "Generic agencies waste HVAC marketing budgets on traffic that never books. See why industry-specific strategy is the difference between leads and booked jobs.",
   category: "Marketing",
-  date: "May 11, 2026",
-  dateISO: "2026-05-11",
+  date: "May 14, 2026",
+  dateISO: "2026-05-14",
   readTime: "9 min read",
   slug: "hvac-marketing-agency-why-generic-fails",
 };
 
-const content = `<p>Most HVAC companies that struggle with their marketing aren't spending too little — they're working with an agency that doesn't understand how HVAC leads actually work. A generic agency will run your Google Ads, send you a monthly report full of impressions and clicks, and call it a win. Meanwhile, your phone isn't ringing with real jobs. The problem isn't digital marketing itself. It's handing your budget to a team that treats your HVAC business the same way they'd treat a clothing brand or a dental practice.</p>
+const content = `<p>Most <a href="/hvac">HVAC companies</a> that struggle with their marketing aren't spending too little — they're working with an agency that doesn't understand how HVAC leads actually work. A generic agency will run your Google Ads, send you a monthly report full of impressions and clicks, and call it a win. Meanwhile, your phone isn't ringing with real jobs. The problem isn't digital marketing itself. It's handing your budget to a team that treats your HVAC business the same way they'd treat a clothing brand or a dental practice.</p>
 
 <h2>Generic Agencies Optimise for the Wrong Metrics</h2>
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Local Services Ads: 12 Questions Contractors Actually Ask Before Starting",
     description: "Thinking about Local Services Ads? Here are 12 real questions contractors ask before getting started — with straight answers on cost, leads, and setup.",
     type: "article",
-    publishedTime: "2026-05-06T00:00:00Z",
+    publishedTime: "2026-05-09T00:00:00Z",
   },
 };
 
@@ -16,13 +16,13 @@ const meta = {
   title: "Local Services Ads: 12 Questions Contractors Actually Ask Before Starting",
   description: "Thinking about Local Services Ads? Here are 12 real questions contractors ask before getting started — with straight answers on cost, leads, and setup.",
   category: "LSA",
-  date: "May 6, 2026",
-  dateISO: "2026-05-06",
+  date: "May 9, 2026",
+  dateISO: "2026-05-09",
   readTime: "12 min read",
   slug: "local-services-ads-contractor-questions",
 };
 
-const content = `<p><strong>Local Services Ads put your business at the very top of Google — above paid search ads and above organic results — and you only pay when someone actually contacts you.</strong> For home service contractors, that sounds straightforward. But before committing budget, most contractors have real questions: How much will leads actually cost? What happens with bad calls? Can you get suspended without warning? This article answers 12 of the most common questions contractors ask before starting LSAs, with direct answers based on how these campaigns actually perform in the field.</p>
+const content = `<p><strong><a href="/local-services-ads">Local Services Ads</a> put your business at the very top of Google — above paid search ads and above organic results — and you only pay when someone actually contacts you.</strong> For home service contractors, that sounds straightforward. But before committing budget, most contractors have real questions: How much will leads actually cost? What happens with bad calls? Can you get suspended without warning? This article answers 12 of the most common questions contractors ask before starting LSAs, with direct answers based on how these campaigns actually perform in the field.</p>
 
 <h2>What Local Services Ads Actually Are (And What They Aren't)</h2>
 
