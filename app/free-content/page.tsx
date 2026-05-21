@@ -18,6 +18,15 @@ const resources = [
     accent: false,
   },
   {
+    tag: "Custom Build",
+    title: "Custom Google Ads Account Build for Your Business",
+    desc: "Tell us about your contracting business. In 30 minutes we'll email you a real, market-specific Google Ads account build: keywords, ad copy, negatives, geo targets, GA4 tracking, and per-campaign budgets.",
+    detail: "Spreadsheet · Free",
+    cta: "Build Mine",
+    href: "/free-content/google-ads-build",
+    accent: true,
+  },
+  {
     tag: "Guide",
     title: "Home Services Growth Playbook",
     desc: "A comprehensive guide to growing your home services business with proven digital marketing strategies. GBP, LSA, Google Ads — the full stack explained.",
@@ -61,15 +70,6 @@ const resources = [
     cta: "Get the Templates",
     href: "/free-content/lead-management-system",
     accent: false,
-  },
-  {
-    tag: "Custom Build",
-    title: "Custom Google Ads Account Build for Your Business",
-    desc: "Tell us about your contracting business. In 30 minutes we'll email you a real, market-specific Google Ads account build: keywords, ad copy, negatives, geo targets, GA4 tracking, and per-campaign budgets.",
-    detail: "Spreadsheet · Free",
-    cta: "Build Mine →",
-    href: "/free-content/google-ads-build",
-    accent: true,
   },
 ];
 
