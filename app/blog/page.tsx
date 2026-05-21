@@ -19,6 +19,15 @@ const posts = [
       slug: "google-ads-roofing-budget-guide",
     },
   {
+    category: "SEO",
+    title: "Contractor SEO: 7 Tactics That Actually Get You Ranked in Local Search",
+    summary: "Learn 7 contractor SEO tactics that actually drive local search rankings, qualified calls, and booked jobs — not just traffic. See how it works.",
+    date: "May 5, 2026",
+    dateISO: "2026-05-05",
+    readTime: "12 min read",
+    slug: "contractor-seo-local-ranking-tactics",
+  },
+  {
     category: "Marketing",
     title: "Why HVAC Companies Fail With Generic Marketing Agencies",
     summary: "Generic agencies waste HVAC marketing budgets on traffic that never books. See why industry-specific strategy is the difference between leads and booked jobs.",
