@@ -19,6 +19,15 @@ const posts = [
       slug: "google-ads-roofing-budget-guide",
     },
   {
+    category: "Marketing",
+    title: "Plumbing Marketing Agency: 5 Services That Actually Drive Calls",
+    summary: "A plumbing marketing agency should generate real booked jobs, not just traffic. Here are 5 services that actually move the needle. See how.",
+    date: "May 19, 2026",
+    dateISO: "2026-05-19",
+    readTime: "10 min read",
+    slug: "plumbing-marketing-agency-services-that-drive-calls",
+  },
+  {
     category: "SEO",
     title: "SEO for Electricians: How to Rank #1 in Your City (Step-by-Step)",
     summary: "Learn how to rank your electrical business at the top of local search with this step-by-step SEO guide. Real tactics, no fluff. See how it works.",
