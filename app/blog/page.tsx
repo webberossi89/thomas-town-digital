@@ -20,6 +20,15 @@ const posts = [
     },
   {
     category: "Marketing",
+    title: "Website Design for Home Service Businesses: Mobile-First Data and Conversion Benchmarks",
+    summary: "See the data behind high-converting home service websites. Mobile-first design benchmarks, load speed stats, and what actually drives calls. Get the breakdown.",
+    date: "May 26, 2026",
+    dateISO: "2026-05-26",
+    readTime: "12 min read",
+    slug: "website-design-home-service-businesses",
+  },
+  {
+    category: "Marketing",
     title: "Plumbing Marketing Agency: 5 Services That Actually Drive Calls",
     summary: "A plumbing marketing agency should generate real booked jobs, not just traffic. Here are 5 services that actually move the needle. See how.",
     date: "May 19, 2026",
