@@ -10,13 +10,12 @@ export const metadata: Metadata = {
 const posts = [
   {
       category: "Google Ads",
-      title: "Google Ads for Roofing Companies: Complete Budget Guide and ROI Analysis",
-      summary:
-        "How much should a roofing company actually spend on Google Ads? Real benchmarks, cost per lead breakdowns by service type, and ROI projections for competitive metro markets.",
-      date: "January 2, 2026",
-      dateISO: "2026-01-02",
-      readTime: "10 min read",
-      slug: "google-ads-roofing-budget-guide",
+      title: "How Much Do Google Ads Cost for Roofing Companies? CPC, CPL & Budget Breakdown",
+      summary: "What do Google Ads actually cost for roofers? Get real CPC, CPL, and monthly budget benchmarks, plus how to judge if your spend is working. Find out.",
+      date: "April 9, 2026",
+      dateISO: "2026-04-09",
+      readTime: "12 min read",
+      slug: "google-ads-cost-roofing-companies",
     },
   {
     category: "Marketing",
@@ -29,12 +28,30 @@ const posts = [
   },
   {
     category: "Marketing",
+    title: "HVAC Marketing Agency: What to Look for (And Avoid)",
+    summary: "Hiring an HVAC marketing agency? Know the green flags, the red flags, and the questions that separate real partners from expensive disappointments. Find out more.",
+    date: "May 21, 2026",
+    dateISO: "2026-05-21",
+    readTime: "11 min read",
+    slug: "hvac-marketing-agency-what-to-look-for",
+  },
+  {
+    category: "Marketing",
     title: "Plumbing Marketing Agency: 5 Services That Actually Drive Calls",
     summary: "A plumbing marketing agency should generate real booked jobs, not just traffic. Here are 5 services that actually move the needle. See how.",
     date: "May 19, 2026",
     dateISO: "2026-05-19",
     readTime: "10 min read",
     slug: "plumbing-marketing-agency-services-that-drive-calls",
+  },
+  {
+    category: "LSA",
+    title: "Local Services Ads vs Google Ads: Better Roofing Leads?",
+    summary: "Local Services Ads vs Google Ads for roofers — which drives better leads? We break down cost, quality, and when to run both. Get the full comparison.",
+    date: "May 19, 2026",
+    dateISO: "2026-05-19",
+    readTime: "11 min read",
+    slug: "local-services-ads-vs-google-ads-roofing",
   },
   {
     category: "SEO",
@@ -46,13 +63,13 @@ const posts = [
     slug: "seo-for-electricians-rank-number-one",
   },
   {
-    category: "SEO",
-    title: "Contractor SEO: 7 Tactics That Actually Get You Ranked in Local Search",
-    summary: "Learn 7 contractor SEO tactics that actually drive local search rankings, qualified calls, and booked jobs — not just traffic. See how it works.",
-    date: "May 5, 2026",
-    dateISO: "2026-05-05",
-    readTime: "12 min read",
-    slug: "contractor-seo-local-ranking-tactics",
+    category: "Marketing",
+    title: "Plumbing Marketing Agencies: What to Look For and What to Avoid",
+    summary: "Hiring a plumbing marketing agency? Know what separates real lead generation from wasted spend. See what to look for and what to avoid. Read the breakdown.",
+    date: "May 15, 2026",
+    dateISO: "2026-05-15",
+    readTime: "11 min read",
+    slug: "plumbing-marketing-agency-what-to-look-for",
   },
   {
     category: "Marketing",
@@ -62,15 +79,6 @@ const posts = [
     dateISO: "2026-05-14",
     readTime: "9 min read",
     slug: "hvac-marketing-agency-why-generic-fails",
-  },
-  {
-    category: "Marketing",
-    title: "Plumbing Marketing Agencies: What to Look For and What to Avoid",
-    summary: "Hiring a plumbing marketing agency? Know what separates real lead generation from wasted spend. See what to look for and what to avoid. Read the breakdown.",
-    date: "May 15, 2026",
-    dateISO: "2026-05-15",
-    readTime: "11 min read",
-    slug: "plumbing-marketing-agency-what-to-look-for",
   },
   {
     category: "SEO",
@@ -107,6 +115,15 @@ const posts = [
     dateISO: "2026-05-07",
     readTime: "11 min read",
     slug: "electrician-marketing-that-books-jobs",
+  },
+  {
+    category: "SEO",
+    title: "Contractor SEO: 7 Tactics That Actually Get You Ranked in Local Search",
+    summary: "Learn 7 contractor SEO tactics that actually drive local search rankings, qualified calls, and booked jobs — not just traffic. See how it works.",
+    date: "May 5, 2026",
+    dateISO: "2026-05-05",
+    readTime: "12 min read",
+    slug: "contractor-seo-local-ranking-tactics",
   },
   {
     category: "SEO",
@@ -179,15 +196,6 @@ const posts = [
       dateISO: "2026-04-14",
       readTime: "8 min read",
       slug: "contractor-ppc-management",
-    },
-  {
-      category: "Google Ads",
-      title: "How Much Do Google Ads Cost for Roofing Companies? CPC, CPL & Budget Breakdown",
-      summary: "What do Google Ads actually cost for roofers? Get real CPC, CPL, and monthly budget benchmarks, plus how to judge if your spend is working. Find out.",
-      date: "April 9, 2026",
-      dateISO: "2026-04-09",
-      readTime: "12 min read",
-      slug: "google-ads-cost-roofing-companies",
     },
   {
       category: "Google Ads",
@@ -348,6 +356,16 @@ const posts = [
       slug: "complete-marketing-stack-home-service",
     },
   {
+      category: "Google Ads",
+      title: "Google Ads for Roofing Companies: Complete Budget Guide and ROI Analysis",
+      summary:
+        "How much should a roofing company actually spend on Google Ads? Real benchmarks, cost per lead breakdowns by service type, and ROI projections for competitive metro markets.",
+      date: "January 2, 2026",
+      dateISO: "2026-01-02",
+      readTime: "10 min read",
+      slug: "google-ads-roofing-budget-guide",
+    },
+  {
       category: "LSA",
       title: "Google Local Services Ads for Contractors: Why Playing the Long Game Wins More Leads",
       summary:
@@ -386,25 +404,7 @@ const posts = [
       dateISO: "2025-04-29",
       readTime: "7 min read",
       slug: "contractors-google-ads-book-more-jobs",
-    },
-  {
-    category: "LSA",
-    title: "Local Services Ads vs Google Ads: Better Roofing Leads?",
-    summary: "Local Services Ads vs Google Ads for roofers — which drives better leads? We break down cost, quality, and when to run both. Get the full comparison.",
-    date: "May 19, 2026",
-    dateISO: "2026-05-19",
-    readTime: "11 min read",
-    slug: "local-services-ads-vs-google-ads-roofing",
-  },
-  {
-    category: "Marketing",
-    title: "HVAC Marketing Agency: What to Look for (And Avoid)",
-    summary: "Hiring an HVAC marketing agency? Know the green flags, the red flags, and the questions that separate real partners from expensive disappointments. Find out more.",
-    date: "May 21, 2026",
-    dateISO: "2026-05-21",
-    readTime: "11 min read",
-    slug: "hvac-marketing-agency-what-to-look-for",
-  },
+    }
 ];
 
 const categoryColor = (cat: string) => {
