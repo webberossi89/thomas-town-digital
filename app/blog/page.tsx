@@ -18,6 +18,15 @@ const posts = [
       slug: "google-ads-cost-roofing-companies",
     },
   {
+    category: "Google Ads",
+    title: "PPC Management for Contractors: What Good Agencies Do Differently",
+    summary: "Most PPC agencies burn contractor budgets on traffic that never converts. Here's what a competent agency actually does — and how to tell the difference. See how.",
+    date: "June 1, 2026",
+    dateISO: "2026-06-01",
+    readTime: "10 min read",
+    slug: "ppc-management-for-contractors",
+  },
+  {
     category: "Marketing",
     title: "Website Design for Home Service Businesses: Mobile-First Data and Conversion Benchmarks",
     summary: "See the data behind high-converting home service websites. Mobile-first design benchmarks, load speed stats, and what actually drives calls. Get the breakdown.",
