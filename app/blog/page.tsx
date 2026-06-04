@@ -18,6 +18,15 @@ const posts = [
       slug: "google-ads-cost-roofing-companies",
     },
   {
+    category: "Marketing",
+    title: "Home Services Marketing: 8 Channels That Drive Real Job Bookings",
+    summary: "Not all marketing channels deliver booked jobs. Here are 8 that actually work for home service contractors — with real benchmarks and setup guidance.",
+    date: "June 4, 2026",
+    dateISO: "2026-06-04",
+    readTime: "14 min read",
+    slug: "home-services-marketing-channels",
+  },
+  {
     category: "Google Ads",
     title: "PPC Management for Contractors: What Good Agencies Do Differently",
     summary: "Most PPC agencies burn contractor budgets on traffic that never converts. Here's what a competent agency actually does — and how to tell the difference. See how.",
