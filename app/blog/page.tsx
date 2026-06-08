@@ -19,6 +19,15 @@ const posts = [
     },
   {
     category: "Marketing",
+    title: "Web Design for Contractors: Mobile Benchmarks and Conversion Data",
+    summary: "Real mobile benchmarks and conversion data for contractor websites. See what separates high-performing sites from ones that bleed leads. Get the breakdown.",
+    date: "June 8, 2026",
+    dateISO: "2026-06-08",
+    readTime: "11 min read",
+    slug: "web-design-for-contractors-mobile-benchmarks-conversion-data",
+  },
+  {
+    category: "Marketing",
     title: "Home Services Marketing: 8 Channels That Drive Real Job Bookings",
     summary: "Not all marketing channels deliver booked jobs. Here are 8 that actually work for home service contractors — with real benchmarks and setup guidance.",
     date: "June 4, 2026",
