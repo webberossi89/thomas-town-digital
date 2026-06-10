@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/plumbing-marketing-agency-services-that-drive-calls" },
   title: "Plumbing Marketing Agency: 5 Services That Drive Calls — Thomastown Digital",
   description: "A plumbing marketing agency should generate real booked jobs, not just traffic. Here are 5 services that actually move the needle. See how.",
   openGraph: {

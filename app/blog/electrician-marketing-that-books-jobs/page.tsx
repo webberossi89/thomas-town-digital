@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/electrician-marketing-that-books-jobs" },
   title: "Electrician Marketing That Actually Books Jobs in 2026",
   description: "Learn which electrician marketing strategies generate real booked jobs — not just clicks. SEO, Google Ads, LSAs, and what actually works in 2026. Find out.",
   openGraph: {

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/local-services-ads-contractor-questions" },
   title: "Local Services Ads: 12 Questions Contractors Ask Before Starting",
   description: "Thinking about Local Services Ads? Here are 12 real questions contractors ask before getting started — with straight answers on cost, leads, and setup.",
   openGraph: {

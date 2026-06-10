@@ -3,6 +3,45 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   async redirects() {
     return [
+      // Canonical host: permanently redirect apex (non-www) to www so Google
+      // consolidates one hostname. Vercel's automatic apex->www redirect is a
+      // 307 (temporary), which keeps both hostnames indexed and splits ranking
+      // signal. A 308 permanent redirect here fixes consolidation. Requires the
+      // apex domain to be assigned to the project as a normal domain in Vercel
+      // (not a dashboard-level "redirect to www"), otherwise the platform 307
+      // fires first and this rule never runs.
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "thomastowndigital.com" }],
+        destination: "https://www.thomastowndigital.com/:path*",
+        permanent: true,
+      },
+      // Recover the second restoration-cities article (denver/phoenix/dallas/miami
+      // variant). Still indexed and 404ing; route it to the same place as its
+      // sibling slug.
+      {
+        source: "/restoration-marketing-in-major-u-s-cities-denver-phoenix-dallas-miami",
+        destination: "/water-damage",
+        permanent: true,
+      },
+      {
+        source: "/restoration-marketing-in-major-u-s-cities-denver-phoenix-dallas-miami/",
+        destination: "/water-damage",
+        permanent: true,
+      },
+      // Recover the "complete guide" contractors Google Ads article (distinct
+      // from the two-phase-ai-max slug already handled below). Still indexed at
+      // position ~6 but 404ing; route to the contractor Google Ads management guide.
+      {
+        source: "/how-to-use-google-ads-for-contractors-the-complete-guide",
+        destination: "/blog/google-ads-management-for-contractors",
+        permanent: true,
+      },
+      {
+        source: "/how-to-use-google-ads-for-contractors-the-complete-guide/",
+        destination: "/blog/google-ads-management-for-contractors",
+        permanent: true,
+      },
       {
         source: "/how-to-use-google-ads-for-contractors-the-two-phase-ai-max-strategy-that-actually-works",
         destination: "/blog/google-ads-contractors-two-phase-ai-max",

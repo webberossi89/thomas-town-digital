@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/plumbing-marketing-agency-what-to-look-for" },
   title: "Plumbing Marketing Agency: What to Look For and Avoid",
   description: "Hiring a plumbing marketing agency? Know what separates real lead generation from wasted spend. See what to look for and what to avoid. Read the breakdown.",
   openGraph: {

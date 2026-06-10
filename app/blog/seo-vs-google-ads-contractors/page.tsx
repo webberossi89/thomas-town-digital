@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/seo-vs-google-ads-contractors" },
   title: "SEO vs Google Ads for Contractors: Which Gets Better Leads?",
   description: "SEO vs Google Ads for contractors — which drives better leads and booked jobs? Get a clear breakdown with real benchmarks. Find out which is right for you.",
   openGraph: {

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/ppc-management-for-contractors" },
   title: "PPC for Contractors: What Good Agencies Do Differently — Thomastown Digital",
   description: "Most PPC agencies burn contractor budgets on traffic that never converts. Here's what a competent agency actually does — and how to tell the difference. See how.",
   openGraph: {
