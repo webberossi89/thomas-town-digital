@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/average-marketing-budget-roofing-companies" },
   title: "Roofing Company Marketing Budget Guide: How Much to Spend",
   description: "What's the right marketing budget for roofing companies? Get real benchmarks, the 5–10% rule, and a step-by-step breakdown. See how to allocate spend.",
   openGraph: {

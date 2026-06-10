@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/hvac-marketing-agency-what-to-look-for" },
   title: "HVAC Marketing Agency: What to Look for (And Avoid)",
   description: "Hiring an HVAC marketing agency? Know the green flags, red flags, and questions that separate real partners from expensive disappointments.",
   openGraph: {

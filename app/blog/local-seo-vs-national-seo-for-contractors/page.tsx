@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/local-seo-vs-national-seo-for-contractors" },
   title: "Local SEO vs National SEO for Contractors: Which Drives Calls",
   description: "Local SEO for contractors generates calls. National SEO generates traffic. Here's how to tell which one your business actually needs — and where to focus first.",
   openGraph: {

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/home-services-marketing-channels" },
   title: "Home Services Marketing: 8 Channels That Drive Real Job Bookings — Thomastown Digital",
   description: "Not all marketing channels deliver booked jobs. Here are 8 that actually work for home service contractors — with real benchmarks and setup guidance.",
   openGraph: {

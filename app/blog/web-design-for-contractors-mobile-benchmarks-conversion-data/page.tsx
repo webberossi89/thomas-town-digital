@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/web-design-for-contractors-mobile-benchmarks-conversion-data" },
   title: "Web Design for Contractors: Mobile Benchmarks & Conversion Data — Thomastown Digital",
   description: "Real mobile benchmarks and conversion data for contractor websites. See what separates high-performing sites from ones that bleed leads. Get the breakdown.",
   openGraph: {

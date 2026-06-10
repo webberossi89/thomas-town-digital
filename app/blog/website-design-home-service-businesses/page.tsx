@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArticleLayout from "@/components/ArticleLayout";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog/website-design-home-service-businesses" },
   title: "Website Design for Home Service Businesses That Convert — Thomastown Digital",
   description: "See the data behind high-converting home service websites. Mobile-first design benchmarks, load speed stats, and what actually drives calls. Get the breakdown.",
   openGraph: {
