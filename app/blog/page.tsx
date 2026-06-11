@@ -18,6 +18,15 @@ const posts = [
       slug: "google-ads-cost-roofing-companies",
     },
   {
+    category: "SEO",
+    title: "HVAC SEO: How to Rank Your HVAC Company in Local Search",
+    summary: "Learn how to rank your HVAC company in local search with proven SEO tactics — GBP, on-page, links, and more. Find out what actually drives booked jobs.",
+    date: "June 11, 2026",
+    dateISO: "2026-06-11",
+    readTime: "13 min read",
+    slug: "hvac-seo-local-search-ranking",
+  },
+  {
     category: "Marketing",
     title: "Web Design for Contractors: Mobile Benchmarks and Conversion Data",
     summary: "Real mobile benchmarks and conversion data for contractor websites. See what separates high-performing sites from ones that bleed leads. Get the breakdown.",
