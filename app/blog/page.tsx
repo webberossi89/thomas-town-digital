@@ -18,6 +18,15 @@ const posts = [
       slug: "google-ads-cost-roofing-companies",
     },
   {
+    category: "Google Ads",
+    title: "Google Ads for HVAC Companies: Budget Planning and Lead Cost Breakdown",
+    summary: "How much should HVAC companies spend on Google Ads? Get real budget benchmarks, cost-per-lead ranges, and a campaign comparison. Find out what actually works.",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "9 min read",
+    slug: "google-ads-for-hvac-budget-lead-cost",
+  },
+  {
     category: "SEO",
     title: "HVAC SEO: How to Rank Your HVAC Company in Local Search",
     summary: "Learn how to rank your HVAC company in local search with proven SEO tactics — GBP, on-page, links, and more. Find out what actually drives booked jobs.",
