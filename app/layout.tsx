@@ -11,12 +11,11 @@ export const metadata: Metadata = {
   },
   description: "We help home service businesses grow with paid search, paid social, and local SEO. More leads. More jobs. More revenue.",
   metadataBase: new URL("https://www.thomastowndigital.com"),
-  icons: {
-    icon: [
-      { url: "/logos/TT-Logo_MonoGram-Black-Sqaure.png", media: "(prefers-color-scheme: light)" },
-      { url: "/logos/TT-Logo_MonoGram-White-Square.png", media: "(prefers-color-scheme: dark)" },
-    ],
-  },
+  // Favicons are served via the App Router file convention (app/icon.png,
+  // app/apple-icon.png, app/favicon.ico): a fixed white-background, black-logo
+  // mark. We intentionally do not use prefers-color-scheme variants here, since
+  // Google's favicon crawler ignores media queries and was picking the
+  // white-on-transparent logo, rendering blank on the white search results page.
   alternates: {
     types: {
       "application/rss+xml": "https://www.thomastowndigital.com/feed.xml",
