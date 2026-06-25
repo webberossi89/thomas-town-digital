@@ -19,6 +19,15 @@ const posts = [
     },
   {
     category: "Marketing",
+    title: "Lead Generation for Contractors: What Works in 2026 (Data from 50+ Campaigns)",
+    summary: "Data from 50+ contractor campaigns reveals what actually drives booked jobs in 2026. See benchmarks for Google Ads, LSAs, SEO, and more. Get the breakdown.",
+    date: "June 25, 2026",
+    dateISO: "2026-06-25",
+    readTime: "10 min read",
+    slug: "lead-generation-for-contractors",
+  },
+  {
+    category: "Marketing",
     title: "Contractor Marketing Agency: 6 Questions to Ask Before You Sign",
     summary: "Hiring a contractor marketing agency? Ask these 6 questions first to avoid wasted spend, bad leads, and vague reporting. Find out what separates real partners.",
     date: "June 22, 2026",
