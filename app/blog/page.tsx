@@ -19,6 +19,15 @@ const posts = [
     },
   {
     category: "Marketing",
+    title: "Home Services Marketing Company vs Generalist Agency: Which Gets Better Results?",
+    summary: "A specialist home services marketing company vs a generalist agency — see which drives better leads, lower CPL, and more booked jobs for contractors. Find out.",
+    date: "June 29, 2026",
+    dateISO: "2026-06-29",
+    readTime: "9 min read",
+    slug: "home-services-marketing-company-vs-generalist-agency",
+  },
+  {
+    category: "Marketing",
     title: "Lead Generation for Contractors: What Works in 2026 (Data from 50+ Campaigns)",
     summary: "Data from 50+ contractor campaigns reveals what actually drives booked jobs in 2026. See benchmarks for Google Ads, LSAs, SEO, and more. Get the breakdown.",
     date: "June 25, 2026",
